@@ -1,0 +1,10 @@
+created: 15800712211107000
+element.type: metamodel
+input.source: me2b
+metamodel.subtype: Activity
+modified: 20200106075611693
+title: compliance
+tmap.edges: {"5a784409-8071-4738-b2c7-46352dc28863":{"to":"c70108eb-2b09-424a-86b0-1a639a8431e5","type":"Activity"}}
+tmap.id: 50a8e28c-28d3-4b68-ba21-22d678dd4d63
+tw-icon: $:/images/fa5/solid/shower
+type: text/vnd.tiddlywiki

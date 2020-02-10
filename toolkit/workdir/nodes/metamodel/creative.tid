@@ -1,0 +1,12 @@
+created:15800712211109000
+modified:20200106075611416
+title:creative
+type:text/vnd.tiddlywiki
+element.type:metamodel
+input.source:me2b
+metamodel.subtype:Activity
+tmap.edges:{"6e7484f7-e98c-4a10-9523-e3e008fdb31f":{"to":"c526d683-bf92-4266-bdc7-de8514d41b62","type":"Activity"},"22305998-bc52-4269-95e0-b5b2edef54bc":{"to":"7c6876ec-13f6-40e9-ad6e-86e676571f03","type":"Tag"},"b4fb402e-6693-4443-b679-038a4a2c0a4a":{"to":"f5c5851d-c72a-4dae-8c0e-c6878af53fc6","type":"Activity"}}
+tmap.id:95f21a88-2e75-4491-8300-d7849b3ab83b
+tw-icon:$:/images/fa5/solid/shower
+
+

@@ -1,0 +1,9 @@
+id:cba15456-7f6d-4a11-b8d1-ce47b288b978
+config.central-topic: 03f625d6-ead4-4141-a852-c656fc44a5f0
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Advancing Financial Inclusion through Digital ID-map
+
+

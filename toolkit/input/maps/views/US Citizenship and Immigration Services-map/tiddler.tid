@@ -1,0 +1,9 @@
+id:e8f55595-1643-406c-ac9b-2b12fb703080
+config.central-topic: be6e9946-9b5a-4f01-ad79-729dee52d9e0
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/US Citizenship and Immigration Services-map
+
+

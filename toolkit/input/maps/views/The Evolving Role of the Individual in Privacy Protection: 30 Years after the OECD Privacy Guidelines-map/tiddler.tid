@@ -1,0 +1,9 @@
+id:bce09fe5-69b7-4b6d-a64d-e0a7c250a162
+config.central-topic: 04dce2c3-276a-4e17-8441-b35434b05b60
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/The Evolving Role of the Individual in Privacy Protection: 30 Years after the OECD Privacy Guidelines-map
+
+

@@ -1,0 +1,33 @@
+created:1578297321082
+modified:1578297321082
+title:Lifescope
+type:text/vnd.tiddlywiki
+activities:
+audience:
+category:[[open source]]
+date.begun:
+date.ended:
+digital.harms.addressed:
+element.type:project-or-product
+github.profile:https://github.com/lifescopelabs
+input.source:me2b
+license:
+me2b.participation:[[certification candidate]]
+name:Lifescope
+parent.org:Lifescope
+partners:
+people:
+purpose:[[usability]]
+relevant.publications:
+status:
+supported.identity.technologies:
+tags:[[personal data management]]
+terms.of.service:
+tmap.edges:{"849322f8-f7e9-485f-a136-8b9702d6a5a3":{"to":"830f0c9d-0e39-48bf-9b2f-d2da9bc2e28b","type":"Organization Supports Project or Product"}}
+tmap.id:830f0c9d-0e39-48bf-9b2f-d2da9bc2e28b
+url:https://lifescope.io/
+version.or.edition:
+working.group:
+
+Control of your personal data is a human right.
+LifeScope is an open platform for personal data whereby ownership is returned to the user.

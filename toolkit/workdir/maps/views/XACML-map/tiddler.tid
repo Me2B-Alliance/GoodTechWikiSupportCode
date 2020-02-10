@@ -1,0 +1,9 @@
+id:2b0a6ed3-7644-4217-ac79-f56265f0f7fc
+config.central-topic: 31338914-cc8b-480d-863d-4588cf524d9d
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/XACML-map
+
+

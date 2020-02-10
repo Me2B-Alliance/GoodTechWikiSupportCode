@@ -1,0 +1,26 @@
+{
+  "name": "twiki-schema",
+  "preferGlobal": "false",
+  "version": "0.0.1",
+  "author": "Eric Welton (Korsimoro) <eric@korsimoro.com>",
+  "description": "Schema for Me2B Alliance",
+  "contributors": [],
+  "bin": {},
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Me2B-Alliance/GoodTechWikiSupportCode.git"
+  },
+  "keywords": [],
+  "dependencies": {
+    "json-schema": "^0.2.5"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.3",
+    "typescript": "^3.6.3"
+  },
+  "bundleDependencies": [],
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}

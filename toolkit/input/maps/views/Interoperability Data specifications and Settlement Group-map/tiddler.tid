@@ -1,0 +1,9 @@
+id:7e6fa2b3-2cd8-4930-86d0-0aee4e149c7a
+config.central-topic: da400025-6e32-47a7-94fc-9edc39663c93
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Interoperability Data specifications and Settlement Group-map
+
+

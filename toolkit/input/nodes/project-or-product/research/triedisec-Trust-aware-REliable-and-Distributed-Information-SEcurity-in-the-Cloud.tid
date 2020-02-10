@@ -1,0 +1,35 @@
+created:1578297316398
+modified:1578297316398
+title:triedisec Trust-aware, REliable and Distributed Information SEcurity in the Cloud
+type:text/vnd.tiddlywiki
+activities:
+audience:
+category:[[research]]
+date.begun:
+date.ended:
+digital.harms.addressed:
+element.type:project-or-product
+github.profile:
+license:
+me2b.participation:
+name:triedisec Trust-aware, REliable and Distributed Information SEcurity in the Cloud
+parent.org:
+partners:
+people:
+purpose:
+relevant.publications:
+status:
+supported.identity.technologies:
+tags:
+terms.of.service:
+tmap.edges:{}
+tmap.id:36959c8f-e7c0-4533-80ba-2f244d382f11
+url:http://www.tredisec.eu
+version.or.edition:
+working.group:
+
+TREDISEC is a European collaborative Research and Innovation Action that leverages existing or novel cryptographic protocols and system security mechanisms, which offer strong data confidentiality, integrity and availability guarantees while permitting efficient storage and data processing across multiple tenants.
+
+From a practical standpoint, the ambition of this project is to develop systems and techniques that make the cloud a secure and efficient place to store data. We plan to step away from a myriad of disconnected security protocols or cryptographic algorithms, and to converge instead on a (possibly standardized) single framework where all objectives are met to the highest extent possible.
+
+Started on April 1st 2015, the ultimate goal of TREDISEC is to converge to a unified framework where resulting primitives are integrated, while following the end-to-end security principle as closely as allowed by functional and non-functional requirements.

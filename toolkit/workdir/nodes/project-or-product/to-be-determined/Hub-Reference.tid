@@ -1,0 +1,35 @@
+created:1578297321080
+modified:1578297321080
+title:Hub Reference
+type:text/vnd.tiddlywiki
+activities:
+audience:
+category:[[TO BE DETERMINED]]
+date.begun:
+date.ended:
+digital.harms.addressed:
+element.type:project-or-product
+github.profile:https://github.com/decentralized-identity/identity-hub
+input.source:me2b
+license:
+me2b.participation:
+name:Hub Reference
+parent.org:Decentralized Identity Foundation
+partners:
+people:
+purpose:
+relevant.publications:
+status:
+supported.identity.technologies:
+tags:
+terms.of.service:
+tmap.edges:{}
+tmap.id:bfc21787-2063-42a3-8951-7255ed7ce3cd
+url:https://github.com/decentralized-identity/hub-reference
+version.or.edition:
+working.group:Storage & Compute Working Group
+
+This repo contains an open source implementation of a DIF identity hub for evaluation purposes. It is not intended for production use. The APIs and protocols used throughout are part of a proposed standard for decentralized data storage.
+
+Identity hubs provide durable storage for information and data "owned" by a decentralized identity (DID). Hubs can run in multiple different enviornments - in the cloud, on a server, or on an edge device. All instances of identity hubs that are associated with a DID synchronize data between each other to ensure consistency. Currently, identity hubs support simple read and write of JSON data.
+

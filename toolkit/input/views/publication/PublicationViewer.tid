@@ -1,0 +1,61 @@
+title: $:/twiki/publication/Viewer
+type: text/vnd.tiddlywiki
+
+<table>
+<tr>
+  <td>
+    <$link to={{!!sponsoring.org}}>Sponsoring Org</$link>
+  </td>
+  <td>
+    <<selectOrganization sponsoring.org >>
+  </td>
+</tr>
+
+<tr>
+  <td>
+    <$link to={{!!org.type}}>Publication Type</$link>
+  </td>
+  <td>
+    <$select field=publication.type>
+      <$list filter="[all[]each[publication.type]get[publication.type]sort[title]]" variable="type" >
+      <option><<type>></option>
+      </$list>
+    </$select>
+  </td>
+</tr>
+
+<tr>
+  <td>
+    <$link to={{!!working.group}}>Working Group</$link>
+  </td>
+  <td>
+    <$select field=working.group>
+      <$list filter="[all[]each[working-group]get[working-group]sort[title]]" variable="type" >
+      <option><<type>></option>
+      </$list>
+    </$select>
+  </td>
+</tr>
+</table>
+
+<ul>
+  <li>{{||$:/twiki/publication/Jurisdiction}}</li>
+  <li>{{||$:/twiki/publication/Date}}</li>
+  <li>{{||$:/twiki/publication/License}}</li>
+</ul>
+
+{{||$:/twiki/publication/Social}}
+{{||DigitalHarmsAddressed}}
+{{||Activities}}
+{{||$:/twiki/publication/People}}<br />
+
+
+
+<table>
+<$macrocall $name="linkrow" title="Audience" value={{!!audience}} field="audience" />
+<$macrocall $name="linkrow" title="Working Group" value={{!!working.group}} field="working.group" />
+<$macrocall $name="linkrow" title="Version or Edition" value={{!!version.or.edition}} field="version.or.edition" />
+<$macrocall $name="linkrow" title="Volume Frequency" value={{!!volume.frequency}} field="volume.frequency" />
+<$macrocall $name="linkrow" title="Sector" value={{!!sector}} field="sector" />
+<$macrocall $name="linkrow" title="Tech Focus" value={{!!tech.focus}} field="tech.focus" />
+</table>

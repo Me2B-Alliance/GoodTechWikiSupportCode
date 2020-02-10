@@ -1,0 +1,29 @@
+created:1578297321089
+modified:1578297321089
+title:Privacy Impact Assessment (PIA) : application to connected objects
+type:text/vnd.tiddlywiki
+audience:
+authors.editors:
+date:
+digital.harms.addressed:
+element.type:publication
+github.profile:
+input.source:me2b
+jurisdiction:
+license:
+name:Privacy Impact Assessment (PIA) : application to connected objects
+publication.type:[[TO BE DETERMINED]]
+purpose:
+sector:
+sponsoring.org:
+tags:
+tech.focus:
+tmap.edges:{}
+tmap.id:c4e50cdd-4eb3-4ef8-816b-e440b1b6b594
+url:https://www.cnil.fr/sites/default/files/atoms/files/cnil-pia-piaf-connectedobjects-en.pdf
+version.or.edition:
+volume.frequency:
+working.group:
+
+This document is an application of the PIA guides published by the CNIL to the specific sector of the IoT devices (connected objects). Performed in principle by a controller or provider, the purpose of a PIA is to build and demonstrate the implementation of privacy protection principles so as to empower data subjects. This is an iterative methodology, which should guarantee a reasoned, reliable use of such data during processing.This document is based upon the PIA method of the French Data Protection Authority (CNIL)The methodology comprises three guides, one setting out the approach, a second containing facts that could  be  used  for  formalizing  the  analysis  and  a  third  providing  knowledge  bases  (a  catalogue  of  controls aimed at complying with the legal requirements and treating the risks, and examples): These can be downloaded from the CNIL website and will be useful for completing this document:
+

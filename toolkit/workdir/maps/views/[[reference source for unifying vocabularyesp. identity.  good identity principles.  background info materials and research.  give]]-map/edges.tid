@@ -1,0 +1,3 @@
+filter: -[prefix[_]] -[[tw-body:link]] -[[tw-list:tags]] -[[tw-list:list]]
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/[[reference source for unifying vocabularyesp. identity.  good identity principles.  background info materials and research.  give]]-map/filter/edges
+

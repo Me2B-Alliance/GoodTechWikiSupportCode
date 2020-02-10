@@ -1,0 +1,3 @@
+filter: -[prefix[_]] -[[tw-body:link]] -[[tw-list:tags]] -[[tw-list:list]]
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/What I learned about the limits of school choice in New York City from a mother whose child uses a wheelchair-map/filter/edges
+

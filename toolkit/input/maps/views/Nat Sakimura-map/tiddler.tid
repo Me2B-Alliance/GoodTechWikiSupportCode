@@ -1,0 +1,9 @@
+id:d92867b2-ed3a-48df-9b7b-dffb6c6981bc
+config.central-topic: 697b7711-4a6a-47cd-a1d2-76acce6d3958
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Nat Sakimura-map
+
+

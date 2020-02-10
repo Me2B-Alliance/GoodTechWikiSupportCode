@@ -1,0 +1,9 @@
+id:0fb80088-4929-4ca1-b9ba-3b4b536b65ca
+config.central-topic: 7d8f27de-75c5-47cb-9e6f-c03f3931e1fd
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Intelligent Third- Party Risk Management-map
+
+

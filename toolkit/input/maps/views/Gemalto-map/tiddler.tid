@@ -1,0 +1,9 @@
+id:210179f9-de1e-4929-ab0a-878facddd3b7
+config.central-topic: c9e00631-9342-4ba5-a0c3-cc964ef4df3b
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Gemalto-map
+
+

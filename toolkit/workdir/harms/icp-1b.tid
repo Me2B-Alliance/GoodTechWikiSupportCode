@@ -1,0 +1,14 @@
+created: 20200106102410815
+harms.description: Collecting information without the individual's awareness.
+harms.examples: Vendor's app scans devices system libraries and uploads them to their server--ostensibly for app optimization, but there's no opt out and it's not disclosed.\n\n "Facebook scans system libraries from their Android app user’s phone in the background and uploads them to their server\n\n This is called "Global Library Collector" at Facebook, known as "GLC" in app’s code\n\n It periodically uploads metadata of system libraries to the server" Jane Manchun Wong\n\n @wongmjane ([8], 2019)
+harms.implications: Data will be collected that may correlate with other data points. Algorithms and/or individuals may act on these factors and impact other areas of life unwelcome by the person(s) impacted.
+harms.legal.bases:
+harms.recommendation: Any information harvested from the Individual's device must be permitted by the individual through some form of valid consent.
+harms.references: https://twitter.com/wongmjane/status/1167463054709334017 ([8], 2019) 
+harms.todo: Stay aware of the apps who do this.
+modified: 20200106102410815
+title: ICP.1b
+tmap.id: fd59d354-2e44-412a-91dc-035b970c13dc
+type: text/vnd.tiddlywiki
+
+<<digiHarmDescription >>

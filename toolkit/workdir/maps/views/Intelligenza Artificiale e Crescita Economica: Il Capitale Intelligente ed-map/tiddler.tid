@@ -1,0 +1,9 @@
+id:4bda7a74-8759-4c11-9cf2-d0a36b02662c
+config.central-topic: abee55c2-5318-4ea8-9b86-5c1bbde58098
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Intelligenza Artificiale e Crescita Economica: Il Capitale Intelligente ed-map
+
+

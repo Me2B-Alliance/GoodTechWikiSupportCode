@@ -1,0 +1,36 @@
+caption: Finder
+created: 20191201134710530
+modified: 20200104232619018
+tags:
+title: TypeBreakdown
+tmap.id: 0145e1c9-1008-4eb3-9afd-1805c53cf54b
+type: text/vnd.tiddlywiki
+
+<h2>
+Type <$select tiddler="$:/temp/elementtype">
+<$list filter="[all[]each[element.type]get[element.type]sort[title]]" variable="type" >
+<option><<type>></option>
+</$list>
+</$select>
+</h2>
+
+<$reveal type="nomatch" default={{$:/temp/elementtype}} text="">
+<$set name="elementtype" value={{$:/temp/elementtype}} >
+  <$list filter="[[SubTypeFields]getindex<elementtype>]" variable="subtypefield">
+    <$list filter="[[SubTypeLabels]getindex<elementtype>]" variable="subtypelabel">
+      <<subtypelabel>> <$select tiddler="$:/temp/elementsubtype">
+        <$list filter="[all[]field:element.type<elementtype>each<subtypefield>get<subtypefield>sort[title]]" variable="field">
+        <option><<field>></option>
+        </$list>
+        </$select>
+    </$list>
+
+    <$reveal type="nomatch" default={{$:/temp/elementsubtype}} text="">
+      <$set name="elementsubtype" value={{$:/temp/elementsubtype}} >
+      <$macrocall $name="renderbreakdown" elementtype=<<elementtype>> subtypefield=<<subtypefield>> subtypevalue=<<elementsubtype>> />
+
+      </$set>
+    </$reveal>
+  </$list>
+</$set>
+</$reveal>

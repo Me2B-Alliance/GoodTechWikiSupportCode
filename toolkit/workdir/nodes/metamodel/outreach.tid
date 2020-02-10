@@ -1,0 +1,12 @@
+created:15800712211104000
+modified:20200106075612429
+title:outreach
+type:text/vnd.tiddlywiki
+element.type:metamodel
+input.source:me2b
+metamodel.subtype:Activity
+tmap.edges:{"5f1f2993-06d6-4454-94a0-caa7cf96ebee":{"to":"001a22fc-0144-4cc5-b3f3-4d14b19591c3","type":"Activity"},"10c01a0d-8b6e-4ce4-8e99-b3ef02f71bc8":{"to":"f014e4f6-7122-4383-827f-08af73ecbd6b","type":"Activity"},"c08c3ee6-0018-4168-a757-ccf1fbd860cf":{"to":"5ac43de7-4235-40e4-affe-1bd03886fc18","type":"Activity"},"3c7483ea-6fbc-4c67-a6ec-76c9d8bace5c":{"to":"ca5bb7e9-c76c-4c4d-874d-7aa7c5553461","type":"Activity"},"2da47ebd-6221-4ee8-bdc8-d4046ec5f85b":{"to":"f9802c08-987f-4eb5-a393-e4d4bfe827da","type":"Activity"},"86d0def7-966d-4296-8d33-e0de98eae4a2":{"to":"11f0a263-aae6-43cd-b020-41630aaa959c","type":"Activity"},"8859dfe2-2a8d-410b-bbd3-b19839da0b95":{"to":"81962c3f-66b9-4a2b-b390-e5b269704e14","type":"Activity"},"61026eb4-36ce-4200-b959-f953f929ec50":{"to":"30dce4f7-a626-46ed-b03b-e91646c30e86","type":"Activity"},"45f4ea46-59bf-41ab-8912-823a3c1d7376":{"to":"0e7ca43a-0567-4762-9c23-b6d7204b84d1","type":"Activity"},"f9c65385-4dff-4a42-9f80-e1539226fd0d":{"to":"3b9eb07c-64d2-453b-bb67-f64516a8cada","type":"Activity"},"c1a56556-964e-42f7-bf14-d3e67cf9d90f":{"to":"668ceb76-ea47-4e7b-87da-08b85f2a80e8","type":"Activity"},"e0e8c30b-ac4b-47cd-9284-a8ee90496bba":{"to":"2158be9d-1aca-46ea-b60c-6071887aa9e1","type":"Activity"},"9ad259c2-86d2-4971-8916-13fd21a85b41":{"to":"e4fe2b91-25fb-4a3a-ac90-f7a8dbd8eca0","type":"Activity"},"5d8c0047-3a72-41a4-9398-b4a2630b2d1b":{"to":"c526d683-bf92-4266-bdc7-de8514d41b62","type":"Activity"},"4430a7cf-538e-4895-b714-70f9ce7ed805":{"to":"4ae85e15-4b77-41a7-8a5b-d8723ac50b77","type":"Activity"},"517b3d9b-9626-40ee-be69-2bff398f49d6":{"to":"52b376ae-09dd-43ee-81d9-a66e69ca7a37","type":"Activity"},"b8136467-6cdb-4c4c-a659-36b8f7a295d5":{"to":"2b4868a9-ffad-464a-9584-17549a0a84ba","type":"Activity"},"3d0ffb3a-6f79-471a-8b5d-7a552d065e3f":{"to":"5069161f-ae7e-4c68-ae58-c0f539f47211","type":"Activity"},"ef8b779a-5ed1-4c99-afd8-350781672796":{"to":"f18fb5a9-e191-492e-9b27-7675d2774d11","type":"Activity"}}
+tmap.id:54b9f7e8-d15b-4cd5-9cd8-5c2fde5581c6
+tw-icon:$:/images/fa5/solid/shower
+
+

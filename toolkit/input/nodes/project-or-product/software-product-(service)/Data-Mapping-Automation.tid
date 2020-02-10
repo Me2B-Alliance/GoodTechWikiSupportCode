@@ -1,0 +1,34 @@
+created:1578297321085
+modified:1578297321085
+title:Data Mapping Automation
+type:text/vnd.tiddlywiki
+activities:
+audience:
+category:[[software product (service)]]
+date.begun:
+date.ended:
+digital.harms.addressed:
+element.type:project-or-product
+github.profile:
+input.source:me2b
+license:
+me2b.participation:
+name:Data Mapping Automation
+parent.org:One Trust
+partners:
+people:
+purpose:[[certification and compliance]]
+relevant.publications:
+status:
+supported.identity.technologies:
+tags:
+terms.of.service:
+tmap.edges:{}
+tmap.id:20fb16dd-7408-49f3-8d9e-34c29d108ccc
+url:https://www.onetrust.com/products/data-mapping-automation/
+version.or.edition:
+working.group:
+
+Data mapping and inventory are critical components of any privacy program. Understanding how data is flowing through the organization is a pre-requisite to being able to secure the data and analyze the data for risks. Maintaining an inventory also helps organizations more efficiently respond to data subject rights request to delete, correct, access, or port their data.
+
+In the EU’s new General Data Protection Regulation (GDPR), organizations are expected to maintain extensive and up-to-date internal records of their data processing activities. According to Article 30 of the GDPR, organizations will be held accountable for compliance with record keeping requirements, with equal responsibility given to both data controllers and data processors.

@@ -1,0 +1,40 @@
+created:1578297321086
+modified:1578297321086
+title:Data & Society Research
+type:text/vnd.tiddlywiki
+activities:
+audience:
+category:[[research]]
+date.begun:
+date.ended:
+digital.harms.addressed:
+element.type:project-or-product
+github.profile:
+input.source:me2b
+license:
+me2b.participation:
+name:Data & Society Research
+parent.org:Data & Society Research Institute
+partners:
+people:
+purpose:
+relevant.publications:
+status:
+supported.identity.technologies:
+tags:[[products_projects]] [[parent]]
+terms.of.service:
+tmap.edges:{}
+tmap.id:f85cf9da-7d2f-4180-874e-b8b620b6cfcb
+url:https://datasociety.net/research/
+version.or.edition:
+working.group:
+
+Research at Data & Society is shaped by cross-cutting themes:
+
+    How do we understand and combat vulnerabilities in socio-technical systems?
+    Can we use a rights-based framework to guide the development of artificial intelligence?
+    How do we facilitate ethical design and effective regulations as human labor meets intelligent systems?
+
+Vulnerabilities in socio-technical systems
+
+While calls for greater accountability mechanisms within socio-technical systems are widespread, these systems are increasingly subject to manipulation, such as from biased data that infuse algorithmic models. These conditions require an assessment of strategic manipulation, a broad imagination about the possibilities for encoding fairness and accountability into technical systems, and deep ethnographic research that describes and understands new social activity.

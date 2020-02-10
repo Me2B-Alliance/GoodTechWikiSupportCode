@@ -1,0 +1,11 @@
+created: 20191220073710137
+modified: 20200103223125136
+title: $:/twiki/working-group/People
+type: text/vnd.tiddlywiki
+
+<$reveal type="match" state="!!people" text="">
+    No People Listed
+</$reveal>
+<$reveal type="nomatch" state="!!people" text="">
+ People: {{!!people}}
+</$reveal>

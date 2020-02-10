@@ -1,0 +1,9 @@
+id:f78709c5-7832-4809-910c-56e51083bc50
+config.central-topic: 50d40b45-2c27-4a8e-9ccf-a847c7cf7a18
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Trust in Cyberspace-map
+
+

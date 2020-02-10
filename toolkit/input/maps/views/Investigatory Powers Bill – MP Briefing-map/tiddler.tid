@@ -1,0 +1,9 @@
+id:5d4483af-28d2-4d03-a60e-2f5cae3b863d
+config.central-topic: 2865610f-8bca-46b8-8afa-c394a5ae8b96
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Investigatory Powers Bill – MP Briefing-map
+
+

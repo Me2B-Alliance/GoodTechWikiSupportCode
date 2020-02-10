@@ -1,0 +1,9 @@
+id:908fac82-25aa-40dd-9d68-dbcb1be0b1d4
+config.central-topic: b37dac67-2c7d-4d4d-b5b7-750be2d1a5cf
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/regulation-map
+
+

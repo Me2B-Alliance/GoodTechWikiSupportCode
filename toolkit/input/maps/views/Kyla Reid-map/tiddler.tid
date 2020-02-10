@@ -1,0 +1,9 @@
+id:48c51e76-3902-46ba-a4a8-73e21b340ee0
+config.central-topic: 5c1b738c-5653-4946-9f4d-6c71e0f1ac45
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Kyla Reid-map
+
+

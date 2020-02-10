@@ -1,0 +1,38 @@
+created:1578297321083
+modified:1578297321083
+title:Privacy Icons
+type:text/vnd.tiddlywiki
+activities:
+audience:
+category:[[icons for meaning making]] [[terms]]
+date.begun:
+date.ended:
+digital.harms.addressed:
+element.type:project-or-product
+github.profile:
+input.source:me2b
+license:
+me2b.participation:
+name:Privacy Icons
+parent.org:Mozilla Foundation
+partners:
+people:[[aza raskin]] [[gerrit betz]] [[alex fowler]] [[ben moskowitz]] [[mark surman]] [[sid stamm]] [[alexandra moss]] [[ben adida]] [[mike hanson]] [[elizabeth stark]] [[dennys antonialli]] [[david kettler]] [[tony lai]] [[brian kennish]] [[casey oppenheim]]
+purpose:[[consumer support]] [[usability]]
+relevant.publications:
+status:
+supported.identity.technologies:
+tags:
+terms.of.service:
+tmap.edges:{}
+tmap.id:8649c952-9071-4ffb-85cf-460693d223be
+url:https://wiki.mozilla.org/Privacy_Icons
+version.or.edition:
+working.group:
+
+The problem: users need to know how companies intend to use their data—but privacy policies and terms of service are long-winded, complex documents that encapsulate a lot of situation-specific detail.
+
+The solution: a set of Privacy Icons to “bolt on to” your existing privacy policy. When you add a Privacy Icon to your privacy policy, you’re essentially saying: “No matter what the rest of this privacy policy says, the following is true and preempts anything else in this document.”
+
+Each Privacy Icon makes an iron-clad guarantee about what a company will do with a user’s data. Now, people can understand how their personal data will be transacted, with just a glance. At the same time, companies retain the flexibility needed to create comprehensive, detailed, and meaningful policies.
+
+Privacy Icons are legal declarations, written in cooperation with privacy experts and a coalition of industry stakeholders. And soon, they will be machine readable—enabling users to communicate their preferences through trusted agents (like web browsers).

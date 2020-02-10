@@ -1,0 +1,9 @@
+id:667a7833-8565-4be0-ad05-1a2acdf932d5
+config.central-topic: 524fe4f0-505c-49f7-a804-d900962e488c
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/National Institute of Standards (NIST)-map
+
+

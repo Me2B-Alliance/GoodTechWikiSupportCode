@@ -1,0 +1,36 @@
+created:1578297316055
+modified:1578297316055
+title:FutureID
+type:text/vnd.tiddlywiki
+activities:
+audience:
+category:[[research]]
+date.begun:
+date.ended:
+digital.harms.addressed:
+element.type:project-or-product
+github.profile:
+license:
+me2b.participation:
+name:FutureID
+parent.org:
+partners:
+people:
+purpose:
+relevant.publications:
+status:
+supported.identity.technologies:
+tags:[[europe|over]]
+terms.of.service:
+tmap.edges:{"0815522b-d5f2-4c22-807f-0e4d2bbbd141":{"to":"3a91a18b-456d-4dcb-8fa4-24a46073549e","type":"connection"},"af8ba3be-e5e5-41e0-bfb3-c9f75182bfc5":{"to":"193165e2-d74b-48ee-831e-5fdefb483e1e","type":"connection"},"e4e9f3c6-1124-4581-818b-cdf4edc85076":{"to":"707059b6-da41-44ea-9ff4-1d0a44f43022","type":"author"}}
+tmap.id:70f55b4e-c11b-4f94-b096-296d3da6181b
+url:
+version.or.edition:
+working.group:
+
+The FutureID project builds a comprehensive, flexible, privacy-aware and ubiquitously usable identity management infrastructure for Europe, which integrates existing eID technology and trust infrastructures, emerging federated identity management services and modern credential technologies to provide a user-centric system for the trustworthy and accountable management of identity claims.
+
+The FutureID infrastructure will provide great benefits to all stakeholders involved in the eID value chain. Users will benefit from the availability of a ubiquitously usable open source eID client that is capable of running on arbitrary desktop PCs, tablets and modern smart phones. FutureID will allow application and service providers to easily integrate their existing services with the FutureID infrastructure, providing them with the benefits from the strong security offered by eIDs without requiring them to make substantial investments. This will enable service providers to offer this technology to users as an alternative to username/password based systems, providing them with a choice for a more trustworthy, usable and innovative technology.
+
+For existing and emerging trust service providers and card issuers FutureID will provide an integrative framework, which eases using their authentication and signature related products across Europe and beyond. To demonstrate the applicability of the developed technologies and the feasibility of the overall approach FutureID will develop two pilot applications and is open for additional application services who want to use the innovative FutureID technology.
+

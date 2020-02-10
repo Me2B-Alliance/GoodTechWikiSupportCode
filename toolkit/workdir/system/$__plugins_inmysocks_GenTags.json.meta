@@ -1,0 +1,11 @@
+author: inmysocks
+core-version: >=5.1.0
+created: 20200103121842393
+dependents: 
+description: A plugin to let any field be used like the tags field
+modified: 20200103121842393
+plugin-type: plugin
+source: 
+title: $:/plugins/inmysocks/GenTags
+type: application/json
+version: 0.0.1

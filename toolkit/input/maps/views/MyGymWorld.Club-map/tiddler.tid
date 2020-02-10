@@ -1,0 +1,9 @@
+id:b685b205-ef34-4ca5-84b4-33aabe013b50
+config.central-topic: dcc42509-a57d-47da-aec4-b624162a2632
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/MyGymWorld.Club-map
+
+

@@ -1,0 +1,12 @@
+created:15800712211106000
+modified:20200106075612234
+title:governance
+type:text/vnd.tiddlywiki
+element.type:metamodel
+input.source:me2b
+metamodel.subtype:Purpose
+tmap.edges:{"dce8acb6-d609-4217-bdd6-2523217ea1d6":{"to":"3ae1f7c4-a78f-420c-833c-2bcf634c69e2","type":"Purpose"},"bdff6cad-8376-472e-99d9-3ee4817d1396":{"to":"c8b9f695-29ea-4de6-9851-afc1a2937e6a","type":"Purpose"},"dff0e19a-eee8-4d6d-a6ea-ff8a5a3984a4":{"to":"529c2efd-bf91-4ba8-b670-151f1c994a7e","type":"Purpose"},"ad064767-6613-498c-a1c8-19918de03f90":{"to":"5774304e-d195-48ba-b355-c763be37f7aa","type":"Purpose"},"879844bf-53ce-45bb-bb54-ae350f49e41e":{"to":"219caa97-0ae9-4b41-af32-41ad4055ad0f","type":"Purpose"},"b83d8b78-4ab4-42f2-9b02-367a3a69209c":{"to":"ab92449d-a3f4-420b-9462-35a410fa68bd","type":"Purpose"},"1a859859-e12b-42fa-aad4-45b02f7b9470":{"to":"87d8010b-43e0-432a-ba6b-47922de1299b","type":"Purpose"},"190415c0-6201-431e-9ecb-05e508abf9b0":{"to":"0d6e15b4-540a-4ff2-9348-ff044fca60ed","type":"Purpose"}}
+tmap.id:7c637cf4-981e-49c8-aa83-71410e7f4bfb
+tw-icon:$:/images/fa5/solid/shuttle-van
+
+

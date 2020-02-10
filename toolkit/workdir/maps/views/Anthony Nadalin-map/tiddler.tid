@@ -1,0 +1,9 @@
+id:1aac4c7e-1d12-432d-818c-67d1bc059a09
+config.central-topic: 40e1fe93-3de6-448b-91a5-092efbdaab04
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Anthony Nadalin-map
+
+

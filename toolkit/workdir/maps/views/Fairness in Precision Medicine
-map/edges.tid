@@ -1,0 +1,4 @@
+filter: -[prefix[_]] -[[tw-body:link]] -[[tw-list:tags]] -[[tw-list:list]]
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Fairness in Precision Medicine
+-map/filter/edges
+

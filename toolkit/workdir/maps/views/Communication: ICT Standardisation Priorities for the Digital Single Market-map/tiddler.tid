@@ -1,0 +1,9 @@
+id:710905e0-3ef6-4cad-a37f-0b1446409638
+config.central-topic: 458244d8-33d4-4436-9411-9455f2565c44
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Communication: ICT Standardisation Priorities for the Digital Single Market-map
+
+

@@ -1,0 +1,9 @@
+id:910aadef-a27b-426d-a5b7-7c57e28a06fc
+config.central-topic: 5eaa5198-e2c5-42cb-bf74-9530b19240bb
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/D. Salama-map
+
+

@@ -1,0 +1,9 @@
+id:d1852336-6de9-4091-b4d7-d672701ef127
+config.central-topic: 65e69927-04b3-4c46-a9a9-f1e2fbb548c6
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Security of personal data-map
+
+

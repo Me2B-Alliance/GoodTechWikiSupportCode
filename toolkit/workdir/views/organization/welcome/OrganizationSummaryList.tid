@@ -1,0 +1,21 @@
+caption: Summary
+created: 20191201134710530
+modified: 20200106083307810
+tags: 
+title: OrganizationSummaryList
+tmap.id: 8153bde9-5ef9-479d-9109-e4c21b3ca88a
+type: text/vnd.tiddlywiki
+
+<table>
+<tr>
+<th>Organization</th>
+<th>Type</th>
+</tr>
+
+<$list filter="[all[]field:element.type[organization]sort[title]sort[org.type]sort[parent.org]]">
+<tr>
+<td><$link>{{!!title}}</$link></td>
+<td>{{!!org.type}}</td>
+</tr>
+</$list>
+</table>

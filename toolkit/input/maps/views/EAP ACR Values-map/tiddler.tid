@@ -1,0 +1,9 @@
+id:8c7bcc0c-3232-4aa2-9c59-1a5408196733
+config.central-topic: 88f59b2e-89fe-43a1-98a6-34e676e7bd30
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/EAP ACR Values-map
+
+

@@ -1,0 +1,9 @@
+id:58e8f1a5-8bf7-4c87-86bf-81610802a7c8
+config.central-topic: 5e03993c-7a20-4e23-9dc6-6ac5f393932f
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Working Paper on Privacy and Electronic Micropayment on the Internet-map
+
+

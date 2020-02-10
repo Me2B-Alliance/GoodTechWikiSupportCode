@@ -1,0 +1,9 @@
+id:2eedfb7a-6fc8-4c27-b6f4-c2043f0305b7
+config.central-topic: 8913ed32-5053-44e0-aeb8-3b3ff741043e
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Wrethink.com-map
+
+

@@ -1,0 +1,34 @@
+created:1578297315985
+modified:1578297315985
+title:CFRG Crypto Forum Research Group
+type:text/vnd.tiddlywiki
+activities:
+audience:
+category:[[research]]
+date.begun:
+date.ended:
+digital.harms.addressed:
+element.type:project-or-product
+github.profile:
+license:
+me2b.participation:
+name:CFRG Crypto Forum Research Group
+parent.org:
+partners:
+people:
+purpose:
+relevant.publications:
+status:
+supported.identity.technologies:
+tags:
+terms.of.service:
+tmap.edges:{"3bcacc75-1c73-4e92-b579-69d2223a493d":{"to":"a65708bc-7a64-4172-964c-fc3e5c99a1f1","type":"organization-for-group"}}
+tmap.id:59fd78f5-8cbb-4dd4-a438-9f2c82786dbd
+url:https://irtf.org/cfrg
+version.or.edition:
+working.group:
+
+The Crypto Forum Research Group (CFRG) is a general forum for discussing and reviewing uses of cryptographic mechanisms, both for network security in general and for the IETF in particular.
+
+The CFRG serves as a bridge between theory and practice, bringing new cryptographic techniques to the Internet community and promoting an understanding of the use and applicability of these mechanisms via Informational RFCs (in the tradition of, e.g., RFC 1321 (MD5) and RFC 2104 (HMAC). Our goal is to provide a forum for discussing and analyzing general cryptographic aspects of security protocols, and to offer guidance on the use of emerging mechanisms and new uses of existing mechanisms. IETF working groups developing protocols that include cryptographic elements are welcome to bring questions concerning the protocols to the CFRG for advice.
+

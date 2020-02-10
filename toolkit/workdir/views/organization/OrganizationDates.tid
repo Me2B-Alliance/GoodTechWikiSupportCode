@@ -1,0 +1,40 @@
+created: 20191210110743556
+modified: 20200104054111039
+title: Dates
+tmap.id: 1f9f71e0-596d-4bd8-8baf-7a78f01432ab
+type: text/vnd.tiddlywiki
+
+<$reveal type="nomatch" state="!!editing.dates" text="yes">
+  <$button $setField="editing.dates" $setTo="yes" tag="div">
+    <$action-setfield $field="editing.dates" $value="yes" />
+    <$reveal type="match" state="!!date.ended" text="">
+      <$reveal type="match" state="!!date.founded" text="">
+          Click to provide Founding and Ending Dates
+      </$reveal>
+      <$reveal type="nomatch" state="!!date.founded" text="">
+        Active since: {{!!date.founded}}
+      </$reveal>
+    </$reveal>
+    <$reveal type="nomatch" state="!!date.ended" text="">
+      <$reveal type="match" state="!!date.founded" text="">
+        Ended, but missing founding information
+      </$reveal>
+      <$reveal type="nomatch" state="!!date.founded" text="">
+        Active between: {{!!date.founded}} and {{!!date.ended}}
+      </$reveal>
+    </$reveal>
+  </$button>
+</$reveal>
+
+<$reveal type="match" state="!!editing.dates" text="yes">
+  Date Founded:
+  <$edit-text field="date.founded" placeholder={{$:/language/EditTemplate/Fields/Add/Value/Placeholder}} tabindex={{$:/config/EditTabIndex}}/>
+  <br />
+  Date Ended:
+  <$edit-text field="date.ended" placeholder={{$:/language/EditTemplate/Fields/Add/Value/Placeholder}} tabindex={{$:/config/EditTabIndex}}/>
+  <br />
+  <$button setField="editing.dates" setTo="no">
+  <$action-setfield $field="editing.dates" $value="no" />
+  Save Dates
+  </$button>
+<$reveal>

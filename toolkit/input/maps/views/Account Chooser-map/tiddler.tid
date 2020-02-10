@@ -1,0 +1,9 @@
+id:dc9d3fcc-3864-4637-a95a-fb4b0d887300
+config.central-topic: a835c032-e996-4341-9a07-abc23cc160cb
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Account Chooser-map
+
+

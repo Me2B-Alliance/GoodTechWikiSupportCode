@@ -1,0 +1,14 @@
+created: 20200106102410824
+harms.description: Collecting information from the individual while interacting with the Service Provider's software without individual's consent.
+harms.examples:  Google tracking your search details and sharing with advertisers to display ads. Voice based personal assistants using spoken words to inform ads. Sensors performing passive data collection.
+harms.implications: Systems are collecting personal facts and details without permission--mainly behavioral information. This can be aggregated with other information to build a model of you, your personality, your habits, etc.
+harms.legal.bases: [[Defective Consent]] [[Lack of agreement]]
+harms.recommendation: Default initial state is no information collection allowed until formal relationship established and Agreement is [Relationship Terms are] established. 
+harms.references: Amazon says its facial recognition can now identify fear https://www.cnbc.com/2019/08/14/amazon-says-its-facial-recognition-can-now-identify-fear.html [7], 2019)
+harms.todo: Opt out where possible. Read Terms of Service and Privacy Policy. Use Duck Duck Go instead of Google as a search engine.
+modified: 20200106102410824
+title: ICP.1
+tmap.id: 646e3f81-d619-4720-9f12-386a8b7a3bed
+type: text/vnd.tiddlywiki
+
+<<digiHarmDescription >>

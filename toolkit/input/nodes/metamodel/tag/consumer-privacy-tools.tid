@@ -1,0 +1,10 @@
+created: 15800712211109000
+element.type: metamodel
+input.source: me2b
+metamodel.subtype: Tag
+modified: 20200106075611521
+title: consumer privacy tools
+tmap.edges: {"a5b46042-5bb3-4a48-aa4f-dba3eb07f1c5":{"to":"548160a4-11b3-4a46-a51b-f6d025ceb82b","type":"Tag"}}
+tmap.id: a9e6c828-bc97-465e-83a2-69fccb98fb50
+tw-icon: $:/images/fa5/solid/flask
+type: text/vnd.tiddlywiki

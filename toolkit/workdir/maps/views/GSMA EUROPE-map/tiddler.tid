@@ -1,0 +1,9 @@
+id:2edb997d-d24b-49d3-9122-98224da4f453
+config.central-topic: 4e4c944a-b047-4fb9-86a9-1f51d07b8684
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/GSMA EUROPE-map
+
+

@@ -1,0 +1,11 @@
+tags: $:/tags/Macro
+title: $:/macros/harmsTagList
+type: text/vnd.tiddlywiki
+
+\define harmsTagList(tag,value,bing)
+<ul>
+<$list filter="[[$value$]listed[$tag$]sort[title]]">
+<li><$link>{{!!title}}</$link> - {{!!$bing$}}</li>
+</$list>
+</ul>
+\end

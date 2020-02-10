@@ -1,0 +1,9 @@
+id:4ab6c4ec-bd6a-481e-b043-359fca96afff
+config.central-topic: cf2cf18f-4497-4de7-ab02-2542b7e95207
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/National Association for Public Health Statistics and Information Systems-map
+
+

@@ -1,0 +1,9 @@
+id:3841bc77-8821-44c6-bedc-ef7042a15b41
+config.central-topic: 3dfe856f-f4d0-4d7d-8af7-6bfbcde493b2
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Data Mobility-map
+
+

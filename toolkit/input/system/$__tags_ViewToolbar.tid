@@ -1,0 +1,5 @@
+created: 20191218134423632
+list: $:/core/ui/Buttons/info $:/core/ui/Buttons/new-here $:/core/ui/Buttons/new-journal-here $:/core/ui/Buttons/clone $:/core/ui/Buttons/export-tiddler $:/plugins/tiddlywiki/text-slicer/ui/slice-toolbar-button $:/core/ui/Buttons/edit $:/plugins/felixhayashi/tiddlymap/misc/quickConnectButton $:/core/ui/Buttons/delete $:/core/ui/Buttons/permalink $:/core/ui/Buttons/permaview $:/core/ui/Buttons/open-window $:/core/ui/Buttons/close-others $:/plugins/tiddlywiki/qrcode/ViewToolbarButton $:/core/ui/Buttons/close $:/core/ui/Buttons/fold-others $:/core/ui/Buttons/fold $:/core/ui/Buttons/fold-bar $:/core/ui/Buttons/more-tiddler-actions
+modified: 20191218134430297
+title: $:/tags/ViewToolbar
+type: text/vnd.tiddlywiki

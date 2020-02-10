@@ -1,0 +1,9 @@
+id:229250b1-82f0-43df-93bb-27375429c7b3
+config.central-topic: 436225d5-9caf-4b9b-b894-8926ea8edc9c
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/National Data Guardian for Health and Care’s Review of Data Security, Consent and Opt-Outs – Big Brother Watch Response-map
+
+

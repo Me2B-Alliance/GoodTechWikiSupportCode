@@ -1,0 +1,3 @@
+filter: -[prefix[_]] -[[tw-body:link]] -[[tw-list:tags]] -[[tw-list:list]]
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/The Myth of Accountability: How Data (Mis)Use is Reinforcing the Problems of Public Education-map/filter/edges
+

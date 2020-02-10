@@ -1,0 +1,9 @@
+id:9673c461-19a5-4d7a-9800-98edea19800a
+config.central-topic: 529c2efd-bf91-4ba8-b670-151f1c994a7e
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/A New Governance for Data-map
+
+

@@ -1,0 +1,32 @@
+created:1578297321082
+modified:1578297321082
+title:DuckDuckGo
+type:text/vnd.tiddlywiki
+activities:
+audience:
+category:[[software product (service)]]
+date.begun:
+date.ended:
+digital.harms.addressed:
+element.type:project-or-product
+github.profile:
+input.source:me2b
+license:
+me2b.participation:[[certification candidate]]
+name:DuckDuckGo
+parent.org:DuckDuckGo
+partners:
+people:
+purpose:
+relevant.publications:
+status:
+supported.identity.technologies:
+tags:[[search]]
+terms.of.service:
+tmap.edges:{"35be2e84-30b7-453e-a3d7-77c3b09c85ae":{"to":"bce65034-241c-4331-bb60-6a0190ac9c8d","type":"Organization Supports Project or Product"}}
+tmap.id:bce65034-241c-4331-bb60-6a0190ac9c8d
+url:https://duckduckgo.com/
+version.or.edition:
+working.group:
+
+No tracking, no ad targeting, just searching.

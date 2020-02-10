@@ -1,0 +1,9 @@
+id:9db9e022-ab0d-4a06-bad3-e76fbad42566
+config.central-topic: 0eacc867-d5ba-4398-89ef-a8ed280315ca
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/UmU-map
+
+

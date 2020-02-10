@@ -1,0 +1,9 @@
+id:d5f82426-92d4-47ef-9af4-260cb2b47e3d
+config.central-topic: 0e239e68-38fb-4e99-af8a-809e9b6240fa
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Open Data Commons-map
+
+

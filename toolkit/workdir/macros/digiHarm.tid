@@ -1,0 +1,20 @@
+tags: $:/tags/Macro
+title: $:/macros/digiHarm
+type: text/vnd.tiddlywiki
+
+\define digiHarm(tag,val)
+<h2> Descriptions </h2>
+<<harmsTagList "$tag$" "$val$" harms.description >>
+
+<h2> Examples </h2>
+<<harmsTagList "$tag$" "$val$" harms.examples>>
+
+<h2> Recommendation </h2>
+<<harmsTagList "$tag$" "$val$" harms.recommendation >>
+
+<h2> References </h2>
+<<harmsTagList "$tag$" "$val$" harms.references >>
+
+<h2> Todo </h2>
+<<harmsTagList "$tag$" "$val$" harms.todo >>
+\end

@@ -1,0 +1,9 @@
+id:3c2d318b-ab00-4b05-8845-c7d92b343638
+config.central-topic: d8e67a61-d7fb-406c-a4ea-2370dd0d7c57
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Key Management Interoperability Protocol (KMIP)-map
+
+

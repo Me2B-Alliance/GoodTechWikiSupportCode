@@ -1,0 +1,9 @@
+id:7053e033-e171-4f22-9bf1-aaed3c6478e4
+config.central-topic: 7c88954e-1679-4c7d-b3f6-1c5f817b5ebc
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Battle for the Net-map
+
+

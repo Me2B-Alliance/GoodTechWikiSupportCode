@@ -1,0 +1,9 @@
+id:869c29df-1830-4602-9ad2-47c7404db00d
+config.central-topic: 9a475ebc-1b5d-46d7-b9eb-b98585df23f9
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Allied Media Projects-map
+
+

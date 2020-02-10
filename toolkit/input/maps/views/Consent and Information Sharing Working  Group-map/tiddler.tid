@@ -1,0 +1,9 @@
+id:bbee873b-0117-44bc-b0fd-caed263570e1
+config.central-topic: 37a08d8f-ac1a-47a9-b4fe-52f0a2bfd017
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Consent and Information Sharing Working  Group-map
+
+

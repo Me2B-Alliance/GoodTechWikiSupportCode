@@ -1,0 +1,9 @@
+id:9874e014-5449-4a5d-aa7f-152b6c157f85
+config.central-topic: 87c1acfc-568d-4c1c-abb0-fd1fdb931630
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/impersonation-map
+
+

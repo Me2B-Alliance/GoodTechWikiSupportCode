@@ -1,0 +1,3 @@
+filter: -[prefix[_]] -[[tw-body:link]] -[[tw-list:tags]] -[[tw-list:list]]
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/The ethical matters raised by algorithms and artificial intelligence: how can humans keep the upper hand?-map/filter/edges
+

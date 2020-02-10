@@ -1,0 +1,41 @@
+created:1578297318093
+modified:1578297318093
+title:PCH - Packet Clearing House
+type:text/vnd.tiddlywiki
+activities:
+annual.budget:
+audience:
+date.ended:
+date.founded:
+digital.harms.addressed:
+element.type:organization
+funding:
+github.profile:
+key.people:
+linkedin.profile:
+location(s):
+me2b.relationship:
+org.name:PCH - Packet Clearing House
+org.type:trade association
+parent.org:
+partners:
+products.and.or.services:
+purpose:
+relevant.publications:
+scope:
+sector:
+status:
+tags:
+tech.focus:
+tmap.edges:{"37894239-2898-4280-8bfa-cfd86295518f":{"to":"b09da65e-999a-4266-8726-d2644ddcf3f8","type":"author"}}
+tmap.id:69e132eb-3426-4a8a-8984-0a51a711936f
+twitter.profile:
+website:
+
+The task that PCH was first created to address is the building and support of Internet Exchange Points. IXPs are the places where Internet Service Providers interconnect their networks, to exchange traffic between their customers and create Internet bandwidth. PCH assists in the construction of IXPs, and provides equipment, training, and ongoing support to IXPs and their operators. Over the past twenty years, PCH has helped build more than 150 IXPs, and has provided assistance of some sort to more than half of all the world’s IXPs. PCH also maintains the global directory of IXPs, and publishes statistics about their use and growth.
+
+PCH conducts more than 100 workshops each year on Internet regulatory theory, governance, and economics for audiences ranging from Internet service provider engineers to communications, economic development, and defense ministers. PCH also works in conjunction with and in support of other Internet governance organizations and fora like the global network operators groups, the Internet Governance Forum, the OECD, ICANN, NetMundial, the Regional Internet Registries, and many others. PCH also maintains a global calendar of Internet operations and governance meetings.
+
+PCH has been working since 1995 to make the Domain Name System faster, more scalable, and more resilient against attack. PCH pioneered the use of DNS anycast to distribute DNS load among more servers in more places, anycasting top-level domain nameservers since 1997, and root nameservers since 2001. PCH is the largest authoritative DNS service network in the world, hosting three roots and 280 top-level domains on thousands of servers in more than 100 locations around the world. PCH is also the operator of the only FIPS 140-2 Level 4 DNSSEC signing platform other than the root itself.
+
+PCH is the secretariat and operator of the INOC-DBA critical infrastructure protection hotline communications system, which ties together more than two thousand network operations centers and CERTs in a resilient communications mesh that lets network operators mitigate cybersecurity threats and online crime. PCH also operates a CERT of global scope, and provides training, resources, and assistance to CERTs and governments and communities that wish to form new CERTs. PCH also provides training and resources for national cyber-defense and critical Internet infrastructure protection.

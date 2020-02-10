@@ -1,0 +1,9 @@
+id:71b700e4-fd22-4842-b8ba-9b03d2206887
+config.central-topic: 3de85fd7-5dee-421b-8191-56f3329d23da
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Rebranding the Web of Trust-map
+
+

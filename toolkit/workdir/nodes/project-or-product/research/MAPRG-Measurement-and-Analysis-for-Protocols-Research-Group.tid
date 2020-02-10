@@ -1,0 +1,38 @@
+created:1578297316064
+modified:1578297316064
+title:MAPRG Measurement and Analysis for Protocols Research Group
+type:text/vnd.tiddlywiki
+activities:
+audience:
+category:[[research]]
+date.begun:
+date.ended:
+digital.harms.addressed:
+element.type:project-or-product
+github.profile:
+license:
+me2b.participation:
+name:MAPRG Measurement and Analysis for Protocols Research Group
+parent.org:
+partners:
+people:
+purpose:
+relevant.publications:
+status:
+supported.identity.technologies:
+tags:
+terms.of.service:
+tmap.edges:{"ac96db4f-764f-4161-88d4-ca755fd3fb12":{"to":"a65708bc-7a64-4172-964c-fc3e5c99a1f1","type":"organization-for-group"}}
+tmap.id:590ec83b-d403-418d-b240-f5e698c5e368
+url:https://irtf.org/maprg
+version.or.edition:
+working.group:
+
+Our Internet has grown into something that differs from what was envisioned. Its protocols sometimes operate in an environment other than than that for which they were designed. For instance, some network elements treat some protocols differently than others and those protocols themselves are sometimes reused and abused in ways initially unforeseen. The Measurement and Analysis for Protocols Research Group (MAP) Research Group (RG) explores such phenomena by measurement with the aim to inform protocol engineering and practice.
+
+Many protocol engineering efforts in a standards development context, as well as best practices for the operation of IETF-defined protocols, can benefit from insight provided by Internet measurements of various kinds. Likewise, Internet measurement research efforts can stand to gain from contacts with the IETF. The Measurement and Analysis for Protocols Research Group Research Group (MAPRG) aims to provide a forum for interchange between these two communities, supporting:
+* exchange of measurement-derived insight;
+* discussion of techniques and best practices for measurement relevant to protocol engineering and network operations;
+* collaborations to share data supporting these measurements; and
+* a “landing pad” for the Internet measurement community to introduce its efforts to the IETF.
+

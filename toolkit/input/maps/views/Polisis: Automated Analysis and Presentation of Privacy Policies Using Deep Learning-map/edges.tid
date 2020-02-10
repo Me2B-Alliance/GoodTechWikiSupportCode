@@ -1,0 +1,3 @@
+filter: -[prefix[_]] -[[tw-body:link]] -[[tw-list:tags]] -[[tw-list:list]]
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Polisis: Automated Analysis and Presentation of Privacy Policies Using Deep Learning-map/filter/edges
+

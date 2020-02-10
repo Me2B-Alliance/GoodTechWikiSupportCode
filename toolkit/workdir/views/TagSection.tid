@@ -1,0 +1,33 @@
+title: $:/core/ui/ViewTemplate/enhancedTags/hold
+x-tags: $:/tags/ViewTemplate
+type: text/vnd.tiddlywiki
+
+<$reveal type="match" state="!!editing.tags" text="yes">
+  <$button tooltip={{$:/language/Buttons/Edit/Hint}} aria-label={{$:/language/Buttons/Edit/Caption}} >
+    <$action-setfield $field="editing.tags" $value="no" />
+    Done adding tags
+  </$button>
+{{||$:/core/ui/EditTemplate/tags}}
+</$reveal>
+
+<$reveal type="nomatch" state="!!editing.tags" text="yes">
+
+  <table>
+    <tr>
+      <td>
+        <$button tag="div" tooltip={{$:/language/Buttons/Edit/Hint}} aria-label={{$:/language/Buttons/Edit/Caption}} >
+          <$action-setfield $field="editing.tags" $value="yes" />
+          <$reveal type="match" default={{!!tags}} text="">
+            Click to add tags {{!!tags}}
+          </$reveal>
+          <$reveal type="nomatch" default={{!!tags}} text="">
+          {{$:/core/images/edit-button}}
+          </$reveal>
+        </$button>
+      </td>
+      <td>
+        {{||$:/core/ui/ViewTemplate/tags}}
+      </td>
+    </tr>
+  </table>
+</$reveal>

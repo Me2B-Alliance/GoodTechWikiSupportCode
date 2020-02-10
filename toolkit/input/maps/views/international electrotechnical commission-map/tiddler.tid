@@ -1,0 +1,9 @@
+id:b35d058e-862d-4d4e-95d8-de238f9af7b5
+config.central-topic: c35b3fae-e760-406b-bb2c-1ed88641e7dc
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/international electrotechnical commission-map
+
+

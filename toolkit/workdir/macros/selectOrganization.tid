@@ -1,0 +1,15 @@
+created: 20191201134710530
+modified: 20200104132133608
+tags: $:/tags/Macro
+title: $:/macros/selectOrganization
+tmap.id: efbf6634-0bc1-4929-9294-8c6090c3fb7b
+type: text/vnd.tiddlywiki
+
+
+\define selectOrganization(field)
+<$select field=$field$>
+<$list filter="[all[]element.type[organization]sort[title]]" variable="org" >
+<option><<org>></option>
+</$list>
+</$select>
+\end

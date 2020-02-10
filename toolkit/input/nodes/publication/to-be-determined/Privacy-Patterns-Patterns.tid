@@ -1,0 +1,36 @@
+created:1578297321091
+modified:1578297321091
+title:Privacy Patterns - Patterns
+type:text/vnd.tiddlywiki
+audience:
+authors.editors:
+date:
+digital.harms.addressed:
+element.type:publication
+github.profile:
+input.source:me2b
+jurisdiction:
+license:
+name:Privacy Patterns - Patterns
+publication.type:[[TO BE DETERMINED]]
+purpose:
+sector:
+sponsoring.org:
+tags:
+tech.focus:
+tmap.edges:{}
+tmap.id:9dff125f-0b53-40b1-a90d-28d5c6f6ff1d
+url:https://privacypatterns.org/patterns/
+version.or.edition:
+volume.frequency:
+working.group:
+
+Privacy represents a broad variety of concerns — subjective, contextual, hard-to-define — that real people have about the flows of personal information.
+
+Translating these concerns (as well as corporate and legal liability) into technical artifacts — a process known generally as "privacy-by-design" — has proven difficult. How can we best convert lawyer speak into engineering speak? How can problems be elegantly anticipated early in the development process?
+
+Drawing inspiration from Christopher Alexander and the success of software design patterns in improving communication about tried-and-true practices, we hope privacy patterns will:
+
+    standardize language for privacy-preserving technologies
+    document common solutions to privacy problems
+    help designers identify and address privacy concerns

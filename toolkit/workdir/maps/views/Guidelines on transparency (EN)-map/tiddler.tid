@@ -1,0 +1,9 @@
+id:f3bfdb48-6b01-4dd6-a63e-ca0cbf6dec79
+config.central-topic: 4d2cb840-27c6-4c4e-85f5-2ba555d0bcaf
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Guidelines on transparency (EN)-map
+
+

@@ -1,0 +1,3 @@
+filter: -[prefix[_]] -[[tw-body:link]] -[[tw-list:tags]] -[[tw-list:list]]
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Non-paper on the IT Governance of CEF Building Block Digital Service Infrastructures (DSIs)-map/filter/edges
+

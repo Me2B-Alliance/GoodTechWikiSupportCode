@@ -1,0 +1,9 @@
+id:0cdb3d7e-52b1-44b2-835f-2423f47015ae
+config.central-topic: b43562c5-5e79-475f-9d6d-7f189b72e3d0
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Midata-map
+
+

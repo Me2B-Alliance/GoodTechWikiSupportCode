@@ -1,0 +1,10 @@
+config.central-topic: 56256e23-b9f1-4f0a-9cf8-61d2b46856ca
+config.neighbourhood_scope: 3
+config.show_inter_neighbour_edges: true
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+created: 20200106161607517
+id: 6b610996-b4a0-4e28-899a-3490072498e9
+isview: false
+modified: 20200106161612977
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Omidyar Network-map
+type: text/vnd.tiddlywiki

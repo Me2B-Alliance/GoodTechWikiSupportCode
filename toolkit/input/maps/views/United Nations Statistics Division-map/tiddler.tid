@@ -1,0 +1,9 @@
+id:487d3b32-94ae-4c2b-8598-b006abcae57e
+config.central-topic: c84a6199-d7d8-47ee-a602-2be26a04ce1c
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/United Nations Statistics Division-map
+
+

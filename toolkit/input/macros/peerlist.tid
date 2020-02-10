@@ -1,0 +1,27 @@
+tags: $:/tags/Macro
+title: $:/macros/peerlist
+type: text/vnd.tiddlywiki
+
+\define peerlist(elementtype,subtypefield,subtypevalue)
+<table>
+  <tr>
+    <th colspan="3">Title</th>
+  </tr>
+  <tr>
+    <th></th>
+    <th>Activities</th>
+    <th>Digital Harms Addressed</th>
+  </tr>
+
+  <$list filter="[all[]field:element.type[$elementtype$]field:$subtypefield$[$subtypevalue$]]" >
+    <tr>
+      <td colspan="3"><$link>{{!!title}}</$link></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><<TagLikeList activities " " >></td>
+      <td><<TagLikeList digital.harms.addressed " " >></td>
+    </tr>
+  </$list>
+</table>
+\end

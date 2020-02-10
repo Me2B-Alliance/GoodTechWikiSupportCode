@@ -1,0 +1,12 @@
+created: 20191220073710137
+modified: 20200103223125136
+title: People
+tmap.id: 807a248f-4bd8-4567-b024-2213d6bd83d3
+type: text/vnd.tiddlywiki
+
+<$reveal type="match" state="!!key.people" text="">
+    No Key People Listed
+</$reveal>
+<$reveal type="nomatch" state="!!key.people" text="">
+  Key People: {{!!key.people}}
+</$reveal>

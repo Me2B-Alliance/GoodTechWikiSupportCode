@@ -1,0 +1,9 @@
+id:2927c921-3083-493e-81dc-f4b7842a9217
+config.central-topic: 2eb9d384-8e6c-458b-ae8d-630bdb28faa0
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Briefing on the Report of the Bulk Powers Review by David Anderson QC-map
+
+

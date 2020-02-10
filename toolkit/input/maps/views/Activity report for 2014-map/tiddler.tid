@@ -1,0 +1,9 @@
+id:0a22798a-0072-40c4-a3bb-0f523c8e1d12
+config.central-topic: 7eef6964-824e-42c4-80d7-985d07b666b1
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Activity report for 2014-map
+
+

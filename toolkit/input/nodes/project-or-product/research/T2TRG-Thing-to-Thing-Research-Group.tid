@@ -1,0 +1,50 @@
+created:1578297315980
+modified:1578297315980
+title:T2TRG Thing-to-Thing Research Group
+type:text/vnd.tiddlywiki
+activities:
+audience:
+category:[[research]]
+date.begun:
+date.ended:
+digital.harms.addressed:
+element.type:project-or-product
+github.profile:
+license:
+me2b.participation:
+name:T2TRG Thing-to-Thing Research Group
+parent.org:
+partners:
+people:
+purpose:
+relevant.publications:
+status:
+supported.identity.technologies:
+tags:
+terms.of.service:
+tmap.edges:{"53141d1e-8ffe-4161-95de-62e0a42d0450":{"to":"a65708bc-7a64-4172-964c-fc3e5c99a1f1","type":"organization-for-group"},"f0e85e13-b11c-4614-830a-1e7d4ac2b3be":{"to":"c2540f7b-7dc1-443b-af05-0bc4de44a40f","type":"connection"}}
+tmap.id:d3319bb6-22ec-44cc-9366-4a7cdbfdfb72
+url:https://irtf.org/t2trg
+version.or.edition:
+working.group:
+
+The Thing-to-Thing Research Group (T2TRG) will investigate open research issues in turning a true “Internet of Things” into reality, an Internet where low-resource nodes (“things”, “constrained nodes”) can communicate among themselves and with the wider Internet, in order to partake in permissionless innovation. The focus of the T2TRG are on issues that touch opportunities for standardization in the IETF, i.e., it will start at the adaptation layer connecting devices to IP, and end at the application layer with architectures and APIs for communicating and making data and management functions (including security functions) available.
+
+### Motivation
+A first wave of IoT standards has been completed by the IETF. Consortia are now forming to build infrastructure and industry agreements around those. This generates new requirements for research, based on actual usage of the standards now available.
+
+In parallel, W3C has set up an IG (Interest Group) on the Web of Things (WoT); this is operating on a similar timeline as an RG does in the IRTF. A parallel activity associated with the IETF/IRTF can help ensure the common work does not stop at the traditional boundaries of the W3C, but considers networking issues as well. IETF WGs are also active on these topics, but an IRTF RG can provide a more long-term perspective to the collaboration.
+
+### Areas of Interest
+A number of areas of interest have been identified:
+* Understanding the motivation for single-purpose silos and gateways; facilitating a move towards small pieces loosely joined (hence “thing-to-thing”); enabling scaling the number of applications in a single network
+* Deployment considerations; scaling considerations; cost of ownership
+* Management and operation of “things”
+* Lifecycle aspects (including, but not limited to, security considerations)
+* Cooperation with W3C, e.g., on data models, formats, and semantics
+
+More exploratory areas of interest include:
+* Operating “things” that have multiple masters/stakeholders (including understanding role definitions of devices, owners, operators, etc.)
+* Exploring the duality of state- and event-based approaches
+* Aspects of distribution (cf. “fog computing”); reliability and scalability considerations
+* Containerization and other forms of mobile code

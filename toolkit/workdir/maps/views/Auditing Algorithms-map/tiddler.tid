@@ -1,0 +1,9 @@
+id:7ad7c9ca-970f-41e1-90ae-120633533474
+config.central-topic: b783ddcf-3b09-48cc-a269-feb3f589cb12
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Auditing Algorithms-map
+
+

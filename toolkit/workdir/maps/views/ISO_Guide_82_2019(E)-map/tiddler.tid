@@ -1,0 +1,9 @@
+id:037f357e-d930-408a-9767-ed7f76a92865
+config.central-topic: c26e11a0-4ea6-4b3a-9fc0-fc1249029e2b
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/ISO_Guide_82_2019(E)-map
+
+

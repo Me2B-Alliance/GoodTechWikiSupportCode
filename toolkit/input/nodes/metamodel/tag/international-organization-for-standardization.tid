@@ -1,0 +1,10 @@
+created: 15800712211200000
+element.type: metamodel
+input.source: me2b
+metamodel.subtype: Tag
+modified: 20200106075612695
+title: international organization for standardization
+tmap.edges: {"85f00813-2457-49ba-9d53-49c8c1862652":{"to":"490dd86f-aa8f-4449-b989-4259e26d6366","type":"Tag"}}
+tmap.id: 01657e42-a1e8-445f-9dc8-6d6d9c3089e9
+tw-icon: $:/images/fa5/solid/flask
+type: text/vnd.tiddlywiki

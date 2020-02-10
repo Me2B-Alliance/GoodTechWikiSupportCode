@@ -1,0 +1,10 @@
+created: 15800712211107000
+element.type: metamodel
+input.source: me2b
+metamodel.subtype: Activity
+modified: 20200106075613052
+title: software development
+tmap.edges: {"93affc9e-e4c0-45e6-976a-f6069e39250c":{"to":"c9085161-a1ef-49d0-9707-c4056e1e7870","type":"Activity"},"9e09a0f0-411d-4bc9-9426-044e678bda25":{"to":"f014e4f6-7122-4383-827f-08af73ecbd6b","type":"Activity"},"b3457eac-5498-4075-a990-305e5d74df28":{"to":"0fa7e0c9-9f59-4fe0-9327-d184680d9604","type":"Activity"},"ea69e839-f33a-4534-adcc-d57ede24910e":{"to":"6142f1fb-a23a-4ade-9234-da54ff62ba73","type":"Activity"},"d9e65051-b3b5-497c-b294-bb5f791a29e2":{"to":"2ecb3bcb-a844-4a99-8a3e-73d138c19c88","type":"Activity"},"19673c00-b015-407a-9149-583c0b5d0dc3":{"to":"b7723448-ba38-49ab-af67-3ba91a00e14e","type":"Activity"},"45896523-ae6a-495f-9559-49ece43ab350":{"to":"00dd16dc-87f2-4951-b2c5-c75c902ca839","type":"Activity"},"e38175e2-bfcc-4ca9-a4e4-60e867238276":{"to":"52b376ae-09dd-43ee-81d9-a66e69ca7a37","type":"Activity"},"5cec3033-ca31-414d-8be2-0f2cef349d9c":{"to":"548160a4-11b3-4a46-a51b-f6d025ceb82b","type":"Activity"},"fa47d263-7c93-475a-ad58-4c22de6d480c":{"to":"80154981-8ca9-4cd3-a9bb-c5a4096ad615","type":"Activity"},"d2b5dc24-2e59-4e44-b398-f6be87709dee":{"to":"ac9d6071-4e64-4c4c-95d6-9bf5575b7f84","type":"Activity"}}
+tmap.id: 551844bc-246e-4ee1-8811-be093189c80f
+tw-icon: $:/images/fa5/solid/shower
+type: text/vnd.tiddlywiki

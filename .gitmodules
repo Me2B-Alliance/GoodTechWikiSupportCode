@@ -1,0 +1,12 @@
+[submodule "GoodTechWiki"]
+	path = GoodTechWiki
+	url = http://github.com/Me2B-Alliance/GoodTechWiki
+[submodule "GoodTechWikiWebsite"]
+	path = GoodTechWikiWebsite
+	url = http://github.com/Me2B-Alliance/GoodTechWikiWebsite
+[submodule "TW5-TiddlyMap"]
+	path = TW5-TiddlyMap
+	url = http://github.com/Me2B-Alliance/TW5-TiddlyMap
+[submodule "TiddlyWiki5"]
+	path = TiddlyWiki5
+	url = http://github.com/Me2B-Alliance/TiddlyWiki5

@@ -1,0 +1,9 @@
+id:2980954d-c138-49b9-b073-d29354662657
+config.central-topic: 8fc06059-534d-4e11-bf01-a11fbfa05105
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Digital Enlightenment Forum Yearbook-map
+
+

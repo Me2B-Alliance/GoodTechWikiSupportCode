@@ -1,0 +1,9 @@
+id:b17615ce-4078-472c-9a3b-31eb1ec78409
+config.central-topic: 289e3e1d-d136-41ff-a100-7c8288b4a797
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Office of the Australian Information Commissioner-map
+
+

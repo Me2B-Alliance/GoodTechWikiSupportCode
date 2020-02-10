@@ -1,0 +1,3 @@
+filter: -[prefix[_]] -[[tw-body:link]] -[[tw-list:tags]] -[[tw-list:list]]
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/”Rome Memorandum” - Report and Guidance on Privacy in Social Network Services-map/filter/edges
+

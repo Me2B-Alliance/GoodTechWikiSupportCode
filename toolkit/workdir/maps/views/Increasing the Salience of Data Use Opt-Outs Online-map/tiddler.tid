@@ -1,0 +1,9 @@
+id:d523e69c-51a1-42e5-8a00-40027e5f81d0
+config.central-topic: 3ae4da06-9b6d-4773-87fa-f392293f01e2
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Increasing the Salience of Data Use Opt-Outs Online-map
+
+

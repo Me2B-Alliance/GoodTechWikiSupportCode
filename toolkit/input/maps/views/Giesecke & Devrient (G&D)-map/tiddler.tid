@@ -1,0 +1,9 @@
+id:4a782e2b-b408-437f-8232-db3d721920a1
+config.central-topic: cb1679e0-d609-4091-996c-e90f567cc486
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Giesecke & Devrient (G&D)-map
+
+

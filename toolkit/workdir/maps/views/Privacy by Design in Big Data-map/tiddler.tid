@@ -1,0 +1,9 @@
+id:f5e6a061-5498-4977-ad28-24c5934c0862
+config.central-topic: 636af67b-2a8d-4c7a-be6f-b01a8b1cd1e8
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Privacy by Design in Big Data-map
+
+

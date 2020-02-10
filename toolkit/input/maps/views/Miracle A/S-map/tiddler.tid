@@ -1,0 +1,9 @@
+id:6bc4dc89-3053-48f6-9511-95426fba576e
+config.central-topic: e6dd6c62-dc04-47a2-b974-b34c220e782a
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Miracle A/S-map
+
+

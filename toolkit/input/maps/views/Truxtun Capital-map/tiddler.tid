@@ -1,0 +1,9 @@
+id:5120376d-bda7-4520-b32c-353efc238673
+config.central-topic: 887f8547-4fe6-4899-8f04-a8ff0b320699
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Truxtun Capital-map
+
+

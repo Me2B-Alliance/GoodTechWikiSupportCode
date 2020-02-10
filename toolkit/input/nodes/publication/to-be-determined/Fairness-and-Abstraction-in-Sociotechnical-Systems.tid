@@ -1,0 +1,30 @@
+created:1578297321097
+modified:1578297321097
+title:Fairness and Abstraction in Sociotechnical Systems
+type:text/vnd.tiddlywiki
+audience:
+authors.editors:[[andrew d. selbst]] [[danah boyd]] [[sorelle friedler]] [[suresh venkatasubramanian]] [[janet vertesi]]
+date:
+digital.harms.addressed:
+element.type:publication
+github.profile:
+input.source:me2b
+jurisdiction:
+license:
+name:Fairness and Abstraction in Sociotechnical Systems
+publication.type:[[TO BE DETERMINED]]
+purpose:
+sector:
+sponsoring.org:
+tags:[[ai on the ground]] [[acm conference on fairness]] [[accountability]] [[and transparency]]
+tech.focus:
+tmap.edges:{}
+tmap.id:5fcafc90-9188-47cd-a67f-c254ab378113
+url:https://datasociety.net/output/fairness-and-abstraction-in-sociotechnical-systems/
+version.or.edition:
+volume.frequency:
+working.group:
+
+In this paper, authors identify the challenges to integrating fairness into machine learning based systems and suggest next steps.
+
+    “In this paper, however, we contend that these concepts render technical interventions ineffective, inaccurate, and sometimes dangerously misguided when they enter the societal context that surrounds decision-making systems. We outline this mismatch with five “traps” that fair-ML work can fall into even as it attempts to be more context-aware in comparison to traditional data science. We draw on studies of sociotechnical systems in Science and Technology Studies to explain why such traps occur and how to avoid them. Finally, we suggest ways in which technical designers can mitigate the traps through a refocusing of design in terms of process rather than solutions, and by drawing abstraction boundaries to include social actors rather than purely technical ones.”

@@ -1,0 +1,9 @@
+id:4b41d3f2-626c-481e-8299-7bc670e48301
+config.central-topic: ba77d5a8-4f3c-4711-89cc-2a33b57e4da7
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/OpenID Connect Core 1.0-map
+
+

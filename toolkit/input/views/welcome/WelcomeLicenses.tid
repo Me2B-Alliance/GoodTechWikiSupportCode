@@ -1,0 +1,10 @@
+caption: Licenses
+created: 20191201134710530
+modified: 20200104061936265
+tags:
+title: WelcomeLicenses
+tmap.id: b0d7d4f8-f991-4aa8-900d-45e75989acc2
+type: text/vnd.tiddlywiki
+
+
+<$macrocall $name="taglist" tag="license" />

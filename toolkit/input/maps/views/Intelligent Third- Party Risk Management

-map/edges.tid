@@ -1,0 +1,5 @@
+filter: -[prefix[_]] -[[tw-body:link]] -[[tw-list:tags]] -[[tw-list:list]]
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Intelligent Third- Party Risk Management
+
+-map/filter/edges
+

@@ -1,0 +1,64 @@
+title: $:/twiki/organization/Viewer
+type: text/vnd.tiddlywiki
+
+
+<table>
+<tr>
+  <td>
+    <$link to={{!!parent.org}}>Parent</$link>
+  </td>
+  <td>
+    <<selectOrganization parent.org >>
+  </td>
+</tr>
+
+<tr>
+  <td>
+    <$link to={{!!org.type}}>Organization Type</$link>
+  </td>
+  <td>
+    <$select field=org.type>
+      <$list filter="[all[]each[org.type]get[org.type]sort[title]]" variable="type" >
+      <option><<type>></option>
+      </$list>
+    </$select>
+  </td>
+</tr>
+
+<tr>
+  <td>
+    <$link to={{!!me2b.relationship}}>Me2B Relationship</$link>
+  </td>
+  <td>
+    <$select field=me2b.relationship>
+      <$list filter="[all[]each[me2b.relationship]get[me2b.relationship]sort[title]]" variable="type" >
+      <option><<type>></option>
+      </$list>
+    </$select>
+  </td>
+</tr>
+</table>
+{{||Social}}
+
+<ul>
+  <li>{{||Location}}</li>
+  <li>{{||Dates}}</li>
+  <li>{{||OrganizationFunding}}</li>
+</ul>
+
+<<EditTagLikeList digital.harms.addressed "Digital Harms Addressed" wikify>>
+<<EditTagLikeList activities "Activities" >>
+<<EditTagLikeList people "People" wikify>>
+<<EditTagLikeList audience "Audience" wikify>>
+<<EditTagLikeList purpose "Purpose" wikify>>
+<<EditTagLikeList tech.focus "Tech Focus" wikify>>
+
+{{||RelevantPublications}}<br />
+{{||ProductsAndServices}}<br />
+
+
+<table>
+<$macrocall $name="linkrow" title="Partners" value={{!!partners}} field="partners" />
+<$macrocall $name="linkrow" title="Scope" value={{!!scope}} field="scope" />
+<$macrocall $name="linkrow" title="Sector" value={{!!sector}} field="sector" />
+</table>

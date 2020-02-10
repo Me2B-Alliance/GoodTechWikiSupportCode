@@ -1,0 +1,9 @@
+id:62fc268c-e6b5-4933-92e5-2bb2e90fa4c5
+config.central-topic: 1d43b778-2423-436f-9ac0-87e8fb33ac83
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/ACLU-map
+
+

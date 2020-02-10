@@ -1,0 +1,10 @@
+created: 15800712211200000
+element.type: metamodel
+input.source: me2b
+metamodel.subtype: Tag
+modified: 20200106075611204
+title: data visualization
+tmap.edges: {"11a11127-1266-4bc4-8a16-1a188cd8434c":{"to":"f5c5851d-c72a-4dae-8c0e-c6878af53fc6","type":"Tag"}}
+tmap.id: 37a923dc-929d-4e6f-91cd-de82ab7ec0a4
+tw-icon: $:/images/fa5/solid/flask
+type: text/vnd.tiddlywiki

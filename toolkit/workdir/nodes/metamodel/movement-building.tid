@@ -1,0 +1,12 @@
+created:15800712211104000
+modified:20200106075612595
+title:movement building
+type:text/vnd.tiddlywiki
+element.type:metamodel
+input.source:me2b
+metamodel.subtype:Activity
+tmap.edges:{"ce23f9ec-4835-45fc-b682-475e73aa8492":{"to":"001a22fc-0144-4cc5-b3f3-4d14b19591c3","type":"Activity"},"fde36550-5131-4838-ae59-87aa97db4ba7":{"to":"ded8b770-2972-40c7-93cd-25a4071fcadc","type":"Activity"},"87cc5406-bc6d-4a40-bbe8-870ebe03f1ab":{"to":"536a59e8-d749-4b58-988e-706d21689cee","type":"Activity"},"1a347a40-83be-4af6-9500-b94e31c5a22a":{"to":"73722667-1cb5-4f2a-9b98-8589cc81cc5c","type":"Activity"},"4759e22c-9eee-45b3-8927-04895ad53b94":{"to":"ca5bb7e9-c76c-4c4d-874d-7aa7c5553461","type":"Activity"},"422b7061-9a70-4f57-9222-5a0577ecd7ca":{"to":"81962c3f-66b9-4a2b-b390-e5b269704e14","type":"Activity"},"47b9bb71-db69-49f9-88d1-509ee21948e1":{"to":"c99feada-48ac-474f-9dbc-82ab2fc3d438","type":"Activity"},"57e8b3c1-e10c-408e-ab4c-3c43fb6d0271":{"to":"e4fe2b91-25fb-4a3a-ac90-f7a8dbd8eca0","type":"Activity"},"9fbd6155-3214-447f-b6be-f25c33417469":{"to":"000a0b66-9df0-4f0e-8112-58c6e7a2ba6c","type":"Activity"},"f0cf332f-5dea-4b45-a2e2-ba84c456be28":{"to":"9a475ebc-1b5d-46d7-b9eb-b98585df23f9","type":"Activity"},"59dd0f33-4041-47c4-820a-5fff2bd1fe83":{"to":"c526d683-bf92-4266-bdc7-de8514d41b62","type":"Activity"},"389f9085-65a6-48a3-93d8-c362ac3f8171":{"to":"5774304e-d195-48ba-b355-c763be37f7aa","type":"Activity"},"8bf61784-e1fd-4c8a-8933-23aa857017db":{"to":"0d6e15b4-540a-4ff2-9348-ff044fca60ed","type":"Activity"},"b4b0d22c-bcdb-45a8-aec4-d1f617614a9d":{"to":"22f34024-1abc-4144-a8d8-dc6f79bc05d1","type":"Activity"},"4d2f7537-fe01-4178-8f28-9ae0b38a1838":{"to":"8accbf29-a6dd-45e8-acfb-56da08d0aff6","type":"Activity"},"18ebc32a-1c0e-4d0c-8eae-cee570dcd4e6":{"to":"b43562c5-5e79-475f-9d6d-7f189b72e3d0","type":"Activity"},"37059715-acbc-407d-82f0-6ea9c26b3a02":{"to":"a787c057-8df0-4817-8534-c50ddd5f23a1","type":"Activity"}}
+tmap.id:4bf1f5b0-a288-4c7c-8103-986db64b8abd
+tw-icon:$:/images/fa5/solid/shower
+
+

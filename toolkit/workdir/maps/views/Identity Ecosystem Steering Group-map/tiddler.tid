@@ -1,0 +1,9 @@
+id:b341e95a-262c-4449-b5a7-8ec2c19a6b97
+config.central-topic: a2c1da4d-4161-4c38-8e37-8ff5c7edcd58
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Identity Ecosystem Steering Group-map
+
+

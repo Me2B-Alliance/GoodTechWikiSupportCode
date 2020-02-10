@@ -1,0 +1,9 @@
+id:137aef3c-0f64-48bf-8b56-4b042c18771a
+config.central-topic: fef2b57b-270a-40f5-bf1c-0af860cc0a0a
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Networks Group-map
+
+

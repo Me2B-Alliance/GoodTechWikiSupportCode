@@ -1,0 +1,9 @@
+id:9e56a516-ca53-4e48-a7d1-e17c5fd89cbd
+config.central-topic: 31c5985d-316e-4c96-bf52-9b746d951ca3
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/USCIS US Citizenship and Immigration Services - Department of Homeland Security-map
+
+

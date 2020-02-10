@@ -1,0 +1,19 @@
+title: $:/twiki/person/Viewer
+type: text/vnd.tiddlywiki
+
+
+<$reveal state={{!!parent.org}} type="nomatch" text="">
+<h3>Parent <$link to={{!!parent.org}}>{{!!parent.org}}</$link></h3>
+</$reveal>
+
+
+{{||Social}}
+{{||Location}}
+
+
+
+<table>
+<$macrocall $name="linkrow" title="Location" value={{!!location}} field="location" />
+<$macrocall $name="linkrow" title="Organization" value={{!!organization}} field="organization" />
+<$macrocall $name="linkrow" title="Working Group" value={{!!working.group}} field="working.group" />
+</table>

@@ -1,0 +1,9 @@
+id:d1cbcee9-0024-49c9-9919-89d01e02ab41
+config.central-topic: 4d914f6c-441e-47f2-8070-3275123acccc
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/youtube-map
+
+

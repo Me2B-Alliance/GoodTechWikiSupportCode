@@ -1,0 +1,27 @@
+created: 20191201134710530
+modified: 20200105024802066
+tags:
+title: Product and Project List
+tmap.id: acbbc118-2189-44cc-bb24-185c915857c7
+type: text/vnd.tiddlywiki
+
+<h3>Complete Table Of Products and Projects</h3>
+
+
+<table>
+  <tr>
+    <th>Project/Product</th>
+    <th>Category</th>
+    <th>Digital Harms Addressed</th>
+  </tr>
+
+  <$list filter="[all[]field:element.type[project-or-product]sort[title]sort[category]sort[sponsoring.org]]">
+    <tr>
+      <td><$link>{{!!title}}</$link></td>
+      <td><$link>{{!!category}}</$link></td>
+      <td>
+        <<TagLikeList digital.harms.addressed "" "" >>
+      </td>
+    </tr>
+  </$list>
+</table>

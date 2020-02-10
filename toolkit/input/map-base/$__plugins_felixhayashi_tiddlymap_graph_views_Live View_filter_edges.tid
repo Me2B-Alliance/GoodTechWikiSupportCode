@@ -1,0 +1,3 @@
+filter: -[prefix[_]] 
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Live View/filter/edges
+

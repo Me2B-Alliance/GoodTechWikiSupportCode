@@ -1,0 +1,11 @@
+created: 20191220073710137
+modified: 20200103223125163
+title: $:/twiki/working-group/Standards
+type: text/vnd.tiddlywiki
+
+<$reveal type="match" state="!!relevant.standards" text="">
+    No Relevant Standards
+</$reveal>
+<$reveal type="nomatch" state="!!relevant.standards" text="">
+  Relevant Standards: {{!!relevant.standards}}
+</$reveal>

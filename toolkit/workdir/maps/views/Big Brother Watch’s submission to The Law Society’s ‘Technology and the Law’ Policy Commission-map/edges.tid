@@ -1,0 +1,3 @@
+filter: -[prefix[_]] -[[tw-body:link]] -[[tw-list:tags]] -[[tw-list:list]]
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Big Brother Watch’s submission to The Law Society’s ‘Technology and the Law’ Policy Commission-map/filter/edges
+

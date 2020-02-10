@@ -1,0 +1,10 @@
+created: 15800712211200000
+element.type: metamodel
+input.source: me2b
+metamodel.subtype: Tag
+modified: 20200106075613075
+title: security auditing
+tmap.edges: {"b356611b-62eb-4521-bc4c-085bec0826a6":{"to":"be836eff-e052-4ec4-91c8-ce1fc091a849","type":"Tag"}}
+tmap.id: cf5b6d4f-4ee1-45af-bc55-4b41d92b2534
+tw-icon: $:/images/fa5/solid/flask
+type: text/vnd.tiddlywiki

@@ -1,0 +1,9 @@
+id:503660a2-775b-4d0b-93ba-0fc4e87ea4ea
+config.central-topic: 3dc4cc5b-f8c1-4412-9bf8-621d6d0167b6
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/DISCRIMINATING SYSTEMS - Gender, Race, and Power in AI-map
+
+

@@ -1,0 +1,9 @@
+id:5d10ba11-8e34-4ffb-9830-aed302c51063
+config.central-topic: ef5b0af3-db46-4c6d-895c-176c3a7ae52c
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Respects Your Freedom Certification-map
+
+

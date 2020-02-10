@@ -1,0 +1,9 @@
+id:a7eaef39-6641-435c-a8b4-0ecf96f058a7
+config.central-topic: 079dbd92-5973-4a4d-97cc-4daceb7e86fe
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Consumer protection: Privacy by design for consumer goods and services-map
+
+

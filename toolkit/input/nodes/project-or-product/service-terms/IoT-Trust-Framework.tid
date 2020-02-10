@@ -1,0 +1,36 @@
+created:1578297321083
+modified:1578297321083
+title:IoT Trust Framework
+type:text/vnd.tiddlywiki
+activities:
+audience:
+category:[[service]] [[terms]]
+date.begun:
+date.ended:
+digital.harms.addressed:
+element.type:project-or-product
+github.profile:
+input.source:me2b
+license:
+me2b.participation:
+name:IoT Trust Framework
+parent.org:Internet Society: Online Trust Alliance
+partners:
+people:[[steve olshansky]]
+purpose:[[certification and compliance]] [[transparancy and accountability]] [[governance]]
+relevant.publications:https://www.internetsociety.org/resources/doc/2018/iot-trust-by-design
+status:
+supported.identity.technologies:
+tags:
+terms.of.service:
+tmap.edges:{}
+tmap.id:bf0cc0e3-f3ee-4248-9047-83d62c87df68
+url:https://www.internetsociety.org/iot/trust-framework/
+version.or.edition:
+working.group:
+
+The IoT Trust Framework® includes a set of strategic principles necessary to help secure IoT devices and their data when shipped and throughout their entire life-cycle. Through a consensus driven multi-stakeholder process, criteria have been identified for connected home, office and wearable technologies including toys, activity trackers and fitness devices. The Framework outlines the need for comprehensive disclosures which need to be provided prior to product purchase, policies regarding data collection, usage and sharing, as well as the terms and conditions of security patching post-warranty. Security updates are essential to maximize the protection of IoT devices when vulnerabilities are discovered and attacks evolve. In addition, the Framework provides recommendations for manufacturers to enhance transparency and communication regarding devices’ ability to be updated and a range of data privacy related issues.
+
+Core to addressing the inherent security risks and privacy issues is the application of the principles to the entire device solution or ecosystem. These include the device or sensor, the supporting applications, and the backend / cloud services. As many products coming to market rely on third-party or open source components and software, it is incumbent on developers to apply these principles and conduct supply chain security and privacy risk assessments.
+
+Serving as a risk assessment guide for developers, purchasers and retailers, the Framework is the foundation for future IoT certification programs. It is the goal of OTA to highlight devices which meet these standards to help consumers, as well as the public and private sectors, make informed purchasing decisions. The Framework and related resources are available at https://otalliance.org/IoT.

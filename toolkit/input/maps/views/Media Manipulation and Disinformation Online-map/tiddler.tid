@@ -1,0 +1,9 @@
+id:99497fa8-b579-4247-b982-f687cf9a2201
+config.central-topic: b835733d-5753-4704-8c77-a6173c4e1c6e
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Media Manipulation and Disinformation Online-map
+
+

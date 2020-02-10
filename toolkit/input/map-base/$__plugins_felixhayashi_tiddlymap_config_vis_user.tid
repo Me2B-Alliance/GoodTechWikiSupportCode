@@ -1,0 +1,6 @@
+created: 20191209090723769
+modified: 20200104234834248
+title: $:/plugins/felixhayashi/tiddlymap/config/vis/user
+type: text/vnd.tiddlywiki
+
+{"physics":{"forceAtlas2Based":{"springLength":240,"gravitationalConstant":-500,"springConstant":0.55}}}

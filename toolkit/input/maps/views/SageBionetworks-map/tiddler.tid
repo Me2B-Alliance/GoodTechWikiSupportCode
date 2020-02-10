@@ -1,0 +1,9 @@
+id:a54883b2-ef36-40c3-a305-320d729fe6bc
+config.central-topic: acdcbf3b-5c26-4e10-8aa3-83820156219f
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/SageBionetworks-map
+
+

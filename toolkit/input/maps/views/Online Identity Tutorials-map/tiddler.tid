@@ -1,0 +1,9 @@
+id:67d017ba-dbc9-497b-86b1-3a9cd6c682ee
+config.central-topic: a825475f-0ace-482b-8c1e-e04c8983f900
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Online Identity Tutorials-map
+
+

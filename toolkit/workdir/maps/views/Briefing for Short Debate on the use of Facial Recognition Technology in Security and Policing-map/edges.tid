@@ -1,0 +1,3 @@
+filter: -[prefix[_]] -[[tw-body:link]] -[[tw-list:tags]] -[[tw-list:list]]
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Briefing for Short Debate on the use of Facial Recognition Technology in Security and Policing-map/filter/edges
+

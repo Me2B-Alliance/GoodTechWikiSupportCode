@@ -1,0 +1,9 @@
+id:9efc41e1-10a0-4283-9ecd-fe9ff240117b
+config.central-topic: 25c24e5f-9671-4590-b629-533309484b6c
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Precision Medicine National Actor Map-map
+
+

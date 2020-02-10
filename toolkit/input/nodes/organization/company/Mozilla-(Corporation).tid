@@ -1,0 +1,36 @@
+created:1578297321066
+modified:1578297321066
+title:Mozilla (Corporation)
+type:text/vnd.tiddlywiki
+activities:[[software development]]
+annual.budget:
+audience:
+date.ended:
+date.founded:
+digital.harms.addressed:
+element.type:organization
+funding:
+github.profile:https://github.com/mozilla
+input.source:me2b
+key.people:
+linkedin.profile:https://www.linkedin.com/company/mozilla-corporation/about/
+location(s):[[mountainview]] [[california]]
+me2b.relationship:
+org.name:Mozilla (Corporation)
+org.type:company
+parent.org:
+partners:
+products.and.or.services:
+purpose:
+relevant.publications:
+scope:global
+sector:for-profit
+status:
+tags:[[privacy]]
+tech.focus:
+tmap.edges:{"7f939c0e-9597-46f5-bdb7-c099d1f68f42":{"to":"2c4dbe13-8122-4696-adfa-410168ffda6b","type":"Organization Supports Project or Product"}}
+tmap.id:0fa7e0c9-9f59-4fe0-9327-d184680d9604
+twitter.profile:
+website:https://www.mozilla.org/
+
+Mozilla makes browsers, apps, code and tools that put people before profit.

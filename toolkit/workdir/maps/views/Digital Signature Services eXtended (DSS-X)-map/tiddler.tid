@@ -1,0 +1,9 @@
+id:aaa8f9c9-bcee-45da-95c8-19a0ada1b8a1
+config.central-topic: 468953ef-086a-444d-841c-a170c0663d96
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Digital Signature Services eXtended (DSS-X)-map
+
+

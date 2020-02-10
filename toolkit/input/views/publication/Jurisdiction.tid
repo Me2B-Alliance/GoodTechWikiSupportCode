@@ -1,0 +1,8 @@
+created: 20191220073710137
+modified: 20200103225619925
+title: $:/twiki/publication/Jurisdiction
+type: text/vnd.tiddlywiki
+
+<$reveal type="nomatch" text="" value="!!jurisdiction" >
+Located in {{!!jurisdiction}}<br />
+</$reveal>

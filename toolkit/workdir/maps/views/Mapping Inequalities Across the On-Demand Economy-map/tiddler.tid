@@ -1,0 +1,9 @@
+id:b32c44d7-8c4f-4de0-adb5-d1612aff3cbe
+config.central-topic: ee003ac8-b41f-404d-9c9f-ecd3a5dc331b
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Mapping Inequalities Across the On-Demand Economy-map
+
+

@@ -1,0 +1,10 @@
+created: 20191201134710530
+modified: 20200106075613191
+tags: 
+title: Publication List
+tmap.id: 69672079-a97f-47fb-bc60-dd6e9f831ade
+type: text/vnd.tiddlywiki
+
+<h3>Complete Table Of Publications</h3>
+
+<<tabs "PublicationSummaryList PublicationDetailList" "PublicationSummaryList" "$:/temp/tabs/welcome/publicationlist" >>

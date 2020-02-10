@@ -1,0 +1,9 @@
+id:88495b8d-36a8-4310-98ce-9c7b91f280ee
+config.central-topic: 60ef8734-0e54-4ba7-8c6b-903b0c41b325
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Dynamic Coalition on Platform Responsibility (A STRUCTURAL ELEMENT OF THE UNITED NATIONS INTERNET GOVERNANCE FORUM)-map
+
+

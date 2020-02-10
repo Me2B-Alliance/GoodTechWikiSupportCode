@@ -1,0 +1,10 @@
+created: 20191201134710530
+modified: 20200104125704816
+tags:
+title: Organization List
+tmap.id: 604a7e49-08d8-4a9f-bd5f-8b182bc65992
+type: text/vnd.tiddlywiki
+
+<h3>Complete Table Of Organizations</h3>
+
+<<tabs "OrganizationSummaryList" "OrganizationSummaryList" "$:/temp/tabs/welcome/organizationlist" >>

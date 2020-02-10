@@ -1,0 +1,49 @@
+created:1578297319505
+modified:1578297319505
+title:Lawtrust
+type:text/vnd.tiddlywiki
+activities:
+annual.budget:
+audience:
+date.ended:
+date.founded:
+digital.harms.addressed:
+element.type:organization
+funding:
+github.profile:
+key.people:
+linkedin.profile:
+location(s):
+me2b.relationship:
+org.name:Lawtrust
+org.type:company
+parent.org:
+partners:
+products.and.or.services:
+purpose:
+relevant.publications:
+scope:
+sector:
+status:
+tags:
+tech.focus:
+tmap.edges:{"fde5a2e3-ff8e-4d1f-bc90-5bd4e078eaee":{"to":"3a91a18b-456d-4dcb-8fa4-24a46073549e","type":"general-member"}}
+tmap.id:b04cbab3-9bb4-44d8-acab-6d1ab8c85f07
+twitter.profile:
+website:https://www.lawtrust.co.za
+
+https://www.lawtrust.co.zaThe people at LAWtrust are passionate about information security, which addresses business’ need to create trust between stakeholders. LAWtrust understands that trust in business dealings is established through accountability and privacy, which in turn require the establishment of positive identity through verifiable signatures and confidentiality of information. LAWtrust’s solutions are mapped against these business needs so that it can deliver real business value. LAWtrust has a clear vision for trusted identities and securing transaction through its well established Certificate Authority and security integration capacity and capabilities. Focused on meeting globally recognised industry standards to deliver and support its solutions, LAWtrust has in-depth experience and have achieved the following:
+• First Certificate Authority to be accredited for Advanced Electronic Signatures by the Department of Communications under the ECT Act of 2002. This is the South African equivalent of a EU Qualified Signature.
+• Certificate Authority included in both the Adobe and the Microsoft Approved Trust Lists as a Trusted Certificate Authority
+• WebTrust certification and ISO21188 compliant PKI for financial services
+• Provider of the South African National ID PKI, encryption and biometric fraud management systems
+The key LAWtrust differentiator in this specialist market is its rapid integration middleware called the Trust Service Orchestrator (TSO). This allows organisations to deploy a hybrid model of on-premise and Trust Centre hosted functions which is all accessed through an on-premise service catalog. The TSO handles all the security functions back to the Trust Centre and applies the correct business logic where necessary. An example of this service in action is the LAWtrust Biometric Matching Service which is deployed in banking and government customers. The Biometric Matching service is access through the TSO by any channel (branch, internet etc) and can centrally match the multi modal biometrics through a variety of best of breed vendor algorithms for fingerprint, face, iris and voice matching. The result of the authentication can then be used to unlock a digital certificate/private key hosted on a secure signing service and apply a long term, time stamped digital signature to a document or transaction. Lawtrust also provides a biometric digital signature and evidence system known as eDNA (electronic DNA). This system is the most widely deployed government fraud management system and and ensures that employees are accountable for high risk transactions through a mechanism of biometrically unlocked digital signature after which the system retains all evidence in a time stamped and encrypted vault.
+Apart from these major systems, LAWtrust provides the following products and services:
+• SSL certificates
+• PKI (on premise or cloud)
+• Multi factor Strong Authentication
+• Encryption libraries
+• PKI applets
+• Mobile biometrics solutions
+• Consulting and training
+LAWtrust view the involment in the FutureTrust project as beneficial to the African region in keeping abreast with and evolving further, developments in eID, payments and digital signatures within the EU.

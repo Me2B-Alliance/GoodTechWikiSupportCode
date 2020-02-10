@@ -1,0 +1,9 @@
+id:b2237760-c7ac-409f-9367-8bff8bcb9a5e
+config.central-topic: 28037ffb-2ca9-4b86-837b-538f789de9bf
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Tools for Tailored Learning May Expose Students’ Personal Details-map
+
+

@@ -1,0 +1,9 @@
+id:20e19881-7a4c-41dc-9be6-9c0653ccc729
+config.central-topic: 293a0e79-f527-4a16-9f0d-c057945f0575
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Bring on the Bots-map
+
+

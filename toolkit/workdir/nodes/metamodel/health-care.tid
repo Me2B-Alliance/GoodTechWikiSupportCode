@@ -1,0 +1,12 @@
+created:15800712211107000
+modified:20200106075612218
+title:health care
+type:text/vnd.tiddlywiki
+element.type:metamodel
+input.source:me2b
+metamodel.subtype:Purpose
+tmap.edges:{"c6dc9c8a-74a4-47bd-a0dd-573fabb5d5cb":{"to":"24783409-d69d-483e-a3b8-f6b8aa087707","type":"Purpose"},"2544afc7-4bb9-4a23-ae3f-6ae17d5d3fb7":{"to":"6b628a00-f7ac-4eb4-a3c5-087471bbcc99","type":"Purpose"},"ec9acd6b-8e34-402c-a898-536346441b13":{"to":"9b96a561-c32e-4927-82e3-03acf09bc890","type":"Purpose"}}
+tmap.id:4491188b-dc5b-4fa0-bf32-5fec9711cdc5
+tw-icon:$:/images/fa5/solid/shuttle-van
+
+

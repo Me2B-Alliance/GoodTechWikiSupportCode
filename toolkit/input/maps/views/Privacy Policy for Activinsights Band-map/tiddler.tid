@@ -1,0 +1,9 @@
+id:196164a3-16f2-4989-b4dc-ec4dea5f7ee7
+config.central-topic: 9fe56e40-d8a2-437e-ae61-a02dbaeb87bb
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Privacy Policy for Activinsights Band-map
+
+

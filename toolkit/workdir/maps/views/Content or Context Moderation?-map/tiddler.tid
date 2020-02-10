@@ -1,0 +1,9 @@
+id:a0c9e737-3f9e-4e0d-a97b-aafaaf706e17
+config.central-topic: f1a1941c-5ddd-4ad3-8047-d93b2ae5c1ef
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Content or Context Moderation?-map
+
+

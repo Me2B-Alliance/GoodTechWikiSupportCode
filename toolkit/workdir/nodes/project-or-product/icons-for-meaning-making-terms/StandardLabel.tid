@@ -1,0 +1,35 @@
+created:1578297321081
+modified:1578297321081
+title:StandardLabel
+type:text/vnd.tiddlywiki
+activities:[[standard development]]
+audience:
+category:[[icons for meaning making]] [[terms]]
+date.begun:
+date.ended:
+digital.harms.addressed:
+element.type:project-or-product
+github.profile:https://github.com/jandrieu/Standard-Label
+input.source:me2b
+license:
+me2b.participation:[[ux reference]]
+name:StandardLabel
+parent.org:Independent
+partners:
+people:[[joe andrieu]]
+purpose:[[usability]]
+relevant.publications:
+status:
+supported.identity.technologies:
+tags:[[a nutrition facts label for the information we share online]]
+terms.of.service:
+tmap.edges:{}
+tmap.id:4849fc2a-c4d4-418d-b206-fe65c3d86688
+url:https://standardlabel.org
+version.or.edition:
+working.group:Consent & Information Sharing Work Group (CISWG)
+
+The Standard Label shows you the essential details you need to manage your online privacy. Who gets what data, how long they keep it, and what they do with it, with direct links to the actual legal and policy documents if you want the gritty details.
+
+The written specification defines exactly what each section of the label means and how to present it, both visually and semantically.
+

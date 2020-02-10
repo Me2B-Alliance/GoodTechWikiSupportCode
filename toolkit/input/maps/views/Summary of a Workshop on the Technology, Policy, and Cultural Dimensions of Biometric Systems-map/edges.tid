@@ -1,0 +1,3 @@
+filter: -[prefix[_]] -[[tw-body:link]] -[[tw-list:tags]] -[[tw-list:list]]
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Summary of a Workshop on the Technology, Policy, and Cultural Dimensions of Biometric Systems-map/filter/edges
+

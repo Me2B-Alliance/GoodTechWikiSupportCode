@@ -1,0 +1,35 @@
+created: 20191201134710530
+modified: 20200104132133608
+tags: $:/tags/Macro
+title: $:/macros/TableEditButton
+tmap.id: efbf6634-0bc1-4929-9294-8c6090c3fb7b
+type: text/vnd.tiddlywiki
+
+
+\define TableEditButton()
+<$reveal type="match" default={{!!editing}} text="yes">
+<$button tooltip={{$:/language/Buttons/Edit/Hint}} aria-label={{$:/language/Buttons/Edit/Caption}} class=<<tv-config-toolbar-class>>>
+<$action-setfield $field="editing" $value="no" />
+<$list filter="[<tv-config-toolbar-icons>match[yes]]">
+{{$:/core/images/edit-button}}
+</$list>
+<span class="tc-btn-text">
+Data Only<br />
+(This can be highlighted and paste this data into a spreadsheet)
+</span>
+</$button>
+</$reveal>
+
+<$reveal type="nomatch" default={{!!editing}} text="yes">
+
+<$button tooltip={{$:/language/Buttons/Edit/Hint}} aria-label={{$:/language/Buttons/Edit/Caption}} class=<<tv-config-toolbar-class>>>
+<$action-setfield $field="editing" $value="yes" />
+<$list filter="[<tv-config-toolbar-icons>match[yes]]">
+{{$:/core/images/edit-button}}
+</$list>
+<span class="tc-btn-text">
+Edit
+</span>
+</$button>
+</$reveal>
+\end

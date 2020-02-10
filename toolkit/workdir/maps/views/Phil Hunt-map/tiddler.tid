@@ -1,0 +1,9 @@
+id:bc89844d-d5ea-4da5-8596-936b641570e2
+config.central-topic: 025a8596-bee6-4c07-ab9a-dada02c32e12
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Phil Hunt-map
+
+

@@ -1,0 +1,9 @@
+id:e47f5d82-c54b-4cc1-bba1-328d1a2e693a
+config.central-topic: 5b8f39fa-4b72-4752-97f0-5cdb966c3ba0
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Design Considerations for Decentralized Reputation Systems-map
+
+

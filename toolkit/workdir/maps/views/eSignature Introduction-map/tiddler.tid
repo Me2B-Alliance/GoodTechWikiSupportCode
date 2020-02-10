@@ -1,0 +1,9 @@
+id:2d7bbf92-81b2-4e85-baf8-918bb32e6023
+config.central-topic: fc877b00-8a4a-4847-92c6-e6da2a95fe35
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/eSignature Introduction-map
+
+

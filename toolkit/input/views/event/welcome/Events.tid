@@ -1,0 +1,10 @@
+created: 20191201134710530
+modified: 20200105072756496
+tags:
+title: Event List
+tmap.id: a2942d8c-0da6-4a89-90ff-a6ac78ba0767
+type: text/vnd.tiddlywiki
+
+<h3>Complete Table Of Events</h3>
+
+<<tabs "EventSummaryList EventDetailList" "EventSummaryList" "$:/temp/tabs/welcome/eventlist" >>

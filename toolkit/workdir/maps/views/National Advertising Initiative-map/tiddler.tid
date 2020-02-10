@@ -1,0 +1,9 @@
+id:7fa30430-a3e9-4d9e-a81f-60245c8e0c9b
+config.central-topic: ab92449d-a3f4-420b-9462-35a410fa68bd
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/National Advertising Initiative-map
+
+

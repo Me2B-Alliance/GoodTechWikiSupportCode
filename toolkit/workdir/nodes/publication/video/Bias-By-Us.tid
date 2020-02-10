@@ -1,0 +1,29 @@
+created:1578297321105
+modified:1578297321105
+title:Bias By Us
+type:text/vnd.tiddlywiki
+audience:
+authors.editors:[[joy buolamwini]]
+date:
+digital.harms.addressed:
+element.type:publication
+github.profile:
+input.source:me2b
+jurisdiction:
+license:
+name:Bias By Us
+publication.type:[[video]]
+purpose:
+sector:
+sponsoring.org:
+tags:[[the coded gaze]]
+tech.focus:
+tmap.edges:{}
+tmap.id:adfc732d-b865-458b-8dd2-9812ebf85ed0
+url:https://www.youtube.com/watch?v=KB9sI9rY3cA
+version.or.edition:
+volume.frequency:
+working.group:
+
+Calls for tech inclusion often miss the bias that is embedded in written code. This medium article chronicles my frustrations with computer vision algorithms through a series of examples.
+

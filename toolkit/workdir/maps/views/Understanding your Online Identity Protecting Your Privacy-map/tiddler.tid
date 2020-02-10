@@ -1,0 +1,9 @@
+id:9d713c18-7f65-47a9-a44d-c2d66df6d9c3
+config.central-topic: 5791781c-4411-4646-9f95-0276bf57cab8
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Understanding your Online Identity Protecting Your Privacy-map
+
+

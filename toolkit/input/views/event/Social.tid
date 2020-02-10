@@ -1,0 +1,9 @@
+created: 20191220073710137
+modified: 20191220073710137
+title: $:/twiki/event/Social
+type: text/vnd.tiddlywiki
+
+<table>
+<$macrocall $name="linkrow" title="Website" value={{!!website}} field="website" />
+<$macrocall $name="linkrow" title="GitHub" value={{!!github.profile}} field="github.profile" />
+</table>

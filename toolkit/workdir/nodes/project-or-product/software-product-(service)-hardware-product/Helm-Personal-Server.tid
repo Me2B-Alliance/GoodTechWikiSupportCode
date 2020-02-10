@@ -1,0 +1,45 @@
+created:1578297321084
+modified:1578297321084
+title:Helm Personal Server
+type:text/vnd.tiddlywiki
+activities:
+audience:
+category:[[software product (service)]] [[hardware product]]
+date.begun:
+date.ended:
+digital.harms.addressed:
+element.type:project-or-product
+github.profile:https://github.com/HelmSecure
+input.source:me2b
+license:
+me2b.participation:
+name:Helm Personal Server
+parent.org:Helm
+partners:
+people:
+purpose:
+relevant.publications:
+status:
+supported.identity.technologies:
+tags:[[personal data management]]
+terms.of.service:
+tmap.edges:{}
+tmap.id:b4f59c85-4c64-4e08-9407-09a7efce163c
+url:https://www.thehelm.com/technology
+version.or.edition:
+working.group:
+
+With full-disk encryption, secure boot, proximity-based security, encrypted backups, and vulnerability audits, Helm puts security first.
+
+Helm stores data securely using full disk encryption using keys that are managed by a Secure Enclave.
+
+The Helm Personal Server runs a secure and minimal Linux-based operating system built using Yocto.
+
+It leverages well-known open-source projects like Docker, Postfix, Dovecot, Let's Encrypt, Nextcloud and more bundled into easy-to-use services.
+
+Helm is engineered to dissipate heat through its aluminum base without using a fan resulting in a silent device.
+
+Each device comes with 120 GB of durable SSD storage and a slide-in tray designed for a 2.5" hard drive, increasing storage up to 5 TB.
+
+The Helm personal server connects with your existing home network. Network configuration is not required for email services.
+

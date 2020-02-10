@@ -1,0 +1,36 @@
+created:1578297321084
+modified:1578297321084
+title:Explore Usable Privacy
+type:text/vnd.tiddlywiki
+activities:
+audience:
+category:[[terms]] [[research]]
+date.begun:
+date.ended:
+digital.harms.addressed:
+element.type:project-or-product
+github.profile:
+input.source:me2b
+license:
+me2b.participation:
+name:Explore Usable Privacy
+parent.org:The Usable Privacy Policy Project
+partners:
+people:
+purpose:[[education]] [[transparancy and accountability]]
+relevant.publications:
+status:
+supported.identity.technologies:
+tags:
+terms.of.service:
+tmap.edges:{}
+tmap.id:2ed9f3ad-69ef-43ff-b367-b5c0621181fe
+url:https://explore.usableprivacy.org/
+version.or.edition:
+working.group:
+
+Explore our Results
+
+The Usable Privacy Policy Project develops techniques to semi-automatically analyze privacy policies with crowdsourcing, natural language processing, and machine learning. You can explore some of the project’s privacy policy annotations which identify different data collection and use practices.
+
+Data presented here are made available for research and teaching. Our results showcase both the power and limitations of human and machine annotation.

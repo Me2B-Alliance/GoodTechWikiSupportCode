@@ -1,0 +1,9 @@
+id:055e8081-f0a3-4c6c-bbb8-52c77712822a
+config.central-topic: ba1a331c-da2c-48c7-ab3a-56a6f8746a23
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/At the Nexus of Cybersecurity and Public Policy: Some Basic Concepts and Issues-map
+
+

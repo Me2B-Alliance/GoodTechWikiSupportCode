@@ -1,0 +1,9 @@
+id:a51db9b0-066b-45b7-beb7-bc18d1727cd4
+config.central-topic: 7c6876ec-13f6-40e9-ad6e-86e676571f03
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Design Justice Network-map
+
+

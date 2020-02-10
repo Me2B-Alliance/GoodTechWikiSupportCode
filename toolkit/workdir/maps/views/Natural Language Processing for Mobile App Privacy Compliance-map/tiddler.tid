@@ -1,0 +1,9 @@
+id:ad1afeed-6e3f-4034-b7a0-5b4adb4f4d47
+config.central-topic: 37eb3a80-de24-41f9-ac6e-8e2ffa4948fd
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Natural Language Processing for Mobile App Privacy Compliance-map
+
+

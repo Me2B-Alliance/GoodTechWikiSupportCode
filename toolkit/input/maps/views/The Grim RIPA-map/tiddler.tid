@@ -1,0 +1,9 @@
+id:cff1c98b-23aa-4ca6-b7ab-4b3245c9b342
+config.central-topic: a5e69b56-8747-495d-9903-58d074a4fdf6
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/The Grim RIPA-map
+
+

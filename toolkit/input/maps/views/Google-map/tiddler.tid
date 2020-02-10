@@ -1,0 +1,9 @@
+id:c10f193f-c5ca-4289-ad4b-78e0f6773b27
+config.central-topic: 41bc9e3e-9ab3-47ff-9ecf-c2e7526f518f
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Google-map
+
+

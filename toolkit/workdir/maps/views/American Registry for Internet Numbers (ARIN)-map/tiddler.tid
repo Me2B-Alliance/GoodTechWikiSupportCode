@@ -1,0 +1,9 @@
+id:25d00a74-8f88-40c6-a997-4442fb00872f
+config.central-topic: d1a8bf35-0bd1-45ba-b7ed-c3c8dad23218
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/American Registry for Internet Numbers (ARIN)-map
+
+

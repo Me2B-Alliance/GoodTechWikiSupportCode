@@ -1,0 +1,12 @@
+created: 20191220073710137
+modified: 20191220073710137
+title: Social
+tmap.id: 0af4a126-08aa-49ce-956f-476f128acd01
+type: text/vnd.tiddlywiki
+
+<table>
+<$macrocall $name="linkrow" title="WebSite" value={{!!website}} field="website" />
+<$macrocall $name="linkrow" title="Twitter" value={{!!twitter.profile}} field="twitter.profile" />
+<$macrocall $name="linkrow" title="GitHub" value={{!!github.profile}} field="github.profile" />
+<$macrocall $name="linkrow" title="Linked In" value={{!!linkedin.profile}} field="linkedin.profile" />
+</table>

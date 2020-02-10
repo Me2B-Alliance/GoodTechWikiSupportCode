@@ -1,0 +1,7 @@
+config.neighbourhood_scope: 1
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":1.05,"centralGravity":0.02,"damping":0.04},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":500,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+created: 20200104054253456
+isview: true
+modified: 20200105003647537
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Purpose - Transparency and Accountability
+type: text/vnd.tiddlywiki

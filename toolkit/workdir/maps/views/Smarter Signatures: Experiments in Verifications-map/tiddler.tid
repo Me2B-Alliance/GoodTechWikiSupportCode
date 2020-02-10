@@ -1,0 +1,9 @@
+id:5c4095ce-a7b1-4ccb-8462-adfc5dfef9cb
+config.central-topic: c0492e4a-ddf3-4112-85f8-fc755e71a545
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Smarter Signatures: Experiments in Verifications-map
+
+

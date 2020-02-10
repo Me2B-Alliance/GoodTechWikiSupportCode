@@ -1,0 +1,9 @@
+id:b7fa0342-8c57-4f61-8e6b-d979aec55b3a
+config.central-topic: 12b7634a-f4e2-41fb-8848-40f60dd98ef4
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/AB/Connect Working Group-map
+
+

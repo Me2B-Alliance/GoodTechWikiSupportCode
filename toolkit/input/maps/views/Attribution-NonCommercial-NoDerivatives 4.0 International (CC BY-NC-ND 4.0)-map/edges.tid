@@ -1,0 +1,3 @@
+filter: -[prefix[_]] -[[tw-body:link]] -[[tw-list:tags]] -[[tw-list:list]]
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)-map/filter/edges
+

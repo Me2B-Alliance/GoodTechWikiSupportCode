@@ -1,0 +1,9 @@
+id:9b795f78-640e-4992-a8ad-0ca086e57d88
+config.central-topic: 5eab24c4-7d22-4367-8f64-2cef2f9f66d5
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/security auditing-map
+
+

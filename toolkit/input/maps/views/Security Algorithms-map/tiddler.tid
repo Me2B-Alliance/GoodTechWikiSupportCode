@@ -1,0 +1,9 @@
+id:ac3e1579-0b6f-43b1-a75d-cab5868a239d
+config.central-topic: 43ff497e-172b-4321-9c84-842d5519352a
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Security Algorithms-map
+
+

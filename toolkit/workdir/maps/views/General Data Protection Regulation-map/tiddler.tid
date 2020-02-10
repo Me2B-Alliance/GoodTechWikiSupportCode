@@ -1,0 +1,9 @@
+id:639a8362-a42a-4b0f-a4d9-b3e4d273e89d
+config.central-topic: 8da43260-fafd-4af7-be7c-77bfc0495e7b
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/General Data Protection Regulation-map
+
+

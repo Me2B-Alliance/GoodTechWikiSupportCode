@@ -1,0 +1,9 @@
+id:588549c5-03fb-4711-b106-f5a4234428ef
+config.central-topic: 59dd7839-3587-4942-8dc6-7a95f2c367ad
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Fast Federation-map
+
+

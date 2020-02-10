@@ -1,0 +1,9 @@
+id:da458f4a-ffec-494e-bc70-94e1df909df5
+config.central-topic: 30e75dc4-9b40-49ea-af34-0ce7c5735fd0
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/TTA  Telecommunications Technology Association, Korea-map
+
+

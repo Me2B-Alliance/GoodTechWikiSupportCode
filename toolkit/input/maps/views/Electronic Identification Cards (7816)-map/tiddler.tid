@@ -1,0 +1,9 @@
+id:7ea186d6-8cb6-4e96-aa8a-9bdeda3a8808
+config.central-topic: d1766eb2-881f-4eb0-86a0-17d266b7094e
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Electronic Identification Cards (7816)-map
+
+

@@ -1,0 +1,10 @@
+id:b285c7ac-7528-4741-adc4-5c0d14e7f116
+config.central-topic: 24f045fb-5413-48f4-8cf7-0b988c81e68d
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Activinsights
+-map
+
+

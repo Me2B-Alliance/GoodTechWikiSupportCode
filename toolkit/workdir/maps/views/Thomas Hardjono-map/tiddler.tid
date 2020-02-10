@@ -1,0 +1,9 @@
+id:b325b51c-bb58-44b1-a3a1-1c991175d590
+config.central-topic: 5cf5cd0c-ef47-4262-979a-dd7972b954c0
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Thomas Hardjono-map
+
+

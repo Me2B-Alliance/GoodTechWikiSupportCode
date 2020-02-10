@@ -1,0 +1,9 @@
+id:be9991d0-7381-43e3-bcf6-d19648dd2f02
+config.central-topic: 432bb02b-a0d3-4c53-8755-52b6c783ffec
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/consumer education-map
+
+

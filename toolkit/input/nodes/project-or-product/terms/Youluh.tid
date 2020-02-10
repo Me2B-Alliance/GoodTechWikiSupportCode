@@ -1,0 +1,44 @@
+created:1578297321082
+modified:1578297321082
+title:Youluh
+type:text/vnd.tiddlywiki
+activities:
+audience:
+category:[[terms]]
+date.begun:
+date.ended:
+digital.harms.addressed:
+element.type:project-or-product
+github.profile:
+input.source:me2b
+license:
+me2b.participation:[[content source for customer commons terms creation]]
+name:Youluh
+parent.org:Independent
+partners:
+people:
+purpose:[[consumer support]]
+relevant.publications:
+status:Inactive?
+supported.identity.technologies:
+tags:
+terms.of.service:
+tmap.edges:{}
+tmap.id:73440c37-9b14-432f-a60d-ef9ed52b3b6e
+url:http://www.x2xroads.com/
+version.or.edition:
+working.group:
+
+The service is called Youluh (pronounced the same way EULA is often pronounced)
+In a nutshell, this is a service for people who accept EULAs without reading them, and feel badly about it.
+In other words, you check "I have read the license terms and I agree," but you haven't, and you feel foolish for it, and not a little anxious about what you might have just agreed to.
+This service will never say or imply that you do not have to read every word of every agreement.
+But if you are going to agree to something without reading it, the service will give you a report card with:
+
+    How much of the EULA is stuff you've already agreed to before?
+    How much of the EULA is new, but common boilerplate?
+    How much of the EULA has been agreed to without reservation by many others on the service?
+    Anything in the EULA that is totally new, and you really should read this bit?
+    Anything in the EULA that has been commented on by other users?
+
+Our system for implementing the service is U.S. Patent Pending, but the development process will be open and use open source.  Details will be shared when the crowd funding campaign is ready.

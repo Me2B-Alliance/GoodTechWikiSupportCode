@@ -1,0 +1,9 @@
+id:6c7215a7-891d-4b87-a7b8-5e0c566d6aaf
+config.central-topic: 9fb8a41b-a461-4d7e-abdd-e9dc6d8d9571
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Fraunhofer Group for Defense and Security VVS-map
+
+

@@ -1,0 +1,9 @@
+id:2b86669c-082d-4a71-9851-2c148067e775
+config.central-topic: 92ad62c3-92af-4998-8c23-7a445acb4420
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Austrian Federal Ministry of Finance-map
+
+

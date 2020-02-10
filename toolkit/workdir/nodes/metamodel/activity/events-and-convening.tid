@@ -1,0 +1,10 @@
+created: 15800712211107000
+element.type: metamodel
+input.source: me2b
+metamodel.subtype: Activity
+modified: 20200106075611017
+title: events and convening
+tmap.edges: {"cc61feaa-7101-4719-bc6f-45cff1dc750c":{"to":"5ac43de7-4235-40e4-affe-1bd03886fc18","type":"Activity"},"1dceb891-bac1-46ad-95a6-5d7ed6400606":{"to":"c13a9471-c960-4b75-a944-828035d70828","type":"Activity"},"bd4e079e-63c8-46d1-939a-d30ce372eb42":{"to":"0e7ca43a-0567-4762-9c23-b6d7204b84d1","type":"Activity"},"69119b60-d975-4f7a-b2a3-9a50269daba3":{"to":"4f962d12-969c-48eb-aefc-c06f85b90f03","type":"Activity"},"fbf9d6cd-1142-471d-b2a0-005b76f4629e":{"to":"6b628a00-f7ac-4eb4-a3c5-087471bbcc99","type":"Activity"},"945cf9ee-065e-4807-9a3e-bf70956b72e9":{"to":"9a475ebc-1b5d-46d7-b9eb-b98585df23f9","type":"Activity"},"efd21710-80b9-470c-871d-596a5dbc8d61":{"to":"c526d683-bf92-4266-bdc7-de8514d41b62","type":"Activity"},"1764e998-909c-4e93-b5aa-ac5f065d2afa":{"to":"b9472d33-7b88-440f-b894-731bdf2deebb","type":"Activity"}}
+tmap.id: 5c68cca8-5576-44e5-a2da-b1df1e6b0746
+tw-icon: $:/images/fa5/solid/shower
+type: text/vnd.tiddlywiki

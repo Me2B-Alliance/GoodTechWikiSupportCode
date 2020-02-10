@@ -1,0 +1,9 @@
+id:2c06639b-f5d3-422d-88f2-a7c0169dfcaa
+config.central-topic: 22ec7438-46b9-43ac-b10e-9d7f65b64875
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/OECD (The Organisation for Economic Co-operation and Development)-map
+
+

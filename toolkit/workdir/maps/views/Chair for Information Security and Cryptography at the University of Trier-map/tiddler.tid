@@ -1,0 +1,9 @@
+id:ced7e9f1-13e7-4f0b-a2a2-ba11be2cd70b
+config.central-topic: 61a0371a-1ffc-4f62-b5a5-9f17fa1560b4
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Chair for Information Security and Cryptography at the University of Trier-map
+
+

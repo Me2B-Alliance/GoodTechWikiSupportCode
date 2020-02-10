@@ -1,0 +1,24 @@
+created: 20191201134710530
+modified: 20200104033822638
+tags:
+title: Everything
+tmap.id: e0ba8ebc-2a39-4026-8193-189a4c156203
+type: text/vnd.tiddlywiki
+
+<h3>Complete Table Of Data</h3>
+
+<table>
+<tr>
+<th>Title</th>
+<th>Type</th>
+<th>Category</th>
+</tr>
+
+<$list filter="[all[]!prefix[$]sort[title]sort[category]sort[element.type]]">
+<tr>
+<td><$link>{{!!title}}</$link></td>
+<td><$link>{{!!element.type}}</$link></td>
+<td><$link>{{!!category}}</$link></td>
+</tr>
+</$list>
+</table>

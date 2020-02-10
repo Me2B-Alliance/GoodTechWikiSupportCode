@@ -1,0 +1,9 @@
+id:41277b6f-f9b3-4cfe-94ea-055b4890f399
+config.central-topic: 81dbfb25-aa47-4a7a-a310-7db089471125
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Thales-map
+
+

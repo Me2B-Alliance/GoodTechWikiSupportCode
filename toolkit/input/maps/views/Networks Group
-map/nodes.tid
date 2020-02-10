@@ -1,0 +1,5 @@
+type: text/vnd.tiddlywiki
+filter:[field:tmap.id[80ae5240-7489-4bfb-a2ff-ab90614ec98a]] 
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Networks Group
+-map/filter/nodes
+

@@ -1,0 +1,9 @@
+id:214988c5-be83-4367-8559-a0ae2b4ba2ff
+config.central-topic: 5de1d964-16e9-46cc-8449-ab61cdcb4e0e
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Vendorcom-map
+
+

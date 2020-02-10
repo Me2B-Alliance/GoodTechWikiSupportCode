@@ -1,0 +1,42 @@
+caption: Detail
+created: 20191201134710530
+modified: 20200105072756737
+tags:
+title: EventDetailList
+tmap.id: c8bf4e68-b42c-4ebd-af28-7b1ebd0f3b1a
+type: text/vnd.tiddlywiki
+
+\define makeLink()
+<$reveal type="match" state={{!!website}} text="" >
+<a href={{!!website}}>Link</a>
+</$reveal>
+\end
+
+<table>
+  <tr>
+    <th>Event &amp; Time</th>
+    <th>Category &amp; Sponsor</th>
+    <th>Audience, People, Partners</th>
+    <th>Publication &amp; Groups</th>
+  </tr>
+
+  <$list filter="[all[]field:element.type[event]sort[title]sort[category]sort[host.organization]]">
+    <tr>
+      <td>
+      <$link>{{!!title}}</$link><br />
+      {{!!date}} {{!!frequency}}<br />
+      {{!!location}} <<makeLink >>
+      </td>
+      <td>
+      {{!!category}}<br />
+      <$link to={{!!host.organization}}>{{!!host.organization}}</$link>
+      </td>
+      <td>
+      {{!!audience}} {{!!people}} {{!!partners}}
+      </td>
+      <td>
+      {{!!relevant.publications}}<br />{{!!working.group}}
+      </td>
+    </tr>
+  </$list>
+</table>

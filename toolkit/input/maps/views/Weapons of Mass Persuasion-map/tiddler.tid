@@ -1,0 +1,9 @@
+id:55ac12d7-92c3-460d-8284-0a329c468e69
+config.central-topic: f14d2f23-26fb-4320-b244-905560aab3b0
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Weapons of Mass Persuasion-map
+
+

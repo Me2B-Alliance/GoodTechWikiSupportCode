@@ -1,0 +1,9 @@
+id:5ae7890c-9a3c-43ab-bc41-4d10a871bc65
+config.central-topic: 41c5d56c-be80-438a-88a2-db02b1c540b9
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/OAuth 2.0 Multiple Response Type Encoding Practices-map
+
+

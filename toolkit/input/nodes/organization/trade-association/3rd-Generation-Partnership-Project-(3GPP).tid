@@ -1,0 +1,39 @@
+created:1578297318421
+modified:1578297318421
+title:3rd Generation Partnership Project (3GPP)
+type:text/vnd.tiddlywiki
+activities:
+annual.budget:
+audience:
+date.ended:
+date.founded:
+digital.harms.addressed:
+element.type:organization
+funding:
+github.profile:
+key.people:
+linkedin.profile:
+location(s):
+me2b.relationship:
+org.name:3rd Generation Partnership Project (3GPP)
+org.type:trade association
+parent.org:
+partners:
+products.and.or.services:
+purpose:
+relevant.publications:
+scope:
+sector:
+status:
+tags:
+tech.focus:
+tmap.edges:{"43c7743c-a8bb-4e94-92c0-7b3e635ea2be":{"to":"da480a8b-7891-4627-bd77-251d27cdb26d","type":"general-member"}}
+tmap.id:ae2be1c4-3f00-44f5-a22c-c6183e18a412
+twitter.profile:
+website:http://www.3gpp.org
+
+The 3rd Generation Partnership Project (3GPP) unites [Seven] telecommunications standard development organizations (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC), known as “Organizational Partners” and provides their members with a stable environment to produce the Reports and Specifications that define 3GPP technologies.
+
+The project covers cellular telecommunications network technologies, including radio access, the core transport network, and service capabilities - including work on codecs, security, quality of service - and thus provides complete system specifications. The specifications also provide hooks for non-radio access to the core network, and for interworking with Wi-Fi networks.
+
+3GPP specifications and studies are contribution-driven, by member companies, in Working Groups and at the Technical Specification Group level.

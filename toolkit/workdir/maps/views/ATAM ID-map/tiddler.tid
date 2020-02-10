@@ -1,0 +1,9 @@
+id:4a703bc4-2ae0-4c74-8f8a-df49a354afef
+config.central-topic: ddba30c2-064c-4c94-a7b5-3bd23071d52e
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/ATAM ID-map
+
+

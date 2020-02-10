@@ -1,0 +1,34 @@
+created:1578297321088
+modified:1578297321088
+title:The Data Portability Cooperation Specification
+type:text/vnd.tiddlywiki
+audience:
+authors.editors:
+date:
+digital.harms.addressed:
+element.type:publication
+github.profile:
+input.source:me2b
+jurisdiction:
+license:
+name:The Data Portability Cooperation Specification
+publication.type:[[specification]]
+purpose:
+sector:
+sponsoring.org:
+tags:
+tech.focus:
+tmap.edges:{}
+tmap.id:aad8460e-aea5-4118-a48c-77c88f52e362
+url:https://www.dataportabilitycooperation.org/specification.html
+version.or.edition:
+volume.frequency:
+working.group:
+
+The specification starts with the definition of an interoperable exchange format for the telco data. It will be completed in the coming weeks with file format and exchange protocols between data controllers.
+
+The specification relies on JavaScript Object Notation (JSON) Data Interchange Format described at
+https://tools.ietf.org/html/rfc7159
+
+It uses Json-Schema to describe the data, as defined by the official website https://json-schema.org/
+

@@ -1,0 +1,10 @@
+created: 15800712211109000
+element.type: metamodel
+input.source: me2b
+metamodel.subtype: Purpose
+modified: 20200106075612908
+title: transparency
+tmap.edges: {"293e99b2-7752-480b-a7ed-7e8c99a4d8a4":{"to":"103b69a1-25ff-4eea-95de-26b8d239e580","type":"Purpose"}}
+tmap.id: bb98447f-81c0-4676-bf36-63f7e601a66a
+tw-icon: $:/images/fa5/solid/shuttle-van
+type: text/vnd.tiddlywiki

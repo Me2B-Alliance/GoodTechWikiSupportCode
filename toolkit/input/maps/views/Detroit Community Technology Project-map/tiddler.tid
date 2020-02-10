@@ -1,0 +1,9 @@
+id:f5ebe1ac-7608-412a-9775-ba792633789c
+config.central-topic: a30550e9-b017-4d93-a37e-2f750eacfec4
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Detroit Community Technology Project-map
+
+

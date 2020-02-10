@@ -1,0 +1,17 @@
+created: 20191201134710530
+modified: 20200104132133608
+tags: $:/tags/Macro
+title: $:/macros/linkrow
+tmap.id: efbf6634-0bc1-4929-9294-8c6090c3fb7b
+type: text/vnd.tiddlywiki
+
+\define linkrow(title,value,field)
+<$reveal default="$value$" type="nomatch" text="" tag="tr">
+  <td>$title$</td>
+  <td><a href="$value$" >$value$</a></td>
+</$reveal>
+<$reveal default="$value$" type="match" text="" tag="tr">
+  <td>$title$</td>
+  <td><$edit-text tag="input" field="$field$" /></td>
+</$reveal>
+\end

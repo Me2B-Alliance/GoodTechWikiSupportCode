@@ -1,0 +1,27 @@
+tags: $:/tags/Macro
+title: $:/macros/digiHarmDescription
+type: text/vnd.tiddlywiki
+
+\define digiHarmDescription()
+
+<<TagLikeList harms.legal.bases "Legal Bases for Harm" "" wikify >>
+
+!! Description:
+{{!!harms.description}}
+
+!! Implications
+{{!!harms.implications}}
+
+!! Examples
+{{!!harms.examples}}
+
+!! Corroborating References
+{{!!harms.references}}
+
+!! What you can do today
+{{!!harms.todo}}
+
+!! Me2B Alliance Recommendation for Vendors
+{{!!harms.recommendation}}
+
+\end

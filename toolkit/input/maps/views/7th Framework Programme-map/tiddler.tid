@@ -1,0 +1,9 @@
+id:31aa35f5-b3ee-4d54-baa0-ca8750ee5e79
+config.central-topic: 38c32ab9-c482-4246-b960-42597d9ee26b
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/7th Framework Programme-map
+
+

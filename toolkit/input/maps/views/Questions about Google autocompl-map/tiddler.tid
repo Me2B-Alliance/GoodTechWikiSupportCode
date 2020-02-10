@@ -1,0 +1,9 @@
+id:1c4a440f-be08-4359-b615-6f0dc85b2fd5
+config.central-topic: 7f8e345a-d88d-477a-bcef-498dc41b63ca
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Questions about Google autocompl-map
+
+

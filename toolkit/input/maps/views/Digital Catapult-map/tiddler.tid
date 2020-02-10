@@ -1,0 +1,9 @@
+id:bdfaf702-63c3-4f1b-a4b8-ba96d5dd04f3
+config.central-topic: 1ff43a50-ec8d-4fb4-a732-ebba6bceed18
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Digital Catapult-map
+
+

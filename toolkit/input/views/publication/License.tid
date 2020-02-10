@@ -1,0 +1,24 @@
+caption: license
+created: 20191210110743556
+title: $:/twiki/publication/License
+type: text/vnd.tiddlywiki
+
+<$reveal type="nomatch" state="!!editing.license" text="yes">
+  <$button $setField="editing.license" $setTo="yes">
+    <$action-setfield $field="editing.license" $value="yes" />
+    <$reveal type="match" state="!!license" text="">
+      No License Information
+    </$reveal>
+    <$reveal type="nomatch" state="!!license" text="">
+      License {{!!license}}
+    </$reveal>
+  </$button>
+</$reveal>
+
+<$reveal type="match" state="!!editing.license" text="yes">
+  Edit the license
+  <$button setField="editing.license" setTo="no">
+  <$action-setfield $field="editing.license" $value="no" />
+  Done
+  </$button>
+<$reveal>

@@ -1,0 +1,38 @@
+created: 20191201134710530
+modified: 20200104132133608
+tags: $:/tags/Macro
+title: $:/macros/taglist
+tmap.id: efbf6634-0bc1-4929-9294-8c6090c3fb7b
+type: text/vnd.tiddlywiki
+
+
+\define taglist(tag)
+<$select tiddler="$:/temp/state/welcome/$tag$" default="">
+<option value="">Show All</option>
+<$list filter="[tags:$tag$[]sort[title]!prefix[$]]" variable="dha">
+<option><<dha>></option>
+</$list>
+</$select>
+
+<$reveal type="match" state="$:/temp/state/welcome/$tag$" text="">
+<$list filter="[tags:$tag$[]sort[title]!prefix[$]]" variable="dha">
+<h3><$link to=<<dha>> ><<dha>></$link></h3>
+<ul>
+<$list filter="[<dha>listed[$tag$]sort[title]]">
+<li><$link>{{!!title}}</$link></li>
+</$list>
+</ul>
+</$list>
+</$reveal>
+
+<$reveal type="nomatch" state="$:/temp/state/welcome/$tag$" text="Show All">
+<$set name="dha" tiddler="$:/temp/state/welcome/$tag$" >
+<ul>
+<$list filter="[<dha>listed[$tag$]sort[title]]">
+<li><$link>{{!!title}}</$link></li>
+</$list>
+</ul>
+</$set>
+</$reveal>
+
+\end

@@ -1,0 +1,9 @@
+id:f13e2296-80d6-4c32-a0e0-03cc2e868364
+config.central-topic: b09da65e-999a-4266-8726-d2644ddcf3f8
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/DNSSEC-map
+
+

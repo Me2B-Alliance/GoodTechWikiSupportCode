@@ -1,0 +1,36 @@
+created:1578297317076
+modified:1578297317076
+title:ABC4Trust
+type:text/vnd.tiddlywiki
+activities:
+audience:
+category:[[proof of concept]]
+date.begun:
+date.ended:
+digital.harms.addressed:
+element.type:project-or-product
+github.profile:
+license:
+me2b.participation:
+name:ABC4Trust
+parent.org:
+partners:
+people:
+purpose:
+relevant.publications:
+status:
+supported.identity.technologies:
+tags:[[europe|over]]
+terms.of.service:
+tmap.edges:{}
+tmap.id:ad85e979-11f8-4833-8e6f-485c908fe5a4
+url:https://abc4trust.eu
+version.or.edition:
+working.group:
+
+The goal of ABC4Trust is to address the federation and interchangeability of technologies that support trustworthy yet privacy-preserving Attribute-based Credentials (ABC). So far, credentials such as digitally signed pieces of personal information or other information used to authenticate or identify a user were not designed to respect the users privacy. They inevitably reveal the identity of the holder even though the application at hand often needs much less information, for instance only the confirmation that the holder is a teenager or is eligible for social benefits. In contrast to that, Attribute-based Credentials allow a holder to reveal just the minimal information required by the application, without giving away full identity information. These credentials thus facilitate the implementation of a trustworthy and at the same time privacy-protecting digital society.
+
+The objectives of ABC4Trust are:
+* Defining a common, unified architecture for ABC systems to allow comparing their respective features and combining them on common platforms
+* Delivering open reference implementations of selected ABC systems and deploy them in actual production pilots allowing provably accredited members of restricted communities to provide anonymous feedback on their community or its members.
+

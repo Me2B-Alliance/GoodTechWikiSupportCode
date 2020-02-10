@@ -1,0 +1,9 @@
+id:ee762f2f-c5ac-4ff3-bc50-0ffccf8534ab
+config.central-topic: 35005821-c6fb-4758-a89b-29f1d46941dd
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Autopsy of inBloom Sparks Old Debates About Sharing Student Data-map
+
+

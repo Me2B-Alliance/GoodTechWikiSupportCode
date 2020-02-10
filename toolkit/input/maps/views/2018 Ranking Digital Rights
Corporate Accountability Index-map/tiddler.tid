@@ -1,0 +1,10 @@
+id:c6ea7bba-3b86-45bd-b816-27ff7737ab9c
+config.central-topic: 29934501-3623-45de-9ec6-176d9e469eab
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/2018 Ranking Digital Rights
+Corporate Accountability Index-map
+
+

@@ -1,0 +1,41 @@
+created: 20191210110743556
+modified: 20191220051333021
+caption: Funding
+title: OrganizationFunding
+tmap.id: f646e741-8645-4ce6-85d0-25e71e5c1ce6
+type: text/vnd.tiddlywiki
+
+<$reveal type="nomatch" state="!!editing.funding" text="yes">
+  <$button tag="div">
+    <$action-setfield $field="editing.funding" $value="yes" />
+    <$reveal type="match" state="!!annual.budget" text="">
+      <$reveal type="match" state="!!funding" text="">
+          Click to provide Funding Information
+      </$reveal>
+      <$reveal type="nomatch" state="!!funding" text="">
+        Funding: {{!!funding}}
+      </$reveal>
+    </$reveal>
+    <$reveal type="nomatch" state="!!annual.budget" text="">
+      <$reveal type="match" state="!!funding" text="">
+        Annual Budget {{!!annual.budget}}
+      </$reveal>
+      <$reveal type="nomatch" state="!!funding" text="">
+        Funding: {{!!funding}} w/ Annual Budget {{!!annual.budget}}
+      </$reveal>
+    </$reveal>
+  </$button>
+</$reveal>
+
+<$reveal type="match" state="!!editing.funding" text="yes">
+  Annual Budget:
+  <$edit-text field="annual.budget" placeholder={{$:/language/EditTemplate/Fields/Add/Value/Placeholder}} tabindex={{$:/config/EditTabIndex}}/>
+  <br />
+  Funding:
+  <$edit-text field="funding" placeholder={{$:/language/EditTemplate/Fields/Add/Value/Placeholder}} tabindex={{$:/config/EditTabIndex}}/>
+  <br />
+  <$button >
+  <$action-setfield $field="editing.funding" $value="" />
+  Done
+  </$button>
+<$reveal>

@@ -1,0 +1,16 @@
+created: 20200106100430445
+editing.title: yes
+harms.legal.bases: [[Defective Consent]] [[Lack of agreement]]
+modified: 20200106104147223
+title: ICP.1a
+tmap.id: bb6d55c3-8b09-49f4-b963-93725bb7d313
+type: text/vnd.tiddlywiki
+harms.description: Collecting information about the individual and their behavior while interacting with the Service Provider's software without individual's consent.
+harms.implications: Systems are collecting personal behavioral information. This can be aggregated with other information to build a model of you, your personality, your habits, etc.\n\n \"Bundled into VR headsets or AR glasses, eye-tracking will, in the near-future, enable companies to collect your intimate and unconscious responses to real-world cues and those they design. Those insights can be used entirely for your benefit. But they will also be seen as priceless inputs for ad-driven businesses, which will learn, model, predict and manipulate your behavior far beyond anything we’ve seen to date.\\\" ([89], 2019)
+harms.examples: VR/AR headsets collecting information from iris regarding anxiety, relaxation, fear, etc.
+harms.references: https://www.vice.com/en_us/article/bj9ygv/the-eyes-are-the-prize-eye-tracking-technology-is-advertisings-holy-grail ([89], 2019)
+harms.todo: Opt out where possible. Read Terms of Service and Privacy Policy. Use Duck Duck Go instead of Google as a search engine.
+harms.recommendations: Default initial state is no information collection allowed until formal relationship established and Agreement is [Relationship Terms are] established.
+
+<<digiHarmDescription >>
+

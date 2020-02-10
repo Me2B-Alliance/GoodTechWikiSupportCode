@@ -1,0 +1,9 @@
+id:181e9297-22da-4c31-9ebb-b8fdff8e029f
+config.central-topic: 2565a985-8da7-42fd-87d0-542630ba1932
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/[[content source for me2b certification?]]-map
+
+

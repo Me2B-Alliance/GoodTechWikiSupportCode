@@ -1,0 +1,9 @@
+caption: Me2B Relationship
+created: 20191201134710530
+modified: 20200104134902604
+tags:
+title: WelcomeMe2B_Relationships
+tmap.id: a6c050aa-3e48-4c89-8dc3-9bceeab1c10f
+type: text/vnd.tiddlywiki
+
+<$macrocall $name="taglist" tag="me2b.relationship" />

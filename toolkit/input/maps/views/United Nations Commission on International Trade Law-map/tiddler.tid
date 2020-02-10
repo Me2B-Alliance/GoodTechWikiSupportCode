@@ -1,0 +1,9 @@
+id:ba5160f9-b93d-44c0-ac98-00213f20c9e9
+config.central-topic: 7e57bb96-c9ef-44ad-be8f-f2f31e9b40ee
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/United Nations Commission on International Trade Law-map
+
+

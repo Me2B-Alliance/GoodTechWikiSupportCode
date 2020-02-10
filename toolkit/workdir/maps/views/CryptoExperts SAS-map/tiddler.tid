@@ -1,0 +1,9 @@
+id:8993f00c-0bc2-4449-828d-343644e82d46
+config.central-topic: 3ff032c8-31a3-4ff3-a933-d2b65df5bb7b
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/CryptoExperts SAS-map
+
+

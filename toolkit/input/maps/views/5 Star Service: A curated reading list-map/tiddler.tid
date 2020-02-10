@@ -1,0 +1,9 @@
+id:f326a4b9-fad9-4bab-ba32-2748b6b15ea6
+config.central-topic: d4d7f32d-7db5-4da9-91ad-4fb39afae248
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/5 Star Service: A curated reading list-map
+
+

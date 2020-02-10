@@ -1,0 +1,43 @@
+created:1578297320030
+modified:1578297320030
+title:ISO/IEC JTC 1 / SC27 IT Security Techniques
+type:text/vnd.tiddlywiki
+activities:
+annual.budget:
+audience:
+date.ended:
+date.founded:
+digital.harms.addressed:
+element.type:organization
+funding:
+github.profile:
+key.people:
+linkedin.profile:
+location(s):
+me2b.relationship:
+org.name:ISO/IEC JTC 1 / SC27 IT Security Techniques
+org.type:standards development organization
+parent.org:
+partners:
+products.and.or.services:
+purpose:
+relevant.publications:
+scope:
+sector:
+status:
+tags:
+tech.focus:
+tmap.edges:{"2d18c215-2cbb-4fc0-8a31-134dfe088381":{"to":"854a67b6-7e90-4867-a955-1201b402e467","type":"organization-for-group"}}
+tmap.id:f69420c6-0bfd-499f-8299-4dd3c5f565dc
+twitter.profile:
+website:
+
+The development of standards for the protection of information and ICT. This includes generic methods, techniques and guidelines to address both security and privacy aspects, such as:
+* Security requirements capture methodology;
+* Management of information and ICT security; in particular information security management systems (ISMS), security processes, security controls and services;
+* Cryptographic and other security mechanisms, including but not limited to mechanisms for protecting the accountability, availability, integrity and confidentiality of information;
+* Security management support documentation including terminology, guidelines as well as procedures for the registration of security components;
+* Security aspects of identity management, biometrics and privacy;
+* Conformance assessment, accreditation and auditing requirements in the area of information security;
+* Security evaluation criteria and methodology.
+

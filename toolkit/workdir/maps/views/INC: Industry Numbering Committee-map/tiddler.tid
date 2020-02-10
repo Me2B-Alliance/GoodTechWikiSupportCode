@@ -1,0 +1,9 @@
+id:5a8d4716-d824-4e7c-85f8-6587ca78e574
+config.central-topic: 753d4299-eb51-443b-b7bc-9f815eac24cd
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/INC: Industry Numbering Committee-map
+
+

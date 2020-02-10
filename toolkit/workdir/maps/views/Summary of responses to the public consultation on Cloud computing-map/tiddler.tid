@@ -1,0 +1,9 @@
+id:e26147c6-1a2d-40fa-a386-c2f9b4be70fc
+config.central-topic: e638254d-acf7-4cf6-89cc-f0a1fc0062b4
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Summary of responses to the public consultation on Cloud computing-map
+
+

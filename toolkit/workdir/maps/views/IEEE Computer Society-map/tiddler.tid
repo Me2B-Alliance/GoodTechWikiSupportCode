@@ -1,0 +1,9 @@
+id:f3f33512-71bd-4ddf-b974-684cb56425ca
+config.central-topic: 270b499a-9340-4c7b-b357-67db368c8128
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/IEEE Computer Society-map
+
+

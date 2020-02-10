@@ -1,0 +1,9 @@
+id:35bb08eb-68e0-4f02-ac95-b771c2d1158e
+config.central-topic: 70f55b4e-c11b-4f94-b096-296d3da6181b
+config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
+config.neighbourhood_scope: 2
+config.show_inter_neighbour_edges: true
+isview:false
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/FutureID-map
+
+

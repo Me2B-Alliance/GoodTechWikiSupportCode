@@ -1,0 +1,12 @@
+created: 20191218131115138
+modified: 20191219092127328
+title: SubTypeFields
+tmap.id: 494cd712-fac3-4f79-8d6f-5c76c32c381f
+type: application/x-tiddler-dictionary
+
+project-or-product: category
+event: category
+organization: org.type
+publication: publication.type
+working-group: category
+person: element.type

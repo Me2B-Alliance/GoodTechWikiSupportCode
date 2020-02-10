@@ -1,0 +1,36 @@
+created:1578297317935
+modified:1578297317935
+title:The Federal Office of Administration (BVA)
+type:text/vnd.tiddlywiki
+activities:
+annual.budget:
+audience:
+date.ended:
+date.founded:
+digital.harms.addressed:
+element.type:organization
+funding:
+github.profile:
+key.people:
+linkedin.profile:
+location(s):
+me2b.relationship:
+org.name:The Federal Office of Administration (BVA)
+org.type:part of a government
+parent.org:
+partners:
+products.and.or.services:
+purpose:
+relevant.publications:
+scope:
+sector:
+status:
+tags:
+tech.focus:
+tmap.edges:{"0a006219-704f-4c7d-9e3a-b4601c3c1626":{"to":"06db9cac-f9a0-4c61-92f7-3c428a948561","type":"government-connection"},"4c0ad893-e89c-4ab5-984f-a523a5f721dd":{"to":"3a91a18b-456d-4dcb-8fa4-24a46073549e","type":"default"}}
+tmap.id:c53e59af-a03e-4461-8b7a-273cef2fbfee
+twitter.profile:
+website:http://www.bva.bund.de/en/home/home_node.html
+
+The Federal Office of Administration (BVA) has evolved from an authority mainly handling administrative tasks into a reliable services agency for the Federal Ministry of the Interior and the entire federal administration. Our expertise in public administration has been enhanced by services with a national and international scope. With the Federal Office for Information Technology founded in 2006, the BVA has been running one of the first IT services centres of the Federal Government. One of the BIT’s tasks is to consolidate the IT systems of the subordinate authorities of the Federal Ministry of the Interior, i. e. to concentrate them in a few selected computer centres. The BVA advises both on modernization of IT based administration processes and on specialised IT issues. About 230 institutions already use BIT products and services, including the Federal Chancellery, the Bundestag, and the federal ministries. Furthermore, a growing number of clients make use of the BIT’s central computer centre. In addition, the BIT assists the Federal Ministry of the Interior in developing IT standards and methods for public administration. As competent authority it examines applications from abroad relating to nationality law and provides a central information tool to the security and migration agencies of the Federal Republic of Germany. By using modern technology, for instance in the Central Register of Foreigners or visa procedure, the BVA assumes important functions in technical and specialised matters in the national and international security architecture. In most cases, registers have high technical and operational requirements, like a high data volume, complex rules, different access rights, and availability around the clock, seven days a week. The functional requirements, however, are similar. More and more registers have to be implemented and maintained at short notice and with limited ressources. This has to be handled with appropriate methods and service-oriented architecture schemes.
+

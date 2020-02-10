@@ -1,0 +1,36 @@
+created:1578297321067
+modified:1578297321067
+title:Open Data Kit
+type:text/vnd.tiddlywiki
+activities:[[software development]]
+annual.budget:
+audience:
+date.ended:
+date.founded:
+digital.harms.addressed:
+element.type:organization
+funding:
+github.profile:https://github.com/opendatakit
+input.source:me2b
+key.people:
+linkedin.profile:
+location(s):
+me2b.relationship:
+org.name:Open Data Kit
+org.type:trade association
+parent.org:
+partners:
+products.and.or.services:
+purpose:[[tech interoperability]] [[usability]]
+relevant.publications:
+scope:
+sector:non-profit
+status:
+tags:
+tech.focus:
+tmap.edges:{}
+tmap.id:2ecb3bcb-a844-4a99-8a3e-73d138c19c88
+twitter.profile:https://twitter.com/opendatakit
+website:https://opendatakit.org/
+
+The Open Data Kit community produces free and open-source software for collecting, managing, and using data in resource-constrained environments.
