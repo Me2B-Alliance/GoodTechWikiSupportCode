@@ -13,13 +13,14 @@ export interface Tiddler {
     tiddlerdata: () => string;
     writeTiddler: () => void;
 }
+export declare type TiddlerFieldMap = Map<string, TiddlerFieldDatum>;
 export interface TiddlerData {
     created?: tiddlydate;
     modified?: tiddlydate;
     title?: string;
     type?: string;
     guid?: string;
-    fields?: Map<string, TiddlerFieldDatum>;
+    fields?: TiddlerFieldMap;
     text?: string;
     element_type?: string;
     element_subtype?: string;
@@ -33,7 +34,7 @@ export declare class SimpleTiddler implements Tiddler {
     title: string;
     type: string;
     wiki_text: string;
-    fields: Map<string, TiddlerFieldDatum>;
+    fields: TiddlerFieldMap;
     constructor(data: TiddlerData, base: TiddlyModel);
     tiddlerdir(): string;
     tiddlerfile(): string;

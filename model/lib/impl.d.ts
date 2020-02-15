@@ -28,7 +28,7 @@ export declare class TiddlyModelImpl implements TiddlyModel {
     nodes(): NodeTiddler[];
     readTiddlerFile(path: string): any;
     loadNodeTiddler(path: string): void;
-    loadNodeTypeTiddler(path: string): void;
+    loadNodeTypeTiddler(path: string): NodeTypeTiddler | undefined;
     load(): Promise<void>;
     save(): Promise<void>;
     slugify(x: string): string;

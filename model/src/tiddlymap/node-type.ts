@@ -46,11 +46,12 @@ export class NodeTypeTiddler extends SimpleTiddler  {
 
 	constructor(parts:string[],base:TiddlyModel,fields:any={}) {
 		super({
-			fields.created,
-			fields.modified,
-			fields.type,
-			fields.title || "$:/plugins/felixhayashi/tiddlymap/graph/nodeTypes/"+parts.join("/")
-		},base,fields)
+			created:fields.created,
+			modified:fields.modified,
+			type:fields.type,
+			title:fields.title || "$:/plugins/felixhayashi/tiddlymap/graph/nodeTypes/"+parts.join("/"),
+			fields:fields
+		},base)
 		this.parts = parts
 		this.slugchain=[]
 		const len = this.parts.length

@@ -126,7 +126,7 @@ export class TiddlyModelImpl implements TiddlyModel {
 			element_subtype: extractSubtype(fields)
 		})
 	}
-  loadNodeTypeTiddler(path:string):void {
+  loadNodeTypeTiddler(path:string):NodeTypeTiddler|undefined {
 		const { fields, body } = this.readTiddlerFile(path)
 
 		function xtract(name:string):any {

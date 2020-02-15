@@ -24,13 +24,14 @@ export interface Tiddler  {
 	writeTiddler:() => void
 }
 
+export type TiddlerFieldMap = Map<string,TiddlerFieldDatum>
 export interface TiddlerData {
 	created?: tiddlydate
 	modified?: tiddlydate
 	title?:string
 	type?:string
 	guid?:string
-	fields?:Map<string,TiddlerFieldDatum>
+	fields?:TiddlerFieldMap
 	text?:string
 	element_type?:string
 	element_subtype?:string
@@ -51,7 +52,7 @@ export class SimpleTiddler implements Tiddler
 	type:string
 
 	wiki_text:string
-	fields:Map<string,TiddlerFieldDatum>
+	fields:TiddlerFieldMap
 
 	constructor(data:TiddlerData,base:TiddlyModel) {
 		this.guid = uuid.v4()
@@ -63,8 +64,8 @@ export class SimpleTiddler implements Tiddler
 		this.type = data.type || TIDDLERTYPE
 		this.guid = data.guid || this.guid
 
-		this.wiki_text = ''
-		this.fields = new Map<string,TiddlerFieldDatum>()
+		this.wiki_text = data.text || 'No body provided'
+		this.fields = data.fields || new Map<string,TiddlerFieldDatum>()
 
 	}
 

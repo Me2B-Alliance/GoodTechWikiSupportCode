@@ -28,11 +28,12 @@ let index = 0;
 class NodeTypeTiddler extends __1.SimpleTiddler {
     constructor(parts, base, fields = {}) {
         super({
-            fields, : .created,
-            fields, : .modified,
-            fields, : .type,
-            fields, : .title || "$:/plugins/felixhayashi/tiddlymap/graph/nodeTypes/" + parts.join("/")
-        }, base, fields);
+            created: fields.created,
+            modified: fields.modified,
+            type: fields.type,
+            title: fields.title || "$:/plugins/felixhayashi/tiddlymap/graph/nodeTypes/" + parts.join("/"),
+            fields: fields
+        }, base);
         this.parts = parts;
         this.slugchain = [];
         const len = this.parts.length;

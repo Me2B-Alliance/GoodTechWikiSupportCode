@@ -17,8 +17,8 @@ class SimpleTiddler {
         this.modified = data.modified || Date.now();
         this.type = data.type || _1.TIDDLERTYPE;
         this.guid = data.guid || this.guid;
-        this.wiki_text = '';
-        this.fields = new Map();
+        this.wiki_text = data.text || 'No body provided';
+        this.fields = data.fields || new Map();
     }
     tiddlerdir() {
         return this.base.path;
