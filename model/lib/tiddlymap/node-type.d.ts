@@ -8,6 +8,15 @@ export declare class NodeTypeTiddler extends SimpleTiddler {
     style: string;
     faIcon: string;
     twIcon: string;
+    static images: string[];
+    static imageMap: {
+        "event": string;
+        "organization": string;
+        "project-or-product": string;
+        "publication": string;
+        "working-group": string;
+        "person": string;
+    };
     constructor(parts: string[], base: TiddlyModel, fields?: any);
     tiddlerdata(): string;
     randomRGBA(): string;

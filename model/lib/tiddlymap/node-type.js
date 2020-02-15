@@ -4,26 +4,6 @@ const tslib_1 = require("tslib");
 const __1 = require("..");
 const slugify_1 = tslib_1.__importDefault(require("slugify"));
 const path_1 = tslib_1.__importDefault(require("path"));
-const images = [
-    "\\xff206",
-    "\\xff207",
-    "\\xff208",
-    "\\xff209",
-    "\\xff20a",
-    "\\xff20b",
-    "\\xff20c",
-    "\\xff20d",
-    "\\xff20e",
-    "\\xff20f",
-];
-const imageMap = {
-    "event": "\\xff417",
-    "organization": "\\xff209",
-    "project-or-product": "\\xff085",
-    "publication": "\\xff026",
-    "working-group": "\\xff0b1",
-    "person": "\\xff207"
-};
 let index = 0;
 class NodeTypeTiddler extends __1.SimpleTiddler {
     constructor(parts, base, fields = {}) {
@@ -79,6 +59,26 @@ class NodeTypeTiddler extends __1.SimpleTiddler {
     }
 }
 exports.NodeTypeTiddler = NodeTypeTiddler;
+NodeTypeTiddler.images = [
+    "\\xff206",
+    "\\xff207",
+    "\\xff208",
+    "\\xff209",
+    "\\xff20a",
+    "\\xff20b",
+    "\\xff20c",
+    "\\xff20d",
+    "\\xff20e",
+    "\\xff20f",
+];
+NodeTypeTiddler.imageMap = {
+    "event": "\\xff417",
+    "organization": "\\xff209",
+    "project-or-product": "\\xff085",
+    "publication": "\\xff026",
+    "working-group": "\\xff0b1",
+    "person": "\\xff207"
+};
 class SimpleNodeTypeTiddler extends NodeTypeTiddler {
 }
 exports.SimpleNodeTypeTiddler = SimpleNodeTypeTiddler;

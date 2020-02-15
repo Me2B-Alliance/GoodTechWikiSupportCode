@@ -2,38 +2,9 @@ import { TiddlyModel,SimpleTiddler } from '..'
 import slugify from 'slugify'
 import path from 'path'
 
-const images = [
-	"\\xff206",
-	"\\xff207",
-	"\\xff208",
-	"\\xff209",
-	"\\xff20a",
-	"\\xff20b",
-	"\\xff20c",
-	"\\xff20d",
-	"\\xff20e",
-	"\\xff20f",
-]
-const imageMap = {
-	"event": "\\xff417",
-	"organization": "\\xff209", //"\\xff50c", // f0c0
-	"project-or-product": "\\xff085",
-	"publication": "\\xff026", // f518
-	"working-group": "\\xff0b1", // f5ae, f6ec
-	"person": "\\xff207"
-}
 let index = 0
 
 export class NodeTypeTiddler extends SimpleTiddler  {
-	/*
-	created: 20190902112311677
-	modified: 20190902112605892
-	priority: 1
-	scope: [field:element.type[working-group]]
-	style: {"color":{"border":"rgba(146,233,110,1)","background":"rgba(252,53,129,1)"}}
-	title: $:/plugins/felixhayashi/tiddlymap/graph/nodeTypes/working-group
-	type: text/vnd.tiddlywiki
-*/
 	parts:string[]
 	slugchain:string[]
 	filepart:string
@@ -43,6 +14,27 @@ export class NodeTypeTiddler extends SimpleTiddler  {
 	style:string
 	faIcon:string
 	twIcon:string
+
+	static images = [
+		"\\xff206",
+		"\\xff207",
+		"\\xff208",
+		"\\xff209",
+		"\\xff20a",
+		"\\xff20b",
+		"\\xff20c",
+		"\\xff20d",
+		"\\xff20e",
+		"\\xff20f",
+	]
+	static imageMap = {
+		"event": "\\xff417",
+		"organization": "\\xff209", //"\\xff50c", // f0c0
+		"project-or-product": "\\xff085",
+		"publication": "\\xff026", // f518
+		"working-group": "\\xff0b1", // f5ae, f6ec
+		"person": "\\xff207"
+	}
 
 	constructor(parts:string[],base:TiddlyModel,fields:any={}) {
 		super({
@@ -68,7 +60,6 @@ export class NodeTypeTiddler extends SimpleTiddler  {
 
 		this.scope=fields.scope || '[field:element.type['+this.filepart+']]'
 		this.style=fields.style || '{"color":{"border":"'+this.randomRGBA()+'","background":"'+this.randomRGBA()+'"}}'
-		console.log("NODE TYPE:",parts)
 		this.faIcon=fields['fa-icon'] || imageMap[parts[0]] || images[index % images.length]
 		this.twIcon=fields['tw-icon'] || '' //images[index % images.length]
 		index = index + 1

@@ -350,8 +350,8 @@
         "signature": "590230f537f38cfc2cea6a4e9870ad20fcfc7c998b0437e94a70db0cd03fe363"
       },
       "./src/tiddlymap/node-type.ts": {
-        "version": "6dd6db5f45f5fb0e0d6535bd775eba3e1d7bd534088cfd3a7d3bf77e16542c29",
-        "signature": "584bc26022b5350e7f88b148e3b7a77e1e78639715730329a4c3bcb2cdec20a0"
+        "version": "785efe4897ea6e39c00a18c7f7a738cbb6d87d79f1ff39b7eade917dc7ab1658",
+        "signature": "5be32eb74c7fb552c5421cf29cd2edb661af34d577a1d0d6c80203d16fcb2e9b"
       },
       "./node_modules/@types/cytoscape/index.d.ts": {
         "version": "9144829dd87f0e746e87391c3970342347470a063c39fb0f0fabdc93c7fd9c53",
@@ -1814,7 +1814,35 @@
       "./src/tiddlers.ts",
       "./src/node-tiddler.ts",
       "./src/tiddlymap/edge-type.ts",
-      "./src/tiddlymap/node-type.ts",
+      [
+        "./src/tiddlymap/node-type.ts",
+        [
+          {
+            "file": "./src/tiddlymap/node-type.ts",
+            "start": 1867,
+            "length": 8,
+            "messageText": "Cannot find name 'imageMap'. Did you mean the static member 'NodeTypeTiddler.imageMap'?",
+            "category": 1,
+            "code": 2662
+          },
+          {
+            "file": "./src/tiddlymap/node-type.ts",
+            "start": 1889,
+            "length": 6,
+            "messageText": "Cannot find name 'images'. Did you mean the static member 'NodeTypeTiddler.images'?",
+            "category": 1,
+            "code": 2662
+          },
+          {
+            "file": "./src/tiddlymap/node-type.ts",
+            "start": 1904,
+            "length": 6,
+            "messageText": "Cannot find name 'images'. Did you mean the static member 'NodeTypeTiddler.images'?",
+            "category": 1,
+            "code": 2662
+          }
+        ]
+      ],
       "./node_modules/@types/cytoscape/index.d.ts",
       "./src/tiddlymap/simple-map.ts",
       "./src/tiddlymap/neighbor-map.ts",
