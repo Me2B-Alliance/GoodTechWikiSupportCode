@@ -1,7 +1,5 @@
 import fs from 'fs-extra'
 import klaw from 'klaw'
-import path from 'path'
-import { Tiddler } from '../tiddlers'
 import { lowerDottedSlug, lowerDashedSlug, ensureDir } from '../util'
 
 export class TiddlyFileModel  {
@@ -20,22 +18,21 @@ export class TiddlyFileModel  {
 	}
 
 	constructor(path:string) {
-		const mm_base = ensureDir(path,"metamodel")
 		this.paths = {
 			base:ensureDir(path),
 			nodes:ensureDir(path,"nodes"),
 			maps:ensureDir(path,"maps"),
 			metamodel:{
-				base:mm_base,
-				edgeType:ensureDir(mm_base,"edgeTypes"),
-				nodeType:ensureDir(mm_base,"nodeTypes"),
-				definition:ensureDir(mm_base,"definition"),
-				dimension:ensureDir(mm_base,"dimension")
+				base:ensureDir(path,"metamodel"),
+				edgeType:ensureDir(path,"metamodel","edgeTypes"),
+				nodeType:ensureDir(path,"metamodel","nodeTypes"),
+				definition:ensureDir(path,"metamodel","definition"),
+				dimension:ensureDir(path,"metamodel","dimension")
 			}
 		}
 	}
 
-	relativePathFromElementInfo(base:string,tiddler:Tiddler):string {
+	relativePathFromElementInfo(base:string,tiddler:Tiddler) {
 		if(!tiddler.element_type)
 			return base
 		else {
@@ -50,6 +47,8 @@ export class TiddlyFileModel  {
 					return path.join(base,et,st,lowerDashedSlug(tiddler.element_microtype))
 				}
 			}
+		}
+
 	}
 
 	relativePathFromTiddler(tiddler:Tiddler):string {
@@ -57,16 +56,16 @@ export class TiddlyFileModel  {
 			case "map": {
 				return path.join(this.paths.maps,
 					lowerDashedSlug(tiddler.title),
-					tiddler.element_type || 'unknown')
+					tiddler.element_type)
 			}
 			case "node": {
-				return this.relativePathFromElementInfo(this.paths.nodes,tiddler)
+				return relativePathFromElementInfo(this.paths.nodes,tiddler)
 			}
 			case "metamodel": {
-				return this.relativePathFromElementInfo(this.paths.metamodel.base,tiddler)
+				return relativePathFromElementInfo(this.paths.metamodel.base,tiddler)
 			}
+			return this.paths.base
 		}
-		return this.paths.base
 
 	}
 

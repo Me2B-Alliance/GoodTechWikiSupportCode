@@ -5,7 +5,7 @@ import { schemas } from 'twiki-schema'
 
 import { TiddlyModel,tiddlydate  } from '.'
 import { TiddlerData  } from './tiddlers'
-import { NodeTiddler, SimpleNodeTiddler } from './node-tiddler'
+import { NodeTiddler, SimpleNodeTiddler } from './tiddlers'
 import { EdgeTypeTiddler,NodeTypeTiddler, SimpleEdgeTypeTiddler, SimpleNodeTypeTiddler, SimpleTiddlyMap, NeighborMap} from './tiddlymap'
 export const subtypeFields = {
   'event':'Category',
