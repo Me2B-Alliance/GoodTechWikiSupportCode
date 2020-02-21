@@ -1,5 +1,5 @@
 import Command, { flags } from '@oclif/command'
-import { TiddlyModelImpl } from 'twiki-model'
+import { loadModelFromPath,TiddlyModel } from 'twiki-model'
 
 function checkTiddlerDir(arg:string) {
   // should check to see if path exists
@@ -32,8 +32,7 @@ export default class LoadCommand extends Command {
     const {args, flags} = this.parse(LoadCommand)
 
     if (flags.path) {
-	    const model = new TiddlyModelImpl(flags.path)
-	    await model.load()
+      const model = await loadModelFromPath(flags.path)
       }
   }
 }

@@ -1,3 +1,3 @@
 #!/bin/bash
-npm install
+rm -rf tsconfig.tsbuildinfo
 tsc

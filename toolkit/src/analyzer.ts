@@ -1,6 +1,8 @@
-import { TiddlyModel,
-      EdgeTypeTiddler,NodeTypeTiddler,NodeTiddler
-} from 'twiki-model'
+import { TiddlyModel,Tiddler } from 'twiki-model'
+
+type NodeTiddler = Tiddler
+type EdgeTypeTiddler = Tiddler
+type NodeTypeTiddler = Tiddler
 
 export class ElementMinortype {
   name:string
@@ -17,7 +19,7 @@ export class ElementMajorType {
 }
 export class ModelAnalysis
 {
-  nodeMap:Map<string,NodeTiddler>
+  /*
   edgeTypes:EdgeTypeTiddler[]
   nodeTypes:NodeTypeTiddler[]
 
@@ -46,9 +48,11 @@ export class ModelAnalysis
       console.log("ET:",m)
     }
   }
+  */
 }
 export class Analyzer
 {
+  /*
   constructor() {
   }
 
@@ -56,8 +60,16 @@ export class Analyzer
     this.dump(model)
   }
 
-  dump(model:TiddlyModel) {
-    const analysis = new ModelAnalysis()
-    analysis.merge(model)
+  */
+
+  async dump(model:TiddlyModel) {
+    const tiddlers = await model.forAllTiddlers(async (tiddler)=>{
+      return Promise.resolve(tiddler)
+    })
+    console.log("Tiddler Count:",tiddlers.length)
+    for(let t of tiddlers) {
+      console.log(t.element_classification,t.title)
+    }
+    console.log("DONE: Tiddler Count:",tiddlers.length)
   }
 }

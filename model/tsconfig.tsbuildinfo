@@ -330,36 +330,40 @@
         "signature": "ad2af02de48faf70e8d4efea190fa72faf23d7cd8cf08644d9230efdf617e1e8"
       },
       "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlers/factory.ts": {
-        "version": "57172b9ddd854c673f0ad5bab1b54546345a0e838f5147629533b7e685a0b193",
+        "version": "c41df8b13f892ab83592a2c8723d5cfe036f253ca4d3476bbd92260cb01145f4",
         "signature": "3e39127069a69ad013325a78a707595da9d0ac6d6bc7f5a2965e52fdfc9c1b96"
       },
       "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlers/index.ts": {
-        "version": "667a16003022982352db7a144f94b40c80d7bfb1eaf5d59cc730938910135232",
-        "signature": "2882aaf9a4b7e616b2f78e05dfe7306b5cf1aea7410f17afafc3e5ab79fbcfbb"
+        "version": "cc8e4e63c80f21adf84690cf02a37d69f27ad2d1b6634e94bac293d77139d084",
+        "signature": "1a69ada16583fb5389562e510859e6387997768adc2cf909f30964e9ddbf904f"
       },
       "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlymap/index.ts": {
         "version": "2409fcf53adc3b38dc74326a335e786f169af736e0d13c327d01e842c428bf9c",
         "signature": "69a9f595e89a58436693eea2ea5cd8f7826c16b6ae1e02e5781ff8167c83d047"
       },
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/index.ts": {
-        "version": "5f0c8f8c2cc53623ce51b2a9af4eac24aa187c7f6074b3b9b56752097de4cd6f",
-        "signature": "5ae32f5cbf87ff9499fee4349954eccac3c7767663954f21188e87148c4fec65"
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/klaw/index.d.ts": {
+        "version": "9411e8a7a89bfeca0a836da7fd5af846b29cf4789ca0ca031f040f4f47e55ca4",
+        "signature": "9411e8a7a89bfeca0a836da7fd5af846b29cf4789ca0ca031f040f4f47e55ca4"
       },
       "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/util.ts": {
         "version": "11b63af494306b60a77bfcaeec4ce03c1058ab39eb8b55c2bb1fe3356680a062",
         "signature": "a3df30527d42bc092a9346d179d396be66fd98184b7075cb5a2c4ef7d7335ae8"
-      },
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/klaw/index.d.ts": {
-        "version": "9411e8a7a89bfeca0a836da7fd5af846b29cf4789ca0ca031f040f4f47e55ca4",
-        "signature": "9411e8a7a89bfeca0a836da7fd5af846b29cf4789ca0ca031f040f4f47e55ca4"
       },
       "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/fs/filemap.ts": {
         "version": "de508efd06914afb26e01a5dccf83a606fc3e00d786a2260ba357288ecc1f62f",
         "signature": "ca7f3a0b9597cdd225581d3d3aa935195c9acd089dd82c732c3701d3415538f7"
       },
       "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/fs/reader.ts": {
-        "version": "2a811a243aeb3f0b6c68328b1571f22a1239adaec3c7ce152af8cc4ac0507d11",
-        "signature": "9dccfeb3580a0106681fb9b08e0b735cf7f9cb8ab9d8f3ea00ae6fa53b9dd8b2"
+        "version": "c560753eadd8f947aff8f016e653ee3eeae4268a9882c128127a353282a0a1de",
+        "signature": "1f9c725879522fee3e3cc2271fcf3551b6541e2fea8f5317de0b7e03074e2746"
+      },
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/fs/index.ts": {
+        "version": "bbf2f06b1d34bfe97aaf7a237891d6f1813568297a1ed652df5c33fd8058b23c",
+        "signature": "ba47879b240d01c1e361f3249cc2b6c02d18793e5faa8be18f3f473ac99f0579"
+      },
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/index.ts": {
+        "version": "3f06c76f162ead349ed9eb3277f7c7e844989d13a8bd7e1ef351b6a0d86f1a29",
+        "signature": "0dbd66996d89de73b5174b9de284da7bda19e1bdf58014ab9a708ccca397370a"
       },
       "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/cytoscape/index.d.ts": {
         "version": "9144829dd87f0e746e87391c3970342347470a063c39fb0f0fabdc93c7fd9c53",
@@ -977,6 +981,7 @@
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/index.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlers/index.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/schema/dist/index.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/uuid/index.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
@@ -988,6 +993,7 @@
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/uuid/index.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/fs-extra/index.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/index.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/schema/dist/index.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlers/factory.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
@@ -1003,10 +1009,10 @@
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/index.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlers/index.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlymap/index.ts",
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/klaw/index.d.ts": [
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/stream.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/index.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
@@ -1015,14 +1021,6 @@
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/slugify/slugify.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/fs-extra/index.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/klaw/index.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/stream.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/index.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
@@ -1043,6 +1041,25 @@
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/index.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlers/index.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/fs-extra/index.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/fs/index.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/index.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/fs/filemap.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/fs/reader.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlers/index.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/index.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlers/index.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlymap/index.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/fs/index.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
@@ -1260,6 +1277,35 @@
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/fs/filemap.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlers/index.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/fs/index.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/fs/reader.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/fs/filemap.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/index.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/index.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/fs/index.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlers/index.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlymap/index.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/fs/reader.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/fs/filemap.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/index.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlers/index.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlymap/index.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlers/index.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/index.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlers/index.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlers/factory.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/index.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlers/factory.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlers/index.ts"
+      ],
       "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/globals.d.ts": [
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
@@ -1267,282 +1313,6 @@
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/assert.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/async_hooks.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/buffer.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/child_process.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/events.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/net.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/stream.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/cluster.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/child_process.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/events.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/net.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/console.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/constants.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/crypto.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/stream.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/dgram.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/net.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/dns.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/events.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/dns.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/domain.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/events.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/events.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/stream.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/events.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/url.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/http.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/events.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/stream.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/url.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/net.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/http2.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/events.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/net.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/stream.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/tls.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/url.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/http.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/https.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/tls.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/events.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/http.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/url.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/inspector.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/events.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/module.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/net.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/stream.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/events.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/dns.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/os.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/path.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/perf_hooks.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/async_hooks.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/process.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/tty.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/punycode.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/querystring.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/readline.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/events.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/stream.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/repl.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/readline.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/vm.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/stream.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/events.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/string_decoder.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/timers.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/tls.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/crypto.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/dns.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/net.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/stream.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/trace_events.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/tty.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/net.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/url.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/querystring.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/v8.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/stream.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/vm.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/worker_threads.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/vm.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/events.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/stream.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/zlib.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/stream.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
@@ -1592,23 +1362,6 @@
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/globals.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/globals.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/index.d.ts": [
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/base.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
@@ -1616,6 +1369,21 @@
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/globals.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/klaw/index.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/stream.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/fs-extra/index.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/uuid/interfaces.d.ts": [
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/index.d.ts",
@@ -1631,9 +1399,217 @@
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/fs-extra/index.d.ts": [
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/async_hooks.d.ts": [
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/perf_hooks.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/async_hooks.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/buffer.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/child_process.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/events.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/net.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/stream.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/cluster.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/child_process.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/events.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/net.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/console.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/constants.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/crypto.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/stream.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/tls.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/crypto.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/dns.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/net.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/stream.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/https.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/tls.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/events.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/http.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/url.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/http2.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/events.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/net.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/stream.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/tls.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/url.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/http.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/dgram.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/net.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/dns.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/events.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/dns.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/net.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/stream.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/events.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/dns.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/tty.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/net.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/process.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/tty.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/http.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/events.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/stream.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/url.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/net.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/domain.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/events.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/events.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/worker_threads.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/vm.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/events.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/stream.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/stream.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/events.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/zlib.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/stream.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/v8.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/stream.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/readline.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/events.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/stream.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/repl.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/readline.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/vm.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/stream.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/events.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/url.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/json5/index.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/cytoscape/index.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
@@ -1644,44 +1620,91 @@
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlers/factory.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlers/index.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlers/index.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlers/factory.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/index.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlymap/index.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlers/index.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/index.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/index.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlers/index.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlymap/index.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/klaw/index.d.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/stream.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/index.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/fs/filemap.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlers/index.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/fs/reader.ts": [
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/fs/filemap.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/index.ts",
-        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlers/index.ts"
-      ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/cytoscape/index.d.ts": [
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/globals.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/globals.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/json5/index.d.ts": [
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/vm.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/url.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/querystring.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/trace_events.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/timers.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/string_decoder.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/querystring.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/punycode.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/path.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/os.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/module.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/inspector.d.ts": [
+        "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/events.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/fs.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/ts3.2/fs.d.ts",
         "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/node/util.d.ts",
@@ -1774,13 +1797,14 @@
       "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlers/factory.ts",
       "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlers/index.ts",
       "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlymap/index.ts",
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/index.ts",
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/util.ts",
       "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/klaw/index.d.ts",
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/util.ts",
       "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/fs/filemap.ts",
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/fs/reader.ts",
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/fs/index.ts",
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/index.ts",
       "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/cytoscape/index.d.ts",
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/json5/index.d.ts",
-      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/fs/reader.ts"
+      "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/json5/index.d.ts"
     ]
   },
   "version": "3.4.1"

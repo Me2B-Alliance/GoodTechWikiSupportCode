@@ -1,5 +1,5 @@
 import Command, { flags } from '@oclif/command'
-import { TiddlyModelImpl } from 'twiki-model'
+import { loadModelFromPath,TiddlyModel } from 'twiki-model'
 import { Analyzer } from '../analyzer'
 
 function checkTiddlerDir(arg:string) {
@@ -33,11 +33,10 @@ export default class LocalCommand extends Command {
     const {args, flags} = this.parse(LocalCommand)
 
     if (flags.path) {
-	    const model = new TiddlyModelImpl(flags.path)
-	    await model.load()
+	    const model = await loadModelFromPath(flags.path)
       console.log("Analyzing")
       const anal = new Analyzer()
-      anal.merge(model)
+      await anal.dump(model)
       }
   }
 }

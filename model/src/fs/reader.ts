@@ -1,7 +1,7 @@
 import { TiddlyFileModel} from './filemap'
 import { TiddlyModel,TiddlerFieldMap,TiddlerFieldDatum } from '..'
 import { ITiddlyFactory,TiddlyFactory,TiddlerData,mapFields,Tiddler } from '../tiddlers'
-import { klawSync } from 'klaw-sync'
+import klawSync from 'klaw-sync'
 import fs from 'fs-extra'
 
 interface KlawReturn {
@@ -58,8 +58,9 @@ export class TiddlyModelReader {
 	}
 
 
-	async loadTiddler(path:string,type_hint:string):Promise<Tiddler> {
+	async loadTiddler(path:string,classification_hint:string):Promise<Tiddler> {
 		const TD = await this.loadTiddlerData(path)
+		TD.element_classification = TD.element_classification || classification_hint
     const tiddler = this.factory.createTiddlerFromData(TD)
     this.model.integrateTiddler(tiddler)
     return tiddler
@@ -67,17 +68,33 @@ export class TiddlyModelReader {
 
 	scanDirForTiddlers(base:string) {
 		return klawSync(base,{
+			nodir:true,
+			traverseAll:true,
 			filter: (item) => {
 				return item.stats.isFile() && item.path.endsWith(".tid")
 			}
 		})
 	}
 
-	async load(factory:ITiddlyFactory):Promise<void> {
-		return new Promise<void>((resolve,reject) => {
+	async load():Promise<void> {
+		return new Promise<void>(async (resolve,reject) => {
 			const nodes = this.scanDirForTiddlers(this.files.paths.nodes)
 			const maps = this.scanDirForTiddlers(this.files.paths.maps)
 			const metamodel = this.scanDirForTiddlers(this.files.paths.metamodel.base)
+
+			const tiddler_promises = [] as Promise<Tiddler>[]
+
+			for(let klawReturn of nodes) {
+				tiddler_promises.push(this.loadTiddler(klawReturn.path,"node"))
+			}
+			for(let klawReturn of maps) {
+				tiddler_promises.push(this.loadTiddler(klawReturn.path,"map"))
+			}
+			for(let klawReturn of metamodel) {
+				tiddler_promises.push(this.loadTiddler(klawReturn.path,"metamodel"))
+			}
+
+			const tiddlers = await Promise.all(tiddler_promises)
 
 			resolve()
 		})

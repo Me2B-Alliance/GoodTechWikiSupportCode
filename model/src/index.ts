@@ -13,7 +13,6 @@ export class TiddlyModel {
 	nodes:{
 		byGuid:Map<string,Tiddler>,
 		byTitle:Map<string,Tiddler>,
-		byPath:Map<string,Tiddler>
 	}
 
 	maps:{
@@ -27,8 +26,7 @@ export class TiddlyModel {
 		this.guidMap = new Map<string,Tiddler>()
 		this.nodes = {
 			byGuid:new Map<string,Tiddler>(),
-			byTitle:new Map<string,Tiddler>(),
-			byPath:new Map<string,Tiddler>()
+			byTitle:new Map<string,Tiddler>()
 		}
 		this.maps = {
 			byGuid:new Map<string,TiddlyMap>(),
@@ -39,22 +37,30 @@ export class TiddlyModel {
 	}
 
 	integrateMap(m:TiddlyMap) {
-		this.maps.byGuid[m.definition.guid] = m
+		this.maps.byGuid.set(m.definition.guid,m)
 		//this.maps.byTitle[m.definition.getField('title')] = m
 	}
 
 	integrateTiddler(t:Tiddler) {
 		// check if already in guid map....
+		if(this.guidMap.get(t.guid)) {
+			throw new Error("Collision:"+t.guid+" already in map")
+		}
 
 		// if all clear
-		this.guidMap[t.guid] = t
+		this.guidMap.set(t.guid,t)
+		if(t.element_classification == 'node') {
+			this.nodes.byGuid.set(t.guid,t)
+			this.nodes.byTitle.set(t.title,t)
+		}
+
 	}
 
 
 
 	forAllTiddlersMatchingPredictate(predicate:(t:Tiddler)=>boolean,action:(t:Tiddler)=>Promise<any>):Promise<any>[] {
 		const result=[] as Promise<any>[]
-		this.guidMap.forEach((tiddler,guid)=> {
+		this.guidMap.forEach((tiddler:Tiddler,guid:string)=> {
 			if(predicate(tiddler))
 				result.push(action(tiddler))
 		})
@@ -83,14 +89,9 @@ export class TiddlyModel {
 			this.forAllTiddlyMapsMatchingPredictate((t:TiddlyMap) => true,action))
 	}
 
-	load(path:string) {
-	}
-
-	save(path:string) {
-	}
-
 }
 
 
+export * from './fs'
 export * from './tiddlers'
 export * from './tiddlymap'

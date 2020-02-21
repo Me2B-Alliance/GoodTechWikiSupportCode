@@ -3,6 +3,7 @@ import path from 'path'
 import uuid from 'uuid'
 import fs from 'fs-extra'
 import { TiddlyModel,tiddlydate,TIDDLERTYPE } from '..'
+import { subtypeFields } from 'twiki-schema'
 
 export type TiddlerFieldDatum = string|Set<string>
 
@@ -17,6 +18,8 @@ export interface TiddlerData {
 	fields?:TiddlerFieldMap
 	wiki_text?:string
 	element_classification?:string
+
+	// these are for subclass "Node Type"
 	element_type?:string
 	element_subtype?:string
 	element_microtype?:string
@@ -40,6 +43,8 @@ export interface Tiddler extends TiddlerData  {
 
 	// this is the FileSystem Positioning & Typing System
 	element_classification:string //
+
+	// these are for subclass "Node Type"
 	element_type?:string
 	element_subtype?:string
 	element_microtype?:string
@@ -99,25 +104,43 @@ export class SimpleTiddler implements Tiddler
 		this.fields['element.classification'] = value
 	}
 
+
+
+
 	public get element_type(): string|undefined {
+		this.error_if_not_used_on_subclass("node")
 		return this.fields['element.type']
 	}
 	public set element_type(value: string|undefined){
-		this.fields['element.type'] = value
+		this.error_if_not_used_on_subclass("node")
+		if(!value)
+			delete this.fields['element.type']
+		else
+			this.fields['element.type'] = value
 	}
 
 	public get element_subtype(): string|undefined {
+		this.error_if_not_used_on_subclass("node")
 		return this.fields['element.subtype']
 	}
 	public set element_subtype(value: string|undefined){
-		this.fields['element.subtype'] = value
+		this.error_if_not_used_on_subclass("node")
+		if(!value)
+			delete this.fields['element.subtype']
+		else
+			this.fields['element.subtype'] = value
 	}
 
 	public get element_microtype(): string|undefined {
+		this.error_if_not_used_on_subclass("node")
 		return this.fields['element.microtype']
 	}
 	public set element_microtype(value: string|undefined){
-		this.fields['element_microtype'] = value
+		this.error_if_not_used_on_subclass("node")
+		if(!value)
+			delete this.fields['element.microtype']
+		else
+			this.fields['element.emicrotype'] = value
 	}
 
 
@@ -149,21 +172,36 @@ export class SimpleTiddler implements Tiddler
 	}
 
 	constructor(data:TiddlerData) {
-		this.guid = data.guid || uuid.v4()
-
-		this.title = data.title || "untitled"
-		this.created = data.created || Date.now()
-		this.modified = data.modified || Date.now()
-		this.type = data.type || TIDDLERTYPE
-
-		this.wiki_text = data.wiki_text || 'No body provided'
 		this.fields = data.fields || new Map<string,TiddlerFieldDatum>()
 
+		this.guid = data.guid || uuid.v4()
+
+		this.title = data.title || this.fields['title'] || "untitled"
+		this.created = data.created || this.fields['created'] ||Date.now()
+		this.modified = data.modified || this.fields['modified'] ||Date.now()
+		this.type = data.type || this.fields['type'] || TIDDLERTYPE
+
+		this.wiki_text = data.wiki_text || 'No body provided'
+
 		this.element_classification = data.element_classification || 'unknown'
-		this.element_type = data.element_type || 'unknown type'
+
+		if(this.element_classification == 'node') {
+			this.constructor_node_tiddler(data)
+		}
+
+	}
+
+	constructor_node_tiddler(data:TiddlerData):void {
+		this.element_type = data.element_type
 		this.element_subtype = data.element_subtype
 		this.element_microtype = data.element_microtype
 	}
+
+	error_if_not_used_on_subclass(classification:string):void {
+		if(this.element_classification != classification)
+			throw new Error("Attempt to access node-tiddler fields on non-node tiddler")
+	}
+
 
 }
 

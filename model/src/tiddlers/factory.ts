@@ -1,6 +1,7 @@
 import { TiddlyModel  } from '..'
-import { TiddlerData,Tiddler  } from '.'
+import { TiddlerData,Tiddler,SimpleTiddler  } from '.'
 import { subtypeFields } from 'twiki-schema'
+import uuid from 'uuid'
 
 export interface ITiddlyFactory {
 
@@ -33,27 +34,32 @@ export class TiddlyFactory implements ITiddlyFactory {
 			return undefined
 		}
 
-		const ec = fields['element.classification']
+		const ec = fields['element.classification'] || data.element_classification
 		if(!ec) {
 			throw new Error("Missing Element classification:" + JSON.stringify(data))
 		}
+		data.element_classification = ec
 
 
-		const et = fields['element.type']
-		if(!et) {
-			throw new Error("Missing Element type:" + JSON.stringify(data))
+		if(ec == 'node') {
+			const et = fields['element.type'] || data.element_type
+			if(!et) {
+				throw new Error("Missing Element type:" + JSON.stringify(data))
+			}
+			data.element_type = et
+
+			data.guid = data.guid || fields['tmap.id'] || uuid.v4()
+
+			data.title = data.title || fields['title'] || "untitled "+et+" "+data.guid
+
+			return new SimpleTiddler(data)
+		}
+		else {
+			return new SimpleTiddler(data)
 		}
 
-		/*
-		this.createNodeTiddler({
-			..data,
-			guid: xtract('tmap.id'),
-			element_type: data.fields['element.type'],
-			element_subtype: extractSubtype(fields)
-		})
-		*/
 
-		throw new Error("not yet implemented")
+
 	}
 
 
