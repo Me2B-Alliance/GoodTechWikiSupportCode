@@ -5,7 +5,7 @@ if ./build.sh; then
 	popd
 	if tsc; then
 		#./init.sh
-		./bin/run analyze-metamodel
+		./bin/run nodes-to-github
 	fi
 else
 	popd

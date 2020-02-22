@@ -58,7 +58,7 @@ export class TiddlyModel {
 
 
 
-	forAllTiddlersMatchingPredictate(predicate:(t:Tiddler)=>boolean,action:(t:Tiddler)=>Promise<any>):Promise<any>[] {
+	forAllTiddlersMatchingPredicate(predicate:(t:Tiddler)=>boolean,action:(t:Tiddler)=>Promise<any>):Promise<any>[] {
 		const result=[] as Promise<any>[]
 		this.guidMap.forEach((tiddler:Tiddler,guid:string)=> {
 			if(predicate(tiddler))
@@ -70,7 +70,7 @@ export class TiddlyModel {
 
 	async forAllTiddlers(action:(t:Tiddler)=>Promise<any>) {
 		return await Promise.all(
-			this.forAllTiddlersMatchingPredictate((t:Tiddler) => true,action))
+			this.forAllTiddlersMatchingPredicate((t:Tiddler) => true,action))
 	}
 
 
