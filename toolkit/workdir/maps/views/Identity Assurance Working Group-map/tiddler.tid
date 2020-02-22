@@ -1,9 +1,0 @@
-id:6969eb39-659d-4963-b31f-c0f4c10a985a
-config.central-topic: f1e12704-1672-4535-9ece-1d191cfd4a87
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Identity Assurance Working Group-map
-
-

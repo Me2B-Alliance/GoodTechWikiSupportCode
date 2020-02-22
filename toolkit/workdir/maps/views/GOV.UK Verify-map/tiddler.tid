@@ -1,9 +1,0 @@
-id:d5875370-59a7-4503-8e0b-ead47ce21338
-config.central-topic: 69703bb7-4a5d-42e9-9039-6d7a64d2811a
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/GOV.UK Verify-map
-
-

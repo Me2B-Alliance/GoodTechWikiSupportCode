@@ -1,9 +1,0 @@
-id:4e596b40-0dd8-4de1-8217-c283edca7f2d
-config.central-topic: 95ac647a-85c5-4be9-863a-51318301675b
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Guidelines on BCR Data processor-map
-
-

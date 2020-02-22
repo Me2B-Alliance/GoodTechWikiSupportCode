@@ -1,9 +1,0 @@
-id:27d47b19-a55f-42a8-b831-c9fc80397a95
-config.central-topic: 4491188b-dc5b-4fa0-bf32-5fec9711cdc5
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/health care-map
-
-

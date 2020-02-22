@@ -1,9 +1,0 @@
-id:beef634d-b32e-45e7-ae90-abc6c93c10af
-config.central-topic: 4c9afc3a-469c-43ce-9d7e-ecc40b849cea
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/[[re-broadcast communication and education materials as aligned]]-map
-
-

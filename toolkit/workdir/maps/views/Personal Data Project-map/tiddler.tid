@@ -1,9 +1,0 @@
-id:960bfd9d-06f5-41f4-a040-9514c430cf8d
-config.central-topic: 944e11c2-942d-4acf-bc69-d6121e3f51d5
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Personal Data Project-map
-
-

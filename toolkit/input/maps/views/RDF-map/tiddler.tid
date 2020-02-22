@@ -1,9 +1,0 @@
-id:f8e8d274-5109-47de-b612-c56a6bdf6ccd
-config.central-topic: e9c6ecf2-1a62-435c-b335-6579519299b5
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/RDF-map
-
-

@@ -1,9 +1,0 @@
-id:a3da4620-58d9-44f7-bd70-c0acab4b10fa
-config.central-topic: be54eaed-ea52-4c0a-ab7c-3b825f8ab077
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Web Platform Working Group-map
-
-

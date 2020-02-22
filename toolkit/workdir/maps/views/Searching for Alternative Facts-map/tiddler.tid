@@ -1,9 +1,0 @@
-id:1710cebe-600b-41fc-943b-984fa2778a9d
-config.central-topic: 2d82e055-498f-4f45-82d8-5ef1a8d88439
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Searching for Alternative Facts-map
-
-

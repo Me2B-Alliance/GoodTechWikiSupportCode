@@ -1,9 +1,0 @@
-id:2a2c1fe7-2ce4-4860-8dac-aca1de504194
-config.central-topic: 9a2c69a0-f0fa-408e-ad03-9a2a45d9e3da
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/[[reference source for unifying vocabularyesp. identity.  good identity principles.  background info materials and research.  give]]-map
-
-

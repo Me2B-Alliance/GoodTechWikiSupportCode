@@ -1,9 +1,0 @@
-id:a2d15639-7ec5-4f8a-aa2b-3a6e23eedf06
-config.central-topic: 7d363e95-d4b4-481c-ae5b-c792096b8cd8
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Back Stage at the Machine Theater-map
-
-

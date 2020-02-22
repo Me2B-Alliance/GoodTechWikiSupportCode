@@ -1,9 +1,0 @@
-id:e593daaf-07f7-43e1-ba4a-84ef055677c3
-config.central-topic: a67b4a7c-1722-4ebb-974e-344ac61d4e3c
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Compliance package Smart meters : Management of data collected in the home without communication to the outside-map
-
-

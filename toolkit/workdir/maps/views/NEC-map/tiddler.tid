@@ -1,9 +1,0 @@
-id:17b020cd-1075-4909-86f4-77463fbe8ee2
-config.central-topic: 92601482-a845-4f41-9a2f-b0f61a120da0
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/NEC-map
-
-

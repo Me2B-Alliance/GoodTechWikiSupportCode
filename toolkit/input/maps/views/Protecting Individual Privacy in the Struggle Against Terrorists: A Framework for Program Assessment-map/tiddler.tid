@@ -1,9 +1,0 @@
-id:4337d0b8-6675-4823-9936-3ffc8f3eee75
-config.central-topic: 77b901d9-1e08-4b85-8b7c-c482e84afd0d
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Protecting Individual Privacy in the Struggle Against Terrorists: A Framework for Program Assessment-map
-
-

@@ -1,9 +1,0 @@
-id:8a5fc8e2-a4db-4441-a0b2-0a598d8b7565
-config.central-topic: 789c648d-5dda-4de1-ac14-b6a712d9c2c9
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/PBS: Open Mind-map
-
-

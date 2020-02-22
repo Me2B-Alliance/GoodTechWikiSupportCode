@@ -1,9 +1,0 @@
-id:0da1d93d-7a8f-407f-b588-c4d5eaebef14
-config.central-topic: 680a8a5b-5bd8-451d-8267-726c7adee33b
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Signal Failure?-map
-
-

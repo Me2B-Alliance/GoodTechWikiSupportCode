@@ -1,9 +1,0 @@
-id:79a99b07-3dc2-4c94-9cbc-9eacf86d67cb
-config.central-topic: b7740bf6-d2c1-4c0f-a116-990ec0ce5009
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/2017 Ranking Digital Rights-map
-
-

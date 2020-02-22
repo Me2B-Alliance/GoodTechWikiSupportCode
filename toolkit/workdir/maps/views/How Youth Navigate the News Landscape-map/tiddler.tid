@@ -1,9 +1,0 @@
-id:aae10ca0-72f2-4d40-b365-3fd4a3b7397f
-config.central-topic: e751bbba-c831-433c-bdda-82822288dc6f
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/How Youth Navigate the News Landscape-map
-
-

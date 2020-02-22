@@ -1,9 +1,0 @@
-id:22f3128a-cb5e-4e61-b768-e5502c07bad5
-config.central-topic: 2d6aa51d-6e4a-4d45-b0a2-820c0e43a94a
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Data Protection Bill – Briefing for the House of Commons (Report Stage)-map
-
-

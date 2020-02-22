@@ -1,9 +1,0 @@
-id:58c1c7a7-80f2-4f17-a596-ef131253d645
-config.central-topic: 6206f263-d28f-478a-88ee-dbc8b4f5a5c8
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Topics for consideration 2019-map
-
-

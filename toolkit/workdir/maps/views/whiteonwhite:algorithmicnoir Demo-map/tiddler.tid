@@ -1,9 +1,0 @@
-id:c0bf2520-70d1-4efe-b874-5692624a97ae
-config.central-topic: b30d7c2a-246e-4021-a51c-d4bd7b94e689
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/whiteonwhite:algorithmicnoir Demo-map
-
-

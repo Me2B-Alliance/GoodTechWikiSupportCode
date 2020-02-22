@@ -1,9 +1,0 @@
-id:81e50f53-ab2f-4508-8d60-da263940cd98
-config.central-topic: c20b686c-d75d-47d5-9069-ddc7f88f2347
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/A People's Guide to AI-map
-
-

@@ -1,9 +1,0 @@
-id:2c6ea47d-21dc-49f8-b2a6-a6445b739b8e
-config.central-topic: 9b0dc40e-bf20-40c2-8a5a-3342818d7de7
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Directorate-General for Internal Market, Industry, Entrepreneurship and SMEs (DG GROWTH )-map
-
-

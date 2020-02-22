@@ -1,9 +1,0 @@
-id:d1084329-c11f-4b53-bea8-755314dd40ec
-config.central-topic: c6c32c22-49a1-439e-83b6-6c49eb0bb372
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/EDAA Privacy Certification-map
-
-

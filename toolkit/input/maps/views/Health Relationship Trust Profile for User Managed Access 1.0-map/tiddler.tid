@@ -1,9 +1,0 @@
-id:5fa78b7d-edfb-48dc-b435-267c9cbda086
-config.central-topic: 224d1c3f-e1f1-44ef-b282-39cdba0e8c37
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Health Relationship Trust Profile for User Managed Access 1.0-map
-
-

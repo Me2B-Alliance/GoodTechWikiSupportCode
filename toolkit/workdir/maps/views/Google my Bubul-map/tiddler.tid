@@ -1,9 +1,0 @@
-id:06d6fa9c-c44d-4002-8278-34aaf2bbeb85
-config.central-topic: ea535178-c019-45e6-95fb-1a759b8c1932
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Google my Bubul-map
-
-

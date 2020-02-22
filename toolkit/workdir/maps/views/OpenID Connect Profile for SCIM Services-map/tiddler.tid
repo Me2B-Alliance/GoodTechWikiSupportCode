@@ -1,9 +1,0 @@
-id:3654fbcc-85c1-4ad6-89a4-3d50be36167c
-config.central-topic: 6bffb69c-ec18-406a-9da6-452cc870021a
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/OpenID Connect Profile for SCIM Services-map
-
-

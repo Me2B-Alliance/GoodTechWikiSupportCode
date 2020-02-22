@@ -1,9 +1,0 @@
-id:6c86c31c-a279-499d-a788-7c2e1b3dd0ca
-config.central-topic: d964c8ec-a073-483f-96c1-07f7e2407231
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/How can educational researchers better communicate the value of our work to the people we study?-map
-
-

@@ -1,9 +1,0 @@
-id:b7d7eb37-de27-4b3e-b1d6-c998c0f3a506
-config.central-topic: 23056a3c-1fcd-4133-94d2-667c2c3328b5
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Media Literacy & Data Literacy discussion with Renee Hobbs & Monica Bulger-map
-
-

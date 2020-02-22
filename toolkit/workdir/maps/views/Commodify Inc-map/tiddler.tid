@@ -1,9 +1,0 @@
-id:b2317290-79cd-4ca5-8443-9bfddf7d5f08
-config.central-topic: bc8cf351-d3ff-4643-b7ee-e23a5694ee42
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Commodify Inc-map
-
-

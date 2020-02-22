@@ -1,9 +1,0 @@
-id:b808ef13-74e1-4db1-87e3-be7b8e23d8ec
-config.central-topic: edc55099-14bd-4b92-a50f-b6f04fb28aa1
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/enterprise support-map
-
-

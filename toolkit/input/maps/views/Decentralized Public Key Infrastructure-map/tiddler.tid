@@ -1,9 +1,0 @@
-id:34c9adf6-54d5-481e-baa4-5a8f184c17dc
-config.central-topic: 594a9252-2511-4207-aa75-aaf5143da379
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Decentralized Public Key Infrastructure-map
-
-

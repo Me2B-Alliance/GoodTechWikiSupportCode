@@ -1,9 +1,0 @@
-id:c2984b08-4c05-497c-9c40-07159460395c
-config.central-topic: f7b2ee9e-ca8c-468c-ade4-4b32d389a970
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Personalized Learning: The Conversations We’re Not Having-map
-
-

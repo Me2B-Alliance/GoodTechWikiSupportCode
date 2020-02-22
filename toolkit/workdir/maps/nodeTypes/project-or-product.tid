@@ -1,8 +1,0 @@
-created:1578297320039
-modified:1578297320039
-title:$:/plugins/felixhayashi/tiddlymap/graph/nodeTypes/project-or-product
-type:text/vnd.tiddlywiki
-scope: [field:element.type[project-or-product]]
-style: {"color":{"border":"rgba(189,249,251,181)","background":"rgba(50,87,174,61)"}}
-fa-icon: \xff085
-tw-icon: 

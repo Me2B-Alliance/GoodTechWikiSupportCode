@@ -1,9 +1,0 @@
-id:330dab03-5c9a-4462-ae17-5a9325ac9dc7
-config.central-topic: cf0a7758-d2b7-46d5-8266-45b7dcd8c8c6
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Consult Hyperion-map
-
-

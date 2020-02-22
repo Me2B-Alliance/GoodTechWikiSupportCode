@@ -1,9 +1,0 @@
-id:9f0f32eb-636c-486b-bea5-73ecbc9640c0
-config.central-topic: 522f5418-875e-4f99-950d-b14f0d8988ef
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/ICCRG Internet Congestion Control Research Group-map
-
-

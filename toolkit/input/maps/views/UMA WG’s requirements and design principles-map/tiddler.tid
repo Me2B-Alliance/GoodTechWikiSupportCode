@@ -1,9 +1,0 @@
-id:d81a90e8-6dd5-4361-b2fd-42b72207e64c
-config.central-topic: d8425f2a-37ee-4ee9-b177-a708637b27b7
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/UMA WG’s requirements and design principles-map
-
-

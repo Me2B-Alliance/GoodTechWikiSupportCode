@@ -1,9 +1,0 @@
-id:783d03a5-67cc-4836-a530-f8fb9bbdbc18
-config.central-topic: 488ac6b9-5337-47fb-9c1e-97ceb2bcf14e
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Science and Technology Committee Evidence – Digital Government-map
-
-

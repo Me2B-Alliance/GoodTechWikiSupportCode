@@ -1,9 +1,0 @@
-id:b7db372b-81ec-471c-b601-8be036c3f6b0
-config.central-topic: 6406d480-3f0f-401b-ae73-9f6d947969a3
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Dot Everyone-map
-
-

@@ -1,9 +1,0 @@
-id:a69ad1f2-0ff9-4587-9d55-08e461967cb7
-config.central-topic: 0180e556-e016-4ba2-84f5-8f1634b1236c
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Working Paper on Intelligent Video Analytics-map
-
-

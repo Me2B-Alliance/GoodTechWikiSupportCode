@@ -1,9 +1,0 @@
-id:f762d949-7df7-4210-8d30-51b172020a71
-config.central-topic: 2c3a9ca7-5b53-4d86-9124-73abf2464a79
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Police demands for sexual violence victims’ digital evidence and personal records – Letter to the Information Commissioner-map
-
-

@@ -1,9 +1,0 @@
-id:b0b12acf-5da4-49fa-b00a-4bf730f5c828
-config.central-topic: e62befb1-b7ca-4d2f-9710-0a740f43da14
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/ID4D-map
-
-

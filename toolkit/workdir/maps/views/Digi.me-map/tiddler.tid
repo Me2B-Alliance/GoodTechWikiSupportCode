@@ -1,9 +1,0 @@
-id:f0b4a2ec-d081-416b-9f05-4ae6d90eb932
-config.central-topic: 4bd06fa6-6178-4681-b418-40b7bc23eba5
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Digi.me-map
-
-

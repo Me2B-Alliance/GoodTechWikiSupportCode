@@ -1,9 +1,0 @@
-id:6ac915f2-bf9e-4a9a-98a2-57ff659c4ec4
-config.central-topic: 48edf42b-a1f5-4a04-86d5-e1c66a7274a5
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/eInvoicing Introduction-map
-
-

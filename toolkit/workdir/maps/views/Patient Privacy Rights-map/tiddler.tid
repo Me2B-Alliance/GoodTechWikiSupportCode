@@ -1,9 +1,0 @@
-id:af28347f-4415-4544-a861-f71e667f2053
-config.central-topic: c70108eb-2b09-424a-86b0-1a639a8431e5
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Patient Privacy Rights-map
-
-

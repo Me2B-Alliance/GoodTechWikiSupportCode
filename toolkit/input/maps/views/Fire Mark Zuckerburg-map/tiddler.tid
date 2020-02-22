@@ -1,9 +1,0 @@
-id:ff692970-b88f-4229-9f25-ffd23732d6fe
-config.central-topic: 01a75d1f-fc89-4835-b1df-69a837ac92d7
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Fire Mark Zuckerburg-map
-
-

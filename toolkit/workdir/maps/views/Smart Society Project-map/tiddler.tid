@@ -1,9 +1,0 @@
-id:edf124d9-495e-4d53-8bd2-bdad974803a9
-config.central-topic: 768eae5b-ace3-44b9-ac0f-4eb50c8fb616
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Smart Society Project-map
-
-

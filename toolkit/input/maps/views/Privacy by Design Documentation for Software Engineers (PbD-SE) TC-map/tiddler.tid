@@ -1,9 +1,0 @@
-id:26a788b8-0d01-4ea8-befa-cb7d944c4dc8
-config.central-topic: ecddf74e-1150-4d79-b5ee-d6b7ee690f4c
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Privacy by Design Documentation for Software Engineers (PbD-SE) TC-map
-
-

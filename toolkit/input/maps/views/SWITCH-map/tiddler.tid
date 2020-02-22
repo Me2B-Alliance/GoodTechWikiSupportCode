@@ -1,9 +1,0 @@
-id:bb76d109-7367-464d-80f8-a4cb4b15a41e
-config.central-topic: ba267bd5-9f5d-44f5-a1c1-8c25fc4f7f0f
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/SWITCH-map
-
-

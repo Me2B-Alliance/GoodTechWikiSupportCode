@@ -1,9 +1,0 @@
-id:807ee112-5749-42c6-b7df-b45e55bc9979
-config.central-topic: 373bf131-ac0b-4aa5-8d55-6fa5685adad1
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Careless Whispers: How speech is policed by outdated communications legislation (2015)-map
-
-

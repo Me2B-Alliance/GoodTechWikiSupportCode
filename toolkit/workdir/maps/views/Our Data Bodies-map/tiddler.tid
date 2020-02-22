@@ -1,9 +1,0 @@
-id:61e891f6-776a-463f-864f-d84971bb4e9f
-config.central-topic: 4d564b8b-ebba-4a60-b98d-4922df9e7898
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Our Data Bodies-map
-
-

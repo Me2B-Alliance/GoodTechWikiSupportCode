@@ -1,9 +1,0 @@
-id:60ecac0f-951f-43c0-a87c-414fee83fdb9
-config.central-topic: 3bb82008-5245-4c7c-a738-0d808a6552b3
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/A Breach of Trust-map
-
-

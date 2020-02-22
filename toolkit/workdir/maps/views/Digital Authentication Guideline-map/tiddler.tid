@@ -1,9 +1,0 @@
-id:b9c4d61f-0a01-4731-9a4a-dfa6552eb727
-config.central-topic: 0eaeecd9-1aaa-4e9f-9340-41a380abc89e
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Digital Authentication Guideline-map
-
-

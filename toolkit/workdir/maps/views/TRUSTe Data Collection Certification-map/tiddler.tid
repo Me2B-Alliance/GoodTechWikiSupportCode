@@ -1,9 +1,0 @@
-id:07612b6d-723f-475a-9696-68bf3b62f89d
-config.central-topic: ec621202-c546-4c0c-94c7-e4a09f925c1a
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/TRUSTe Data Collection Certification-map
-
-

@@ -1,9 +1,0 @@
-id:2b678d80-9563-418b-9e76-ed3a4fb5a49c
-config.central-topic: c9a9b662-1eea-40d7-aa04-ac8ddf15968a
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/EFF-map
-
-

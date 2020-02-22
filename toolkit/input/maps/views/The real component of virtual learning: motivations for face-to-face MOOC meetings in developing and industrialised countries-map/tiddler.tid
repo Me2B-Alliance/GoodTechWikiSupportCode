@@ -1,9 +1,0 @@
-id:1ab97f84-8c6d-4fb3-bd00-bfc5a045408d
-config.central-topic: f895d0db-7c96-4003-a220-9566b7cb28fe
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/The real component of virtual learning: motivations for face-to-face MOOC meetings in developing and industrialised countries-map
-
-

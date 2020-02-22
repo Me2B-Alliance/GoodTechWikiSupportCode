@@ -1,9 +1,0 @@
-id:cb830647-6d10-44b4-844e-f23d355df4ed
-config.central-topic: 71fb2564-3d8a-4d2c-b8fa-757ed02ee386
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Avast.com-map
-
-

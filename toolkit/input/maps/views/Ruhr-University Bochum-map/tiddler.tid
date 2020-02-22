@@ -1,9 +1,0 @@
-id:966f56ab-e1f7-4a8a-8d96-adfcb9e38ad8
-config.central-topic: 632d8a04-a35a-403c-9f95-3296c0255e4a
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Ruhr-University Bochum-map
-
-

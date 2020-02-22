@@ -1,9 +1,0 @@
-id:31bf812c-72ae-4d1a-9fac-a6274b49ac98
-config.central-topic: bd5b6182-3d2b-4fd2-b009-f0eca986396c
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Standard on data processing audits-map
-
-

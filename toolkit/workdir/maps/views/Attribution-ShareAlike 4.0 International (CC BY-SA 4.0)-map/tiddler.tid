@@ -1,9 +1,0 @@
-id:f6b7bf18-e6f2-41d5-b165-4600fbb72942
-config.central-topic: 8b2082f2-0ec4-4f8d-94cf-347d0d58f1bf
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)-map
-
-

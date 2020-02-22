@@ -1,9 +1,0 @@
-id:9d73eccd-323e-42aa-92fb-dded6dfb5137
-config.central-topic: 01a31042-e2db-4e51-a7f6-3944b1bd0857
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Canadian Submission on Behalf of CISWG-map
-
-

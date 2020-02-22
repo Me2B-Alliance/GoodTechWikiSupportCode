@@ -1,9 +1,0 @@
-id:7f74eeb0-8793-44b3-88aa-458529008a56
-config.central-topic: f48f2acc-3f16-4e09-9b6b-e26bf511e453
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/A tiered-layered-staged model for informed consent in personal genome testing-map
-
-

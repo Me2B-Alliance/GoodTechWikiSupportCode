@@ -1,9 +1,0 @@
-id:c55d729f-9774-46e9-8fd9-ba2e204fdd8c
-config.central-topic: f69420c6-0bfd-499f-8299-4dd3c5f565dc
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/ISO/IEC JTC 1 / SC27 IT Security Techniques-map
-
-

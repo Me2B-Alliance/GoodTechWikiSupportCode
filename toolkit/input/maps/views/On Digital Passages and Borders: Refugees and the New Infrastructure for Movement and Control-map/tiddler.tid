@@ -1,9 +1,0 @@
-id:c37a309e-5719-4e84-acff-78b67680d2e4
-config.central-topic: 04ab2c75-84d6-4244-bfcc-dc24e6f267e1
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/On Digital Passages and Borders: Refugees and the New Infrastructure for Movement and Control-map
-
-

@@ -1,9 +1,0 @@
-id:883103e0-5292-405a-9bf7-7069656ed752
-config.central-topic: 76bec00d-c354-4c7e-932a-790e47865d88
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Address Supporting Organization-map
-
-

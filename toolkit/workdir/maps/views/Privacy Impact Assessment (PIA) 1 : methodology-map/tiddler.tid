@@ -1,9 +1,0 @@
-id:c7518976-0f70-4c42-9a15-bd1b559e69b7
-config.central-topic: 4942bf79-3603-4d6b-813f-e5ca217cf29a
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Privacy Impact Assessment (PIA) 1 : methodology-map
-
-

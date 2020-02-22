@@ -1,9 +1,0 @@
-id:982f91d2-24dc-4074-9937-1af21d55dc48
-config.central-topic: e0b2c491-39f2-44ad-997b-666c766ae41f
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/How Politicians Should and Shouldn’t Use Twitter Bots-map
-
-

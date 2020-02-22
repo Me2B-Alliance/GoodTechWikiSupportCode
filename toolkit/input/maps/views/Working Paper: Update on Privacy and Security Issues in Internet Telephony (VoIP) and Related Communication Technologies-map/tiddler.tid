@@ -1,9 +1,0 @@
-id:2415d3e8-6a90-461f-a752-e4228d534494
-config.central-topic: edc222da-440f-4a8c-a017-6fee12eb0936
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Working Paper: Update on Privacy and Security Issues in Internet Telephony (VoIP) and Related Communication Technologies-map
-
-

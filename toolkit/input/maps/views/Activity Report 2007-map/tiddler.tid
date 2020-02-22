@@ -1,9 +1,0 @@
-id:d7f843ff-d772-4cba-96b1-726304cbe37c
-config.central-topic: 0ac73bba-0bf5-4492-98b5-7c1fdf4296fd
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Activity Report 2007-map
-
-

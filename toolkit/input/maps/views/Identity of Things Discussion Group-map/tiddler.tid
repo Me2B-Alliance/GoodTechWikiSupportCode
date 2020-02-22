@@ -1,9 +1,0 @@
-id:e0854ec8-89de-4367-beef-3583f2908bf0
-config.central-topic: 7cc7d9ae-0024-4c17-bc66-d2abc32b70bf
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Identity of Things Discussion Group-map
-
-

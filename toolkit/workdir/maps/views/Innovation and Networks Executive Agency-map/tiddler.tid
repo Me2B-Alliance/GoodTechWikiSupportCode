@@ -1,9 +1,0 @@
-id:37db2578-7325-4cb4-90cb-5c14495f0cbb
-config.central-topic: 59141835-b6c6-4ee3-a482-b69c583a9f38
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Innovation and Networks Executive Agency-map
-
-

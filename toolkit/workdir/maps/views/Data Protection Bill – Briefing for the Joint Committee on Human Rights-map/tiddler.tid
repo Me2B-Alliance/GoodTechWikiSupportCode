@@ -1,9 +1,0 @@
-id:36aebc6b-e3eb-4787-b624-219977cfbe06
-config.central-topic: 89bc756c-e5ad-470f-a1f9-b0194d3d3eb5
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Data Protection Bill – Briefing for the Joint Committee on Human Rights-map
-
-

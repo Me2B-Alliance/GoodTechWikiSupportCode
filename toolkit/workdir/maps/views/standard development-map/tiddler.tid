@@ -1,9 +1,0 @@
-id:f6965bf4-1329-4175-8854-e238176fc2f1
-config.central-topic: 0bb79d41-b75c-4bf7-a656-18fc026a5e32
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/standard development-map
-
-

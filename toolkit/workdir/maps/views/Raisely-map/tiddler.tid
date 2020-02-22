@@ -1,9 +1,0 @@
-id:4f34571b-df5c-42af-b321-0f91e7b474a5
-config.central-topic: 5a3be834-04aa-44e8-8aab-68c8624963be
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Raisely-map
-
-

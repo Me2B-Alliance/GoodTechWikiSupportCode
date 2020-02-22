@@ -1,9 +1,0 @@
-id:aeb89fb6-e8be-4ef6-b93e-50b230d0eb36
-config.central-topic: ae69f97c-9ed1-497e-a8af-fe88215d1402
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Law & Ethics in Computational Social Science-map
-
-

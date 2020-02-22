@@ -1,9 +1,0 @@
-id:fe1df340-64d7-43dd-b010-9e2b3f1514db
-config.central-topic: 8dbfd76e-4666-4373-b011-d96508e0d5df
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/FORM 4 –Newwork item proposalVersion 02/2017Form 4: New Work Item Proposal-map
-
-

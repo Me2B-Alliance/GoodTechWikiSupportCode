@@ -1,9 +1,0 @@
-id:ac4d5f62-72d1-4aec-9b70-ff8423a037d4
-config.central-topic: adfc732d-b865-458b-8dd2-9812ebf85ed0
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Bias By Us-map
-
-

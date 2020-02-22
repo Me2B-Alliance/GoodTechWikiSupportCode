@@ -1,9 +1,0 @@
-id:f8e796c3-9d82-4ade-b422-d5965a434444
-config.central-topic: cfc6c10b-7daf-44d4-8afa-c038c424104c
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Does data-driven learning improve equity?-map
-
-

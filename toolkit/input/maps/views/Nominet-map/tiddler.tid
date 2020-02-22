@@ -1,9 +1,0 @@
-id:1655874d-06b8-4824-8820-8edd081a2d8c
-config.central-topic: 0b522f6c-96f7-4eff-b131-ad8917b2fe3b
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Nominet-map
-
-

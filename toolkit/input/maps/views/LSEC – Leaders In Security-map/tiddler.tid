@@ -1,9 +1,0 @@
-id:43bae9b9-ac42-456d-b1ec-28459c496361
-config.central-topic: 5b24e618-b790-41f1-bdc7-b1aeb6cc814f
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/LSEC – Leaders In Security-map
-
-

@@ -1,9 +1,0 @@
-id:417208aa-c5e5-4f78-829f-adadb8f317b8
-config.central-topic: 58a89217-d98b-4270-8f3d-4821f58a4ed4
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Creative Common licensing terms-map
-
-

@@ -1,9 +1,0 @@
-id:609ade90-3ef7-49ea-b869-13ff3e1cec18
-config.central-topic: b2dad4fe-2efc-4ffa-98b7-72f26a89822b
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/international Association for Cryptologic Research-map
-
-

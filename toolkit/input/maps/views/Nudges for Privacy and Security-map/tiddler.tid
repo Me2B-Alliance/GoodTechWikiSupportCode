@@ -1,9 +1,0 @@
-id:220dcf6b-ce68-4516-bdbc-58a8d250513b
-config.central-topic: 81f57d0d-85c2-4bfb-a916-aae70a8cca7e
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Nudges for Privacy and Security-map
-
-

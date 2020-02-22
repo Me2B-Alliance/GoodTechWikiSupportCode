@@ -1,9 +1,0 @@
-id:4060d692-0b51-4ea1-8b77-1549740ae3d5
-config.central-topic: 3260ad5a-ae9e-4101-89fe-90aae3396ab7
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Helm-map
-
-

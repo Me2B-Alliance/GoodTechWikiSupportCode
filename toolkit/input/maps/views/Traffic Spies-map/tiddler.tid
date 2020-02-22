@@ -1,9 +1,0 @@
-id:0cded1b3-b546-423c-88df-83c03611b9d3
-config.central-topic: 5d3ebbf5-9a81-465c-b8d7-9f6f3a88d14c
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Traffic Spies-map
-
-

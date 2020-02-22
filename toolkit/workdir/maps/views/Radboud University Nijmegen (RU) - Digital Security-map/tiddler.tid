@@ -1,9 +1,0 @@
-id:491c6d39-3c81-4f21-bde4-978d981d4b7d
-config.central-topic: 72fe8465-d33b-499a-b3c0-4301b33c2019
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Radboud University Nijmegen (RU) - Digital Security-map
-
-

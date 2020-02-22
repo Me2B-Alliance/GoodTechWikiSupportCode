@@ -1,9 +1,0 @@
-id:a304fb85-fb7a-4640-a7c6-b5f4a5d43e18
-config.central-topic: dc4be9eb-b226-49c6-9041-c6305c7dc6a6
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Aadhaar - Unique Identification Authority of India UIDAI-map
-
-

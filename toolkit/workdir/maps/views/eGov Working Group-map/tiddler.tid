@@ -1,9 +1,0 @@
-id:7bc95fa2-d28a-4d4f-b9e2-095dd3b3e781
-config.central-topic: b3ee0ceb-17c6-4aff-a254-8eec72d19cda
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/eGov Working Group-map
-
-

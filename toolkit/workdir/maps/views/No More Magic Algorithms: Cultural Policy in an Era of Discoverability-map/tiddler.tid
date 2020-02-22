@@ -1,9 +1,0 @@
-id:516ac25d-0b70-40e9-b840-2b93d472eb02
-config.central-topic: 5ba1b571-c77b-4724-b0b3-4c7727234b47
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/No More Magic Algorithms: Cultural Policy in an Era of Discoverability-map
-
-

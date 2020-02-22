@@ -1,9 +1,0 @@
-id:74861449-b01f-405e-93a8-b9b8cf5b3562
-config.central-topic: 33b9b5d0-bc36-44ba-bb44-4b9ee04c954e
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Web Security Interest Group-map
-
-

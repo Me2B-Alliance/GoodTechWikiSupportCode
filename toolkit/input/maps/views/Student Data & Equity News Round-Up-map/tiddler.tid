@@ -1,9 +1,0 @@
-id:10c5495f-23b5-40a0-a991-79cfa01fba41
-config.central-topic: c1952f53-e259-405c-8089-b60088705d77
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Student Data & Equity News Round-Up-map
-
-

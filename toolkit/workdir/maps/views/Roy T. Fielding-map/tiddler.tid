@@ -1,9 +1,0 @@
-id:a1e1aabc-1094-4d04-bb5c-f48af8a0e696
-config.central-topic: 07f06031-8eb2-42a7-ac28-b8e017f2a3d0
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Roy T. Fielding-map
-
-

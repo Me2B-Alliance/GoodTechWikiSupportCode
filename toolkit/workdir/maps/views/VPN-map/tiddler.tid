@@ -1,9 +1,0 @@
-id:9aadb7cd-21f0-4045-adc0-0ac4ed8a8fdf
-config.central-topic: b3480cde-9638-4129-ba21-f1785024d560
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/VPN-map
-
-

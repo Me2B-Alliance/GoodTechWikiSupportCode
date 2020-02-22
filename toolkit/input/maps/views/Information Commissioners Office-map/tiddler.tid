@@ -1,9 +1,0 @@
-id:7d47f32c-a4f7-4466-a402-48ae640aaba8
-config.central-topic: 836e51f4-6aa7-48fb-a9ab-5d17f3998205
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Information Commissioners Office-map
-
-

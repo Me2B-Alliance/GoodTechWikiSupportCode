@@ -1,9 +1,0 @@
-id:38292fa8-cf51-4081-ba38-6b9420cc6a08
-config.central-topic: b57f6f9f-6598-4d1e-888a-22d6f57a55e3
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Ku Leuven-map
-
-

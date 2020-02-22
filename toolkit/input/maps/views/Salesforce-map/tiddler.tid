@@ -1,9 +1,0 @@
-id:004fd787-8051-44f3-a36f-88eba6c2de4c
-config.central-topic: 90e72b35-15e1-432f-bacc-1b8528372f5e
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Salesforce-map
-
-

@@ -1,9 +1,0 @@
-id:dd73e003-a9b6-40ab-8c93-470f5ddafefd
-config.central-topic: f9566191-9fe1-4ed8-9906-adf18c160cf2
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/consolidation of open datasets-map
-
-

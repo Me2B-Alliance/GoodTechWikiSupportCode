@@ -1,9 +1,0 @@
-id:fee4cf4f-51b0-4681-a561-e218f0fb0c84
-config.central-topic: e4a2855b-059f-43e6-aca9-cbc8ca31b2cd
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/[[exemplar for customer commons information sharing terms]]-map
-
-

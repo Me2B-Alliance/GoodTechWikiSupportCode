@@ -1,9 +1,0 @@
-id:69d8d788-59f8-418d-a22e-74b12d8be737
-config.central-topic: 99d74881-d986-4815-ad20-d41f85a429ba
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/OpenID Connect Front-Channel Logout 1.0-map
-
-

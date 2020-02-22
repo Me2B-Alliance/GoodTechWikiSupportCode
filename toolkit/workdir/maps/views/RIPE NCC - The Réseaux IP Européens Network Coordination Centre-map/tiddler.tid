@@ -1,9 +1,0 @@
-id:4fcb6d17-a6c6-4f86-9b28-b8f4f7f0c178
-config.central-topic: 7030d493-9c80-4f1f-8034-30b00127cd6a
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/RIPE NCC - The Réseaux IP Européens Network Coordination Centre-map
-
-

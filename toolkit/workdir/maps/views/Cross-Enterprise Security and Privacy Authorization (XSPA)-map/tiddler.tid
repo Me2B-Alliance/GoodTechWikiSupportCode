@@ -1,9 +1,0 @@
-id:9cc4f5e4-b3cc-45fc-81f6-2492fe6ca998
-config.central-topic: 0f7f0fa0-efac-47eb-a4cc-70ddb9d4f649
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Cross-Enterprise Security and Privacy Authorization (XSPA)-map
-
-

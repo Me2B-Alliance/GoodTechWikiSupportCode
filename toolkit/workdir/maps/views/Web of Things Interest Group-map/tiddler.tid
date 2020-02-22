@@ -1,9 +1,0 @@
-id:047801f7-b87d-46bb-b43b-2a6045423887
-config.central-topic: c2540f7b-7dc1-443b-af05-0bc4de44a40f
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Web of Things Interest Group-map
-
-

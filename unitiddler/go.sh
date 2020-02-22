@@ -1,5 +1,5 @@
 #!/bin/bash
-docker build -t goodtechwiki .
+docker build -t unitiddler .
 C=`./serve.sh 2>&1`
 echo CONTAINER=$C
 docker ps

@@ -1,9 +1,0 @@
-id:e81de8f9-ba02-4ec3-b55c-ffaef19ea9e7
-config.central-topic: 17180bb6-6222-4b73-8e9b-5fde45b4e0e5
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/U2F-map
-
-

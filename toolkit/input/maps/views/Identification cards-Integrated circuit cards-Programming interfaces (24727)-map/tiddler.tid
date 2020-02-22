@@ -1,9 +1,0 @@
-id:dd1f27b7-a8b5-4fe1-88c8-e588c79cb396
-config.central-topic: 1cba0f94-18bb-4379-97f2-caf92efab2aa
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Identification cards-Integrated circuit cards-Programming interfaces (24727)-map
-
-

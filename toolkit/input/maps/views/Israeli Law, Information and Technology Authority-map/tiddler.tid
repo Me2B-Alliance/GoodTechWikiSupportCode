@@ -1,9 +1,0 @@
-id:4c1aa7d2-e232-4c7a-bf8a-5e81783e8828
-config.central-topic: debc93c1-33bd-4ee2-a16b-01cbf08257dd
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Israeli Law, Information and Technology Authority-map
-
-

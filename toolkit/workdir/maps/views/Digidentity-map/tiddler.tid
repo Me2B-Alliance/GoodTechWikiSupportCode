@@ -1,9 +1,0 @@
-id:e3b9666c-2ae3-48d1-b2b8-0c8ff6121548
-config.central-topic: 061c293c-f0d9-418b-a6f1-8bc329329f95
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Digidentity-map
-
-

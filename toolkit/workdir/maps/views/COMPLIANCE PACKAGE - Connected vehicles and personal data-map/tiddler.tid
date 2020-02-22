@@ -1,9 +1,0 @@
-id:24d471ca-cbaa-4e57-9057-199707f4e8da
-config.central-topic: a9480391-73d2-4286-bcdf-058d7a0137b5
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/COMPLIANCE PACKAGE - Connected vehicles and personal data-map
-
-

@@ -1,9 +1,0 @@
-id:700424e4-da30-4b94-8148-2ec4fbdce7e9
-config.central-topic: 31d243b4-fc1e-43cd-b708-28c77520dd41
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Indian Government-map
-
-

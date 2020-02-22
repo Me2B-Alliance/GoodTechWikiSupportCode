@@ -1,9 +1,0 @@
-id:900dc728-caeb-4f0f-b4b7-11d21cee921b
-config.central-topic: c95328a9-1ed5-46dc-b1a2-8b6cd78c3c36
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Algorithms in decision-making inquiry – Big Brother Watch’s written evidence to the Science and Technology Committee-map
-
-

@@ -1,9 +1,0 @@
-id:73fcbe32-9234-4fd4-be05-63ea629c1cb8
-config.central-topic: 5b96f786-468d-4609-8548-7c0ed81840c5
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Financial transaction cards (7814)-map
-
-

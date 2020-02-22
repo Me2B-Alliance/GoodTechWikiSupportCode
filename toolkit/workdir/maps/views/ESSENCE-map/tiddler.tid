@@ -1,9 +1,0 @@
-id:0284b621-6b60-49ef-b82e-8a95f57df22a
-config.central-topic: 20a2ff25-ed5d-45b8-a3f6-c92401b30ec3
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/ESSENCE-map
-
-

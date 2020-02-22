@@ -1,9 +1,0 @@
-id:6e379256-4182-4ffb-bf3e-7ae5ee42619f
-config.central-topic: 2f4a6b83-2d1b-4372-8cd5-619eb97dd12e
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/CEF Telecom Expert Group Meeting - Summary Report-map
-
-

@@ -1,9 +1,0 @@
-id:f9833fec-6b29-4140-a613-223dbc6c68e3
-config.central-topic: 27fbdfdd-8201-4abd-9e42-cbe2ff4d8646
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Facebook Must Acknowledge and Change Its Financial Incentives-map
-
-

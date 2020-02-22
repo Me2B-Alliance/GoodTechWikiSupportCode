@@ -1,9 +1,0 @@
-id:f2d39fe8-af0f-428e-a495-1bbc195f1dfc
-config.central-topic: 9d0b909b-8832-405f-81b9-ef53d6f343f4
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/The Internet: to regulate or not to regulate? – Written evidence to the Communications Committee’s Inquiry-map
-
-

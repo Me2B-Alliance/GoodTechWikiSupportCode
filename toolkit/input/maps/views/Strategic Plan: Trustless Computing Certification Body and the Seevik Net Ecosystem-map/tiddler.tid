@@ -1,9 +1,0 @@
-id:3ff58ccd-0f84-407b-bcad-72491ecc8704
-config.central-topic: d30651b0-adc3-4362-9796-561b835208fa
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Strategic Plan: Trustless Computing Certification Body and the Seevik Net Ecosystem-map
-
-

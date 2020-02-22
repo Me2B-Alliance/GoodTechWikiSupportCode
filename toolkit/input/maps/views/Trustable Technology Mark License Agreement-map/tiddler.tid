@@ -1,9 +1,0 @@
-id:eb681f28-8f20-41cd-b4cc-205875592d95
-config.central-topic: f1f0c0ec-6c05-4c84-a7ef-7e8a8a13be5f
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Trustable Technology Mark License Agreement-map
-
-

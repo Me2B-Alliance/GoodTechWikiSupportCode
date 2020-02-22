@@ -1,9 +1,0 @@
-id:e2c01d2a-a6c2-4a85-ac53-a68273b88f9d
-config.central-topic: d932fafb-fd4f-4a46-9836-21ac5250ac75
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Tech We Trust-map
-
-

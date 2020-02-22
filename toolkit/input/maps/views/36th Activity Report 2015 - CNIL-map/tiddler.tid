@@ -1,9 +1,0 @@
-id:d05062ec-c2e0-414b-8657-ea06824681c8
-config.central-topic: cc95aed9-daf2-4c63-aed2-6939d08192ea
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/36th Activity Report 2015 - CNIL-map
-
-

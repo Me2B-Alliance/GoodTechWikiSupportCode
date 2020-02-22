@@ -1,9 +1,0 @@
-id:eceb7f09-64e1-441c-aacb-ff4beccd4443
-config.central-topic: 4849fc2a-c4d4-418d-b206-fe65c3d86688
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/StandardLabel-map
-
-

@@ -1,9 +1,0 @@
-id:535486cf-39dc-47ac-953e-4e38ca83f99e
-config.central-topic: 47ba9c1b-26f3-4b38-aa14-95cff7f47f70
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Federal Awards for Libraries and Library Training Announced-map
-
-

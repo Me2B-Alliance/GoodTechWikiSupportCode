@@ -1,9 +1,0 @@
-id:69faf41b-bc46-4801-8870-9bc7bb528ba2
-config.central-topic: 07bf7f68-ea5c-423b-b4b9-9457a2a598fa
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Algorithms and Publics-map
-
-

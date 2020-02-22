@@ -1,9 +1,0 @@
-id:e0a63892-e556-4a1a-bc50-af697232bc3d
-config.central-topic: ae8af4ca-3be5-4ede-9fbc-1fdefea21608
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/TRUSTe Enterprise Privacy Certification-map
-
-

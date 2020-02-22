@@ -1,9 +1,0 @@
-id:448623d6-e5c2-4e54-885d-aba06b3e9db1
-config.central-topic: 651fb7b0-348a-4dad-bc3c-dc633bdf236c
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Online Identity-map
-
-

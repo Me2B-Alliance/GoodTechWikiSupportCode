@@ -1,9 +1,0 @@
-id:bbf0caa1-78e8-4bd4-8fad-3e67e405e269
-config.central-topic: 3ba479ad-33d3-4038-b116-5cd7c6b15ad3
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Techfestival-map
-
-

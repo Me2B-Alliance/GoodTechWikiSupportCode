@@ -1,9 +1,0 @@
-id:e33210d2-a92e-42a3-9f20-527dc30c0fdd
-config.central-topic: 92e59a98-9faa-462c-8880-3e59303ee3ba
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Gershon Janssen-map
-
-

@@ -1,9 +1,0 @@
-id:d7b64705-509d-481c-b5e9-c53e7f2994b4
-config.central-topic: 6142f1fb-a23a-4ade-9234-da54ff62ba73
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Privacy By Design-map
-
-

@@ -1,9 +1,0 @@
-id:86c785d5-538f-4fd8-bbf9-7c1e1bb57890
-config.central-topic: 1012b068-513b-42c0-885b-afa8781882d9
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Global attitudes to privacy online-map
-
-

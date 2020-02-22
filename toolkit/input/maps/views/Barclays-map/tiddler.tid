@@ -1,9 +1,0 @@
-id:1312b5f5-a2ea-4418-8cea-c6f7239cc15b
-config.central-topic: 1188b282-de35-443e-8b6c-be97c6f31386
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Barclays-map
-
-

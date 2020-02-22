@@ -1,9 +1,0 @@
-id:5c408218-c322-4624-b8a1-a736b3c26366
-config.central-topic: f03258d6-0842-4749-8206-1d49b939a560
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/OASIS Classification of Everyday Living (COEL) TC-map
-
-

@@ -1,9 +1,0 @@
-id:06a3f264-a59c-4453-9668-eb071c74068a
-config.central-topic: 37a923dc-929d-4e6f-91cd-de82ab7ec0a4
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/data visualization-map
-
-

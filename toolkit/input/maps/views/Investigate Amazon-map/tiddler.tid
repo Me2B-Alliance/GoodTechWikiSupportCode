@@ -1,9 +1,0 @@
-id:1c0dc37a-6b2e-4afe-84cc-81ec876f0ec2
-config.central-topic: 238758a7-88f3-4e19-9d46-6f3a5e912f7f
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Investigate Amazon-map
-
-

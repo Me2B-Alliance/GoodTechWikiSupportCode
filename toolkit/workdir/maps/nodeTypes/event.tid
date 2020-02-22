@@ -1,8 +1,0 @@
-created:1578297320039
-modified:1578297320039
-title:$:/plugins/felixhayashi/tiddlymap/graph/nodeTypes/event
-type:text/vnd.tiddlywiki
-scope: [field:element.type[event]]
-style: {"color":{"border":"rgba(150,71,15,26)","background":"rgba(18,29,97,176)"}}
-fa-icon: \xff417
-tw-icon: 

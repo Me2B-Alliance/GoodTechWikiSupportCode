@@ -1,9 +1,0 @@
-id:3f0f38b8-461f-49fc-9ca2-aacac29d0605
-config.central-topic: 478fd7a5-9036-4adb-ad52-314f14401bfd
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/New Zealand-map
-
-

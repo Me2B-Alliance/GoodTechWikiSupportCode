@@ -1,9 +1,0 @@
-id:3e8af009-6aba-4013-bd6f-7dec5d5eb2a1
-config.central-topic: 157928bf-51f4-43c6-83ce-997925e4d0e0
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Source Hacking: Media Manipulation in Practice-map
-
-

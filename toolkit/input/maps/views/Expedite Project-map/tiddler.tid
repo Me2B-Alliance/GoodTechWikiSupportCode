@@ -1,9 +1,0 @@
-id:c1f551a1-a55c-4386-b729-779b26a89665
-config.central-topic: f10876e3-467a-49c9-9a76-38b54b7b5050
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Expedite Project-map
-
-

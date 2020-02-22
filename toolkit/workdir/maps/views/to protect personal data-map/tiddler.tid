@@ -1,9 +1,0 @@
-id:2c48d4c1-2e43-49cd-b38a-0be29f24a98d
-config.central-topic: 9c4d2d63-f7af-4f92-ab8a-710e04e6d6df
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/to protect personal data-map
-
-

@@ -1,9 +1,0 @@
-id:13112fa9-94b0-44f0-b6a2-b78238c0d822
-config.central-topic: a198f491-a012-48fb-b08e-67476b015973
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/Driver's License Data Verification (DLDV) Service-map
-
-

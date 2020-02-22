@@ -1,9 +1,0 @@
-id:70fc6362-62b7-4dbc-a312-604f9643e39d
-config.central-topic: c46bfe13-04bd-40ef-9fc9-4c7c52d51d94
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/The Economics of Personal Data and the Economics of Privacy-map
-
-

@@ -1,9 +1,0 @@
-id:ddf6c6b5-5039-41b7-85a0-2199c4582ef7
-config.central-topic: 5817041c-5f12-4395-a0e5-a6b5dd6e081f
-config.vis: {"forceAtlas2Based":{"gravitationalConstant":-1250,"springLength":650,"springConstant":0.05,"centralGravity":0.01,"damping":0.4},"solver":"forceAtlas2Based","stabilization":{"enabled":false,"iterations":1000,"updateInterval":10,"onlyDynamicEdges":false,"fit":true}}
-config.neighbourhood_scope: 2
-config.show_inter_neighbour_edges: true
-isview:false
-title: $:/plugins/felixhayashi/tiddlymap/graph/views/acm-map
-
-
