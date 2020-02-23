@@ -50,17 +50,13 @@ export default class LocalCommand extends Command {
         return t.element_classification == 'node'
       },
       async (tiddler:Tiddler)=>{
-        const embedded = '<iframe height="750" width="100%" src="https://ewelton.github.io/ktest/wiki.html#'+encodeURI(tiddler.title)+'"></iframe>'
         const filename = path.join(base,"2020-02-13-"+tiddler.guid+".md")
         try {
           const data =
             "---\n"+
             "title: "+escape(tiddler.title)+"\n"+
             "---\n\n"+
-            //"# "+tiddler.title+"\n\n"+
             tiddler.wiki_text+
-            "\n"+
-            embedded+
             "\n"
           await fs.writeFile(filename,data)
         }

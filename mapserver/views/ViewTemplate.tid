@@ -1,0 +1,10 @@
+created: 20191130112033777
+modified: 20191130112038554
+title: $:/core/ui/ViewTemplate/body
+tags: $:/tags/ViewTemplate
+
+<$setvars
+_title = {{!!title}}
+mapname="title \-map\">
+<$tmap view=<<mapname>> editor="advanced"  ></$tmap>
+</$setvars>
