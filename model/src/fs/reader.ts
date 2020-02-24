@@ -1,6 +1,7 @@
 import { TiddlyFileModel} from './filemap'
 import { TiddlyModel,TiddlerFieldMap,TiddlerFieldDatum } from '..'
 import { ITiddlyFactory,TiddlyFactory,TiddlerData,mapFields,Tiddler } from '../tiddlers'
+import { TiddlyMap,TiddlyMapFactory } from '../tiddlymap'
 import klawSync from 'klaw-sync'
 import fs from 'fs-extra'
 
@@ -65,6 +66,16 @@ export class TiddlyModelReader {
     this.model.integrateTiddler(tiddler)
     return tiddler
 	}
+	async loadMap(path:string):Promise<TiddlyMap> {
+		/*
+		const TD = await this.loadTiddlerData(path)
+		TD.element_classification = TD.element_classification || classification_hint
+    const tiddler = this.factory.createTiddlerFromData(TD)
+    this.model.integrateTiddler(tiddler)
+    return tiddler
+		*/
+		throw new Error("not yet implemented")
+	}
 
 	scanDirForTiddlers(base:string) {
 		return klawSync(base,{
@@ -76,25 +87,35 @@ export class TiddlyModelReader {
 		})
 	}
 
+	scanDirForMapDefinitionTiddlers(base:string) {
+		return klawSync(base,{
+			nodir:true,
+			traverseAll:true,
+			filter: (item) => {
+				return item.stats.isFile() && item.path.endsWith("map-definition.tid")
+			}
+		})
+	}
+
 	async load():Promise<void> {
 		return new Promise<void>(async (resolve,reject) => {
 			const nodes = this.scanDirForTiddlers(this.files.paths.nodes)
-			const maps = this.scanDirForTiddlers(this.files.paths.maps)
+			const maps = this.scanDirForMapDefinitionTiddlers(this.files.paths.maps)
 			const metamodel = this.scanDirForTiddlers(this.files.paths.metamodel.base)
 
-			const tiddler_promises = [] as Promise<Tiddler>[]
+			const tiddler_promises = [] as Promise<Tiddler|TiddlyMap>[]
 
 			for(let klawReturn of nodes) {
 				tiddler_promises.push(this.loadTiddler(klawReturn.path,"node"))
 			}
 			for(let klawReturn of maps) {
-				tiddler_promises.push(this.loadTiddler(klawReturn.path,"map"))
+				tiddler_promises.push(this.loadMap(klawReturn.path))
 			}
 			for(let klawReturn of metamodel) {
 				tiddler_promises.push(this.loadTiddler(klawReturn.path,"metamodel"))
 			}
 
-			const tiddlers = await Promise.all(tiddler_promises)
+			const tiddlersAndMaps = await Promise.all(tiddler_promises)
 
 			resolve()
 		})

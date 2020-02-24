@@ -55,6 +55,9 @@ export class TiddlyFactory implements ITiddlyFactory {
 			return new SimpleTiddler(data)
 		}
 		else {
+			if(ec == 'metamodel' && data.fields) {
+				data.fields['tmap.edges'] = undefined
+			}
 			return new SimpleTiddler(data)
 		}
 

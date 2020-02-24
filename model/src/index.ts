@@ -15,11 +15,16 @@ export class TiddlyModel {
 		byTitle:Map<string,Tiddler>,
 	}
 
+	metamodel:{
+		byGuid:Map<string,Tiddler>,
+		byTitle:Map<string,Tiddler>,
+	}
+
 	maps:{
 		byGuid:Map<string,TiddlyMap>,
-		byTitle:Map<string,TiddlyMap>,
-		named:Map<string,TiddlyMap>,
-		neighbor:Map<string,TiddlyMap>
+		neighborByTitle:Map<string,TiddlyMap>,
+		viewsByTitle:Map<string,TiddlyMap>,
+		tagmapsByTitle:Map<string,TiddlyMap>
 	}
 
 	constructor() {
@@ -28,17 +33,24 @@ export class TiddlyModel {
 			byGuid:new Map<string,Tiddler>(),
 			byTitle:new Map<string,Tiddler>()
 		}
+		this.metamodel = {
+			byGuid:new Map<string,Tiddler>(),
+			byTitle:new Map<string,Tiddler>()
+		}
 		this.maps = {
 			byGuid:new Map<string,TiddlyMap>(),
-			byTitle:new Map<string,TiddlyMap>(),
-			named:new Map<string,TiddlyMap>(),
-			neighbor:new Map<string,TiddlyMap>()
+			neighborByTitle:new Map<string,TiddlyMap>(),
+			viewsByTitle:new Map<string,TiddlyMap>(),
+			tagmapsByTitle:new Map<string,TiddlyMap>()
 		}
 	}
 
 	integrateMap(m:TiddlyMap) {
 		this.maps.byGuid.set(m.definition.guid,m)
-		//this.maps.byTitle[m.definition.getField('title')] = m
+		if(m.type == 'neighbor')
+			this.maps.neighborByTitle[m.definition.title] = m
+		if(m.type == 'tagmap')
+			this.maps.tagmapsByTitle[m.definition.title] = m
 	}
 
 	integrateTiddler(t:Tiddler) {
@@ -52,6 +64,10 @@ export class TiddlyModel {
 		if(t.element_classification == 'node') {
 			this.nodes.byGuid.set(t.guid,t)
 			this.nodes.byTitle.set(t.title,t)
+		}
+		if(t.element_classification == 'metamodel') {
+			this.metamodel.byGuid.set(t.guid,t)
+			this.metamodel.byTitle.set(t.title,t)
 		}
 
 	}
