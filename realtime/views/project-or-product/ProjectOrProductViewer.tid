@@ -1,0 +1,43 @@
+title: $:/twiki/project-or-product/Viewer
+type: text/vnd.tiddlywiki
+
+<$reveal state={{!!parent.org}} type="nomatch" text="">
+<h3>Parent <$link to={{!!parent.org}}>{{!!parent.org}}</$link></h3>
+</$reveal>
+
+<h3>
+Category:<$select field=category>
+<$list filter="[all[]each[category]get[category]sort[title]]" variable="type" >
+<option><<type>></option>
+</$list>
+</$select>
+<br />
+Me2B Participation<$select field=me2b.participation>
+<$list filter="[all[]each[me2b.participation]get[me2b.participation]sort[title]]" variable="type" >
+<option><<type>></option>
+</$list>
+</$select>
+</h3>
+
+<$reveal type="nomatch" text="" value="!!location(s)" >
+Located in {{!!location(s)}}
+</$reveal>
+{{||$:/twiki/project-or-product/Dates}}<br />
+{{||$:/twiki/project-or-product/Social}}
+{{||SupportedIdentityTechnologies}}
+{{||DigitalHarmsAddressed}}
+{{||Activities}}
+{{||$:/twiki/project-or-product/People}}<br />
+{{||RelevantPublications}}<br />
+
+
+
+<table>
+<$macrocall $name="linkrow" title="Audience" value={{!!audience}} field="audience" />
+<$macrocall $name="linkrow" title="Partners" value={{!!partners}} field="partners" />
+<$macrocall $name="linkrow" title="Purpose" value={{!!purpose}} field="purpose" />
+<$macrocall $name="linkrow" title="Status" value={{!!status}} field="status" />
+<$macrocall $name="linkrow" title="Terms or Service" value={{!!terms.of.service}} field="terms.of.service" />
+<$macrocall $name="linkrow" title="Working Group" value={{!!working.group}} field="working.group" />
+<$macrocall $name="linkrow" title="Version or Edition" value={{!!version.or.edition}} field="version.or.edition" />
+</table>

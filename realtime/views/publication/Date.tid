@@ -1,0 +1,27 @@
+caption: Dates
+created: 20191210110743556
+editing.dates: yes
+modified: 20200103124325830
+title: $:/twiki/publication/Date
+type: text/vnd.tiddlywiki
+
+<$reveal type="nomatch" state="!!editing.dates" text="yes">
+  <$button $setField="editing.dates" $setTo="yes">
+    <$action-setfield $field="editing.dates" $value="yes" />
+    <$reveal type="match" state="!!date" text="">
+      No Date Information
+    </$reveal>
+    <$reveal type="nomatch" state="!!date" text="">
+      Published {{!!date}}
+    </$reveal>
+  </$button>
+</$reveal>
+
+<$reveal type="match" state="!!editing.dates" text="yes">
+  Publication Date:
+  <$edit-text field="date" placeholder={{$:/language/EditTemplate/Fields/Add/Value/Placeholder}} tabindex={{$:/config/EditTabIndex}}/>
+  <$button setField="editing.dates" setTo="no">
+  <$action-setfield $field="editing.dates" $value="no" />
+  Save Date
+  </$button>
+<$reveal>

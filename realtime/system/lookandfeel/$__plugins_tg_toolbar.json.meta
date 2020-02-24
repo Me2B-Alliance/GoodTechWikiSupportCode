@@ -1,0 +1,12 @@
+author: TonGerner
+core-version: >=5.1.17
+created: 20191226185602774
+description: Top toolbar
+list: readme license
+modified: 20200224022733689
+name: Top toolbar
+plugin-type: plugin
+source: http://tongerner.tiddlyspot.com/
+title: $:/plugins/tg/toolbar
+type: application/json
+version: 0.3.27

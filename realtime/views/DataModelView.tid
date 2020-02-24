@@ -1,0 +1,27 @@
+caption: Data Model
+created: 20191210110743556
+modified: 20200224073042394
+title: DataModelView
+tmap.id: bce933ed-4e73-4601-9e5d-7c5e8cb5d31a
+type: text/vnd.tiddlywiki
+
+
+
+<$reveal type="match" state="!!element.type" text="organization" >
+  <$transclude tiddler="$:/twiki/organization/Viewer" />
+</$reveal>
+<$reveal type="match" state="!!element.type" text="publication" >
+  <$transclude tiddler="$:/twiki/publication/Viewer" />
+</$reveal>
+<$reveal type="match" state="!!element.type" text="project-or-product" >
+  <$transclude tiddler="$:/twiki/project-or-product/Viewer" />
+</$reveal>
+<$reveal type="match" state="!!element.type" text="working-group" >
+  <$transclude tiddler="$:/twiki/working-group/Viewer" />
+</$reveal>
+<$reveal type="match" state="!!element.type" text="event" >
+  <$transclude tiddler="$:/twiki/event/Viewer" />
+</$reveal>
+<$reveal type="match" state="!!element.type" text="person" >
+  <$transclude tiddler="$:/twiki/person/Viewer" />
+</$reveal>

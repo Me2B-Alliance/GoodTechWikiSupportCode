@@ -1,0 +1,12 @@
+created: 20191220073710137
+modified: 20200103223125163
+title: RelevantPublications
+tmap.id: e3823011-2fc6-4903-a9e2-4138664c1293
+type: text/vnd.tiddlywiki
+
+<$reveal type="match" state="!!relevant.publications" text="">
+    No Relevant Publications
+</$reveal>
+<$reveal type="nomatch" state="!!relevant.publications" text="">
+  Relevant Publications: {{!!relevant.publications}}
+</$reveal>

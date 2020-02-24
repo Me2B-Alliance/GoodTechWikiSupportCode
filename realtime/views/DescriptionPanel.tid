@@ -1,0 +1,44 @@
+caption: Description
+created: 20191210110743556
+modified: 20191218065304805
+title: DescriptionPanel
+tmap.id: f5565d32-e5b1-44f6-9346-bd33b6ba35a5
+type: text/vnd.tiddlywiki
+
+<$reveal type="match" state="!!editing" text="yes">
+<$button tooltip={{$:/language/Buttons/Edit/Hint}} aria-label={{$:/language/Buttons/Edit/Caption}} class=<<tv-config-toolbar-class>>>
+<$action-setfield $field="editing" $value="no" />
+<$list filter="[<tv-config-toolbar-icons>match[yes]]">
+{{$:/core/images/edit-button}}
+</$list>
+<$list filter="[<tv-config-toolbar-text>match[yes]]">
+<span class="tc-btn-text">
+<$text text=" "/>
+<$text text={{$:/language/Buttons/Edit/Caption}}/>
+</span>
+</$list>
+</$button>
+<br />
+
+{{||$:/core/ui/EditTemplate/body}}
+
+</$reveal>
+
+<$reveal type="nomatch" state="!!editing" text="yes">
+
+<$button tooltip={{$:/language/Buttons/Edit/Hint}} aria-label={{$:/language/Buttons/Edit/Caption}} class=<<tv-config-toolbar-class>>>
+<$action-setfield $field="editing" $value="yes" />
+<$list filter="[<tv-config-toolbar-icons>match[yes]]">
+{{$:/core/images/edit-button}}
+</$list>
+<$list filter="[<tv-config-toolbar-text>match[yes]]">
+<span class="tc-btn-text">
+<$text text=" "/>
+<$text text={{$:/language/Buttons/Edit/Caption}}/>
+</span>
+</$list>
+</$button>
+<br />
+<h3>{{}}</h3>
+
+</$reveal>

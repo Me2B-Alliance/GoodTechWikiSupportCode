@@ -1,0 +1,64 @@
+created: 20191201134710530
+modified: 20200106074804972
+tags:
+title: PublicationDetailList
+tmap.id: 47a1cc7a-8f36-4e0a-8820-93c9b1244d8c
+type: text/vnd.tiddlywiki
+caption: Details
+
+<$reveal state="$:/state/zoomin-fullscreen" type="nomatch" text="yes">
+<$button class="tc-btn-invisible">
+<$action-setfield $tiddler="$:/state/zoomin-fullscreen" text="yes"/>
+<$action-setfield $tiddler="$:/view" text="zoomin"/>
+<$action-sendmessage $message="tm-full-screen"/>
+zoomin
+</$button>
+</$reveal>
+<$reveal state="$:/state/zoomin-fullscreen" type="match" text="yes">
+<$button class="tc-btn-invisible">
+<$action-setfield $tiddler="$:/state/zoomin-fullscreen" text="no"/>
+<$action-setfield $tiddler="$:/view" text="classic"/>
+<$action-sendmessage $message="tm-full-screen"/>
+zoomout
+</$button>
+</$reveal>
+
+<table>
+  <tr>
+    <th />
+    <th>Publication, Type, &amp; Url</th>
+    <th>Organization</th>
+    <th>Authors</th>
+  </tr>
+
+  <$list filter="[all[]field:element.type[publication]sort[title]sort[publication.type]sort[parent.org]]">
+    <tr>
+      <td colspan="4">
+        <$link>{{!!title}}</$link>
+      </td>
+    </tr>
+    <tr>
+      <td />
+      <td>
+        Date: {{!!date}}
+        <br />
+        <$link to={{!!publication.type}}>{{!!publication.type}}</$link>
+      </td>
+      <td>
+        <$link to={{!!sponsoring.org}}>{{!!sponsoring.org}}</$link><br />
+      </td>
+      <td>
+        <<TagLikeList "authors.editors" " " >>
+        <<TagLikeList "audience" " " >>
+        <<TagLikeList "tech.focus" " " >>
+        <<TagLikeList "license" " " >>
+      </td>
+    </tr>
+    <tr>
+      <td />
+      <td colspan="3" style="font-size:50%">
+        <$link to={{!!url}}>{{!!url}}</$link>
+      </td>
+    </tr>
+  </$list>
+</table>

@@ -1,0 +1,26 @@
+caption: Frequency
+created: 20191210110743556
+modified: 20200103124325830
+title: $:/twiki/event/Frequency
+type: text/vnd.tiddlywiki
+
+<$reveal type="nomatch" state="!!editing.frequency" text="yes">
+  <$button tag="div">
+    <$action-setfield $field="editing.frequency" $value="yes" />
+    <$reveal type="match" state="!!frequency" text="">
+      Click to record frequency
+    </$reveal>
+    <$reveal type="nomatch" state="!!frequency" text="">
+      Frequency: {{!!frequency}}
+    </$reveal>
+  </$button>
+</$reveal>
+
+<$reveal type="match" state="!!editing.frequency" text="yes">
+  Frequency:
+  <$edit-text field="frequency" placeholder={{$:/language/EditTemplate/Fields/Add/Value/Placeholder}} tabindex={{$:/config/EditTabIndex}}/>
+  <$button >
+  <$action-setfield $field="editing.frequency" $value="no" />
+  Done
+  </$button>
+<$reveal>

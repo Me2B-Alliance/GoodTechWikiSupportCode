@@ -6,5 +6,6 @@ docker run -it \
 	-v $PWD/wiki:/usr/src/app/TiddlyWiki5/wiki \
 	-v $PWD/../GoodTechWiki:/usr/src/app/TiddlyWiki5/wiki/tiddlers \
 	-v $PWD/system:/usr/src/app/TiddlyWiki5/wiki/tiddlers/system \
+	-v $PWD/../realtime/views:/usr/src/app/TiddlyWiki5/wiki/tiddlers/views \
 	-d \
 	unitiddler "$@"

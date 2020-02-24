@@ -77,30 +77,21 @@ export class TiddlyModelReader {
 		throw new Error("not yet implemented")
 	}
 
-	scanDirForTiddlers(base:string) {
+	scanDirForTiddlers(base:string,suffix:string=".tid") {
 		return klawSync(base,{
 			nodir:true,
 			traverseAll:true,
 			filter: (item) => {
-				return item.stats.isFile() && item.path.endsWith(".tid")
+				return item.stats.isFile() && item.path.endsWith(suffix)
 			}
 		})
 	}
 
-	scanDirForMapDefinitionTiddlers(base:string) {
-		return klawSync(base,{
-			nodir:true,
-			traverseAll:true,
-			filter: (item) => {
-				return item.stats.isFile() && item.path.endsWith("map-definition.tid")
-			}
-		})
-	}
 
 	async load():Promise<void> {
 		return new Promise<void>(async (resolve,reject) => {
-			const nodes = this.scanDirForTiddlers(this.files.paths.nodes)
-			const maps = this.scanDirForMapDefinitionTiddlers(this.files.paths.maps)
+			const nodes = this.scanDirForTiddlers(this.files.paths.nodes,'wiki.tid')
+			const maps = this.scanDirForTiddlers(this.files.paths.maps,'map-definition.tid')
 			const metamodel = this.scanDirForTiddlers(this.files.paths.metamodel.base)
 
 			const tiddler_promises = [] as Promise<Tiddler|TiddlyMap>[]

@@ -1,0 +1,29 @@
+caption: Summary
+created: 20191201134710530
+modified: 20200105072756613
+tags:
+title: EventSummaryList
+tmap.id: 22fecaf2-3788-48c4-91a3-3508e91fc3a7
+type: text/vnd.tiddlywiki
+
+<table>
+  <tr>
+    <th>Event</th>
+    <th>Category</th>
+    <th>Sponsored By</th>
+  </tr>
+
+  <$list filter="[all[]field:element.type[event]sort[title]sort[category]sort[host.organization]]">
+    <tr>
+      <td>
+        <$link>{{!!title}}</$link>
+      </td>
+      <td>
+        {{!!category}}
+      </td>
+      <td>
+        <$link to={{!!host.organization}}>{{!!host.organization}}</$link>
+      </td>
+    </tr>
+  </$list>
+</table>

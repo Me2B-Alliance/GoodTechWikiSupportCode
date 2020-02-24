@@ -1,0 +1,48 @@
+title: $:/twiki/working-group/Viewer
+type: text/vnd.tiddlywiki
+
+<table>
+<tr>
+  <td>
+    <$link to={{!!parent.org}}>Parent Org</$link>
+  </td>
+  <td>
+    <<selectOrganization parent.org >>
+  </td>
+</tr>
+
+<tr>
+  <td>
+    <<subTypeLabel>>
+  </td>
+  <td>
+    <$select field=category >
+    <$list filter="[all[]field:element.type[working-group]each[category]get[category]sort[title]]" variable="field">
+    <option><<field>></option>
+    </$list>
+    </$select>
+  </td>
+</tr>
+</table>
+
+{{||$:/twiki/event/Social}}
+
+<ul>
+  <li>{{||Location}}</li>
+  <li>{{||WorkingGroupDates}}</li>
+  <li>{{||$:/twiki/working-group/Social}}</li>
+</ul>
+
+<<EditTagLikeList digital.harms.addressed "Digital Harms Addressed" wikify>>
+<<EditTagLikeList activities "Activities" >>
+<<EditTagLikeList people "People" wikify>>
+<<EditTagLikeList purpose "Purpose" wikify>>
+<<EditTagLikeList tech.focus "Tech Focus" wikify>>
+
+{{||$:/twiki/working-group/Standards}}<br />
+
+<table>
+<$macrocall $name="linkrow" title="IPR" value={{!!ipr}} field="ipr" />
+<$macrocall $name="linkrow" title="Status" value={{!!status}} field="status" />
+<$macrocall $name="linkrow" title="Meeting Frequency" value={{!!meeting.frequency}} field="meeting.frequency" />
+</table>

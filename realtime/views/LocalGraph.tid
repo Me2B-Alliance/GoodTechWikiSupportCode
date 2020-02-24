@@ -1,0 +1,12 @@
+caption: Local Graph
+created: 20191210110743556
+modified: 20200224073042380
+title: LocalGraph
+tmap.id: a8dce231-85cf-475f-a29b-63ba685dfbfe
+type: text/vnd.tiddlywiki
+
+<$setvars
+_title = {{!!title}}
+mapname="title \-map\">
+<$tmap view=<<mapname>> editor="advanced"  ></$tmap>
+</$setvars>
