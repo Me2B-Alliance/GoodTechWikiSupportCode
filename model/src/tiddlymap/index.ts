@@ -63,83 +63,33 @@ export class BaseMap implements TiddlyMap {
 
 }
 
-export class TiddlyMapFactory {
-
-	model:TiddlyModel
-
-	constructor(model:TiddlyModel) {
-		this.model = model
+export class TiddlyMapFactoryUtilities {
+	constructor() {
 	}
-
-	createNeighborMap(t:Tiddler):TiddlyMap {
-		const name = t.title+"-map"
-		let map = this.model.maps.neighborByTitle.get(name)
-		if(!map) {
-			map = new BaseMap({
-				type:'neighbor',
-				definition:this.createNeighborMapDefinition(t),
-				nodes:this.createNeighborMapNodeFilter(t),
-				edges:this.createNeighborMapEdgeFilter(t),
-				layout:this.createNeighborMapLayout(t)
-			})
-			this.model.integrateMap(map)
-		}
-		return map
-	}
-
-	createTagMap(t:Tiddler):TiddlyMap {
-		const name = t.title+"-tagmap"
-		let map = this.model.maps.tagmapsByTitle.get(name)
-		if(!map) {
-			map = new BaseMap({
-				type:'tagmap',
-				definition:this.createTagMapDefinition(t),
-				nodes:this.createTagMapNodeFilter(t),
-				edges:this.createTagMapEdgeFilter(t),
-				layout:this.createTagMapLayout(t)
-			})
-			this.model.integrateMap(map)
-		}
-		return map
-	}
-
-	/*
-	useExplicitNodeFilter() {
-		this.nodes.forEach((val:string) => {
-			this.nodeFilter += "[field:tmap.id["+val+"]] "
-		})
-	}
-
-	useExplicitEdgeFilter() {
-		for(let e in this.edges) {
-			this.edgeFilter += "[field:tmap.id["+e+"]] "
-		}
-	}
-	*/
 
 	physics():string {
 		const physics = {
-	    forceAtlas2Based: {
-	      // <- more repulsion between nodes - 0 - more attraction between nodes ->
-	      gravitationalConstant: -1250, // default: -50
-	      // edge length
-	      springLength: 650, // default: 100
-	      // <- less stiff edges - 0 - stiffer edges ->
-	      springConstant: 0.05, // default: 0.08
-	      // pulls the entire network back to the center.
-	      centralGravity: 0.01, // default: 0.01
-	      // kinetic energy reduction
-	      damping: 0.4
-	    },
-	    solver: 'forceAtlas2Based',
-	    stabilization: {
-	      enabled: false,
-	      iterations: 1000,
-	      updateInterval: 10,
-	      onlyDynamicEdges: false,
-	      fit: true
-	    }
-	  }
+			forceAtlas2Based: {
+				// <- more repulsion between nodes - 0 - more attraction between nodes ->
+				gravitationalConstant: -1250, // default: -50
+				// edge length
+				springLength: 650, // default: 100
+				// <- less stiff edges - 0 - stiffer edges ->
+				springConstant: 0.05, // default: 0.08
+				// pulls the entire network back to the center.
+				centralGravity: 0.01, // default: 0.01
+				// kinetic energy reduction
+				damping: 0.4
+			},
+			solver: 'forceAtlas2Based',
+			stabilization: {
+				enabled: false,
+				iterations: 1000,
+				updateInterval: 10,
+				onlyDynamicEdges: false,
+				fit: true
+			}
+		}
 
 		return JSON.stringify(physics)
 	}
@@ -182,123 +132,47 @@ export class TiddlyMapFactory {
 			wiki_text: JSON.stringify(ld,null,2)
 		})
 	}
+}
 
+import { TiddlyNeighborMapFactory } from './neighbor-map-builder'
+import { TiddlyTagMapFactory } from './tag-map-builder'
 
-	createNeighborMapDefinition(t:Tiddler):Tiddler {
-		const id = uuid.v4()
-		return new SimpleTiddler({
-			guid:id,
-			element_classification:"map",
-			element_type:"definition",
-			title: "$:/plugins/felixhayashi/tiddlymap/graph/views/" + t.title + "-map",
-			wiki_text:"Neighbor Map of "+t.title,
-			fields:mapFields({
-				"id":id,
-				"config.central-topic":t.guid,
-				"config.vis":this.physics(),
-				"config.neighbourhood_scope":2,
-				"config.show_inter_neighbour_edges":true,
-				"isview":false
-			})
-		})
-	}
-	createNeighborMapEdgeFilter(t:Tiddler):Tiddler {
-		const id = uuid.v4()
-		return new SimpleTiddler({
-			guid:id,
-			element_classification:"map",
-			element_type:"edge-filter",
-			title:"$:/plugins/felixhayashi/tiddlymap/graph/views/" + t.title + "/filter/edges",
-			fields: mapFields({
-				filter:' -[prefix[_]] -[[tw-body:link]] -[[tw-list:tags]] -[[tw-list:list]]'
-			})
-		})
+export class TiddlyMapFactory {
+
+	model:TiddlyModel
+	util:TiddlyMapFactoryUtilities
+	neighborFactory:TiddlyNeighborMapFactory
+	tagFactory:TiddlyTagMapFactory
+
+	constructor(model:TiddlyModel) {
+		this.model = model
+		this.util = new TiddlyMapFactoryUtilities()
+		this.neighborFactory = new TiddlyNeighborMapFactory(this.model,this.util)
+		this.tagFactory = new TiddlyTagMapFactory(this.model,this.util)
+
 	}
 
-	createNeighborMapNodeFilter(t:Tiddler):Tiddler {
-		const id = uuid.v4()
-		return new SimpleTiddler({
-			guid:id,
-			element_classification:"map",
-			element_type:"node-filter",
-			title:"$:/plugins/felixhayashi/tiddlymap/graph/views/" + t.title + "/filter/nodes",
-			fields:mapFields({
-				filter:"[field:tmap.id["+t.guid+"]]"
-			})
-		})
+	createNeighborMap(t:Tiddler):TiddlyMap {
+		return this.neighborFactory.createMap(t)
 	}
 
-	createNeighborMapLayout(t:Tiddler):Tiddler {
-		const ld = {}
-		const id = uuid.v4()
-		return new SimpleTiddler({
-			guid:id,
-			element_classification:"map",
-			element_type:"layout",
-			title:"$:/plugins/felixhayashi/tiddlymap/graph/views/" + t.title + "/map",
-			wiki_text: JSON.stringify(ld,null,2)
-		})
+	createTagMap(t:Tiddler):TiddlyMap {
+		return this.tagFactory.createMap(t)
+	}
+
+	createMapFromDefinitionTiddler(args:{
+		definition:Tiddler,
+		nodes:Tiddler,
+		edges:Tiddler,
+		layout:Tiddler
+	}):TiddlyMap {
+		const type = args.definition.getFieldAsString('tmap.type') || 'unknown'
+		const map = new BaseMap({type,...args})
+		this.model.integrateMap(map)
+		return map
 	}
 
 
-	createTagMapDefinition(t:Tiddler):Tiddler {
-		const id = uuid.v4()
-		return new SimpleTiddler({
-			guid:id,
-			element_classification:"map",
-			element_type:"definition",
-			title: "$:/plugins/felixhayashi/tiddlymap/graph/views/" + t.title + "-map",
-			wiki_text:"Tag Map of "+t.title,
-			fields:mapFields({
-				"id":id,
-				//"config.central-topic":t.guid,
-				"config.vis":this.physics(),
-				"config.neighbourhood_scope":2,
-				"config.show_inter_neighbour_edges":true,
-				"isview":false
-			})
-		})
-	}
-	createTagMapEdgeFilter(t:Tiddler):Tiddler {
-		const id = uuid.v4()
-		return new SimpleTiddler({
-			guid:id,
-			element_classification:"map",
-			element_type:"edge-filter",
-			title:"$:/plugins/felixhayashi/tiddlymap/graph/views/" + t.title + "/filter/edges",
-			fields: mapFields({
-				filter:' -[prefix[_]] -[[tw-body:link]] -[[tw-list:tags]] -[[tw-list:list]]'
-			})
-		})
-	}
-
-	createTagMapNodeFilter(t:Tiddler):Tiddler {
-		const id = uuid.v4()
-		const fields = t.fields || {}
-		const value = t.title
-		const field = fields.get('metamodel.fieldname')
-		return new SimpleTiddler({
-			guid:id,
-			element_classification:"map",
-			element_type:"node-filter",
-			title:"$:/plugins/felixhayashi/tiddlymap/graph/views/" + t.title + "/filter/nodes",
-			fields:mapFields({
-				filter:"[["+value+"]listed["+field+"]]"
-			})
-		})
-	}
-
-	createTagMapLayout(t:Tiddler):Tiddler {
-		const ld = {}
-		const id = uuid.v4()
-		return new SimpleTiddler({
-			guid:id,
-			element_classification:"map",
-			element_type:"layout",
-			title:"$:/plugins/felixhayashi/tiddlymap/graph/views/" + t.title + "/map",
-			wiki_text: JSON.stringify(ld,null,2)
-		})
-	}
 
 
 /*

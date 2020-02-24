@@ -70,7 +70,8 @@ export default class LocalCommand extends Command {
     const {args, flags} = this.parse(LocalCommand)
 
     if (flags.path && flags.github) {
-	    const model = await loadModelFromPath(flags.path)
+	    const reader = await loadModelFromPath(flags.path)
+      const model = reader.model
       await this.dump(model,flags.github)
       }
   }

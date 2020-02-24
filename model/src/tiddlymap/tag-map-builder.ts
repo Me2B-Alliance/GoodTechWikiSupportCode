@@ -3,7 +3,7 @@ import { TiddlyModel } from '..'
 import { Tiddler,SimpleTiddler,mapFields } from '../tiddlers'
 import uuid from 'uuid'
 
-export class TiddlyNeighborMapFactory {
+export class TiddlyTagMapFactory {
 
 	model:TiddlyModel
 	utilities:TiddlyMapFactoryUtilities
@@ -15,13 +15,13 @@ export class TiddlyNeighborMapFactory {
 
 	createMap(t:Tiddler):TiddlyMap {
 		const name = t.title+"-map"
-		let map = this.model.maps.neighborByTitle.get(name)
+		let map = this.model.maps.tagmapsByTitle.get(name)
 		if(!map) {
 			map = new BaseMap({
-				type:'neighbor',
-				definition:this.createMapDefinition(t),
-				nodes:this.createMapNodeFilter(t),
-				edges:this.createMapEdgeFilter(t),
+				type:'tag ',
+				definition:this.createDefinition(t),
+				nodes:this.createNodeFilter(t),
+				edges:this.createEdgeFilter(t),
 				layout:this.utilities.createGenericMapLayout(t.title)
 			})
 			this.model.integrateMap(map)
@@ -30,17 +30,17 @@ export class TiddlyNeighborMapFactory {
 	}
 
 
-	createMapDefinition(t:Tiddler):Tiddler {
+	createDefinition(t:Tiddler):Tiddler {
 		const id = uuid.v4()
 		return new SimpleTiddler({
 			guid:id,
 			element_classification:"map",
 			element_type:"definition",
 			title: "$:/plugins/felixhayashi/tiddlymap/graph/views/" + t.title + "-map",
-			wiki_text:"Neighbor Map of "+t.title,
+			wiki_text:"Tag Map of "+t.title,
 			fields:mapFields({
 				"id":id,
-				"config.central-topic":t.guid,
+				//"config.central-topic":t.guid,
 				"config.vis":this.utilities.physics(),
 				"config.neighbourhood_scope":2,
 				"config.show_inter_neighbour_edges":true,
@@ -48,7 +48,7 @@ export class TiddlyNeighborMapFactory {
 			})
 		})
 	}
-	createMapEdgeFilter(t:Tiddler):Tiddler {
+	createEdgeFilter(t:Tiddler):Tiddler {
 		const id = uuid.v4()
 		return new SimpleTiddler({
 			guid:id,
@@ -61,19 +61,21 @@ export class TiddlyNeighborMapFactory {
 		})
 	}
 
-	createMapNodeFilter(t:Tiddler):Tiddler {
+	createNodeFilter(t:Tiddler):Tiddler {
 		const id = uuid.v4()
+		const fields = t.fields || {}
+		const value = t.title
+		const field = fields.get('metamodel.fieldname')
 		return new SimpleTiddler({
 			guid:id,
 			element_classification:"map",
 			element_type:"node-filter",
 			title:"$:/plugins/felixhayashi/tiddlymap/graph/views/" + t.title + "/filter/nodes",
 			fields:mapFields({
-				filter:"[field:tmap.id["+t.guid+"]]"
+				filter:"[["+value+"]listed["+field+"]]"
 			})
 		})
 	}
-
 
 
 }

@@ -1,5 +1,5 @@
 import Command, { flags } from '@oclif/command'
-import { loadModelFromPath,TiddlyModel } from 'twiki-model'
+import { loadModelFromPath,TiddlyModel,Tiddler } from 'twiki-model'
 
 function checkTiddlerDir(arg:string) {
   // should check to see if path exists
@@ -33,6 +33,24 @@ export default class LoadCommand extends Command {
 
     if (flags.path) {
       const reader = await loadModelFromPath(flags.path)
+
+      const tiddlers = await reader.model.forAllTiddlersMatchingPredicate(
+        (t:Tiddler) => {
+          return true
+        },
+        async (tiddler:Tiddler)=>{
+          const relpath = reader.files.relativePathFromTiddler(tiddler)
+          const abspath = reader.tiddlerGuidToPathMap.get(tiddler.guid)
+          try {
+            if(relpath != abspath)
+              console.log("ERROR:\n\tOUGHT:",relpath,"\n\tREAD :",abspath)
+          }
+          catch(E) {
+            console.log("Error scanning",E)
+          }
+        })
+
       }
+
   }
 }

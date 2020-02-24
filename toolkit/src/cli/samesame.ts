@@ -32,7 +32,7 @@ export default class SameSameCommand extends Command {
     const {args, flags} = this.parse(SameSameCommand)
 
     if (flags.path) {
-      const model = await loadModelFromPath(flags.path)
+      const reader = await loadModelFromPath(flags.path)
       //await model.save(flags.path)
       }
   }

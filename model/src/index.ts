@@ -1,5 +1,6 @@
 import { Tiddler  } from './tiddlers'
 import { TiddlyMap } from './tiddlymap'
+import { lowerDashedSlug } from './util'
 
 export type tiddlydate = number;
 
@@ -72,6 +73,19 @@ export class TiddlyModel {
 
 	}
 
+	findNodeTitleMatch(x:string):Tiddler|undefined {
+		let result:Tiddler|undefined = undefined
+		const target=lowerDashedSlug(x)
+		this.nodes.byTitle.forEach((value,key) => {
+			if(lowerDashedSlug(key) == target) {
+				if(result) {
+					console.log("Multiple matches",value.title,"replacing",result.title)
+				}
+				result = value
+			}
+		})
+		return result
+	}
 
 
 	forAllTiddlersMatchingPredicate(predicate:(t:Tiddler)=>boolean,action:(t:Tiddler)=>Promise<any>):Promise<any>[] {
@@ -111,3 +125,4 @@ export class TiddlyModel {
 export * from './fs'
 export * from './tiddlers'
 export * from './tiddlymap'
+export * from './util'

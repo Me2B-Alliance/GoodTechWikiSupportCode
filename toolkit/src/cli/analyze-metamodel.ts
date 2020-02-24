@@ -1,6 +1,7 @@
 import Command, { flags } from '@oclif/command'
-import { loadModelFromPath,TiddlyModel } from 'twiki-model'
+import { loadModelFromPath,TiddlyModel,Tiddler,TiddlyFactory,TiddlyModelReader } from 'twiki-model'
 import { Analyzer } from '../analyzer'
+import { taglikeFields } from 'twiki-model'
 
 function checkTiddlerDir(arg:string) {
   // should check to see if path exists
@@ -28,15 +29,89 @@ export default class LocalCommand extends Command {
   }
 
   static args = []
+  static factory = new TiddlyFactory()
+
+  handleTag(model:TiddlyModel,field:string,v:string,t:Tiddler) {
+    const mmtype = taglikeFields[field]
+    let metamodel = model.findNodeTitleMatch(v)
+    if(!metamodel) {
+      //console.log("Metamodel Not Found",mmtype,field,v,t.title)
+      metamodel = LocalCommand.factory.createMetamodel(mmtype,v)
+      model.integrateTiddler(metamodel)
+      //person.addEdge(t.guid,field)
+    }
+    else {
+      console.log("Metamodel FOUND :",field,"=",v,"MMTYPE:",mmtype,"Orig:",metamodel.element_type,metamodel.element_subtype)
+    }
+  }
+
+  async analyze(model:TiddlyModel) {
+    const factory = new TiddlyFactory
+    const tiddlers = await model.forAllTiddlersMatchingPredicate(
+      (t:Tiddler) => {
+        for(let f in taglikeFields) {
+          const v = t.getField(f)
+          if(v)
+            return true
+          }
+        return false
+      },
+      async (tiddler:Tiddler)=>{
+        try {
+          for(let f in taglikeFields) {
+            const v = tiddler.getFieldAsSet(f)
+            if(v.size>0) {
+              if(v.size==1) {
+                const str = Array.from(v)[0]
+                if(str.indexOf(";")>=0) {
+                  console.log("Likely error in ",tiddler.title,f,"=",str)
+                  v.clear()
+                  for(let x of str.split(";"))
+                    v.add(x)
+                }
+                //else
+                //  console.log(f,str)
+              }
+              //else {
+              //  console.log(f,v)
+              //}
+              v.forEach((name)=> {
+                this.handleTag(model,f,name,tiddler)
+              })
+            }
+          }
+        }
+        catch(E) {
+          console.log("Error scanning",E)
+        }
+      })
+  }
+  async dump(reader:TiddlyModelReader) {
+    const model = reader.model
+    const tiddlers = await model.forAllTiddlersMatchingPredicate(
+      (t:Tiddler) => {
+        return t.element_classification == 'metamodel'
+      },
+      async (tiddler:Tiddler)=>{
+        try {
+          const relpath = reader.files.relativePathFromTiddler(tiddler)
+          const abspath = reader.tiddlerGuidToPathMap.get(tiddler.guid)
+          if(relpath != abspath)
+            console.log("ERROR:\n\tOUGHT:",relpath,"\n\tREAD :",abspath)
+        }
+        catch(E) {
+          console.log("Error scanning",E)
+        }
+      })
+  }
 
   async run() {
     const {args, flags} = this.parse(LocalCommand)
 
     if (flags.path) {
-	    const model = await loadModelFromPath(flags.path)
-      console.log("Analyzing")
-      const anal = new Analyzer()
-      await anal.dump(model)
+	    const reader = await loadModelFromPath(flags.path)
+      await this.analyze(reader.model)
+      await this.dump(reader)
       }
   }
 }
