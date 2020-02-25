@@ -69,7 +69,7 @@ export class TiddlyModelReader {
 
 	async loadTiddler(path:string,classification_hint:string):Promise<Tiddler> {
 		const TD = await this.loadTiddlerData(path)
-		TD.element_classification = TD.element_classification || classification_hint
+		TD.tiddler_classification = TD.tiddler_classification || classification_hint
     const tiddler = this.factory.createTiddlerFromData(TD)
     this.model.integrateTiddler(tiddler)
 		this.filePathToGuidMap.set(path,tiddler.guid)
@@ -78,7 +78,7 @@ export class TiddlyModelReader {
 	}
 	async loadMap(path:string):Promise<TiddlyMap> {
 		const TD = await this.loadTiddlerData(path)
-		TD.element_classification = 'map'
+		TD.tiddler_classification = 'map'
 
 
 		const tiddler = this.factory.createTiddlerFromData(TD)
@@ -116,7 +116,7 @@ export class TiddlyModelReader {
 
 	async load():Promise<void> {
 		return new Promise<void>(async (resolve,reject) => {
-			const nodes = this.scanDirForTiddlers(this.files.paths.nodes,'.tid')
+			const nodes = this.scanDirForTiddlers(this.files.paths.nodes,'wiki.tid')
 			const metamodel = this.scanDirForTiddlers(this.files.paths.metamodel.base,'wiki.tid')
 			const maps = [] as KlawReturn[]
 			for(let base of [

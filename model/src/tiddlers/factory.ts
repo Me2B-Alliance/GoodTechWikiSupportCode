@@ -20,7 +20,7 @@ export class TiddlyFactory implements ITiddlyFactory {
 
 	createPerson(name:string):Tiddler {
 		return new SimpleTiddler({
-			element_classification:"node",
+			tiddler_classification:"node",
 			element_type:"person",
 			title:name,
 			guid:uuid.v4()
@@ -28,7 +28,7 @@ export class TiddlyFactory implements ITiddlyFactory {
 	}
 	createMetamodel(type:string,name:string):Tiddler {
 		return new SimpleTiddler({
-			element_classification:"metamodel",
+			tiddler_classification:"metamodel",
 			element_type:type,
 			title:name,
 			guid:uuid.v4()
@@ -50,11 +50,11 @@ export class TiddlyFactory implements ITiddlyFactory {
 			return undefined
 		}
 
-		const ec = fields['element.classification'] || data.element_classification
+		const ec = fields['element.classification'] || data.tiddler_classification
 		if(!ec) {
 			throw new Error("Missing Element classification:" + JSON.stringify(data))
 		}
-		data.element_classification = ec
+		data.tiddler_classification = ec
 
 
 		if(ec == 'node') {

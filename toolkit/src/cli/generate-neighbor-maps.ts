@@ -70,7 +70,7 @@ export default class LocalCommand extends Command {
     const termset = new Set<string>()
     const tiddlers = await model.forAllTiddlersMatchingPredicate(
       (t:Tiddler) => {
-        return t.element_classification == 'node'
+        return t.tiddler_classification == 'node'
       },
       async (tiddler:Tiddler)=>{
         try {

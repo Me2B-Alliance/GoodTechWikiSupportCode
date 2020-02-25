@@ -47,7 +47,7 @@ export default class LocalCommand extends Command {
     }
     const tiddlers = await model.forAllTiddlersMatchingPredicate(
       (t:Tiddler) => {
-        return t.element_classification == 'node'
+        return t.tiddler_classification == 'node'
       },
       async (tiddler:Tiddler)=>{
         const filename = path.join(base,"2020-02-13-"+tiddler.guid+".md")

@@ -38,7 +38,7 @@ export default class LocalCommand extends Command {
       },
       async (tiddler:Tiddler)=>{
         try {
-          console.log(tiddler.element_classification,tiddler.title)
+          console.log(tiddler.tiddler_classification,tiddler.title)
         }
         catch(E) {
           console.log("Error scanning",E)

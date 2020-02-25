@@ -68,7 +68,7 @@ export class Analyzer
     })
     console.log("Tiddler Count:",tiddlers.length)
     for(let t of tiddlers) {
-      console.log(t.element_classification,t.title)
+      console.log(t.tiddler_classification,t.title)
     }
     console.log("DONE: Tiddler Count:",tiddlers.length)
   }

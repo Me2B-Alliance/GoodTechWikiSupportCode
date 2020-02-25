@@ -32,31 +32,99 @@ export default class LocalCommand extends Command {
   static args = []
   static factory = new TiddlyFactory()
 
-  async dump(model:TiddlyModel):Promise<any> {
-    const data = {}
-    function ensure(ref:any,element:string):any {
-      if(ref[element])
-        return ref[element]
-      ref[element]={}
-      return ref[element]
-    }
-    const tiddlers = await model.forAllTiddlersMatchingPredicate(
+  async dump_nodes(model:TiddlyModel):Promise<any> {
+    const tiddlerDataPromises = await model.forAllTiddlersMatchingPredicate(
       (t:Tiddler) => {
         return t.tiddler_classification == 'node'
       },
       async (tiddler:Tiddler)=>{
         try {
-          data[tiddler.element_type][tiddler.element_subtype][tiddler.title]={
+          const datum={
             guid:tiddler.guid,
             title:tiddler.title,
-            description:tiddler.wiki_text
+            description:tiddler.wiki_text,
+            element_type:tiddler.element_type,
+            element_subtype:tiddler.element_subtype,
+            ...tiddler.fields
           }
+          return datum
         }
         catch(E) {
           console.log("Error scanning",E)
+          throw E
         }
       })
-      return data
+
+    const tiddlerData = await Promise.all(tiddlerDataPromises)
+
+    const data = {
+      byGuid:{},
+      byTitleSlug:{},
+      types:{}
+    }
+    function ensure(ref:any,element:string):any {
+      if(!ref[element])
+        ref[element]={}
+      return ref[element]
+    }
+    for(let datum of tiddlerData) {
+      data.byGuid[datum.guid] = datum
+      data.byTitleSlug[datum.guid] = datum
+      const elt_type = ensure(data.types,datum.element_type)
+      const elt_subtype = ensure(elt_type,datum.element_subtype)
+      elt_subtype[datum.title] = datum
+    }
+
+    const filename = "/tmp/nodes.json"
+    console.log("Writing ",filename)
+    await fs.writeFile(filename,JSON.stringify(data,null,2))
+  }
+  async dump_metamodel(model:TiddlyModel):Promise<any> {
+    const tiddlerDataPromises = await model.forAllTiddlersMatchingPredicate(
+      (t:Tiddler) => {
+        return t.tiddler_classification == 'metamodel'
+      },
+      async (tiddler:Tiddler)=>{
+        try {
+          const datum={
+            guid:tiddler.guid,
+            title:tiddler.title,
+            description:tiddler.wiki_text,
+            metamodel_type:tiddler.metamodel_type,
+            metamodel_subtype:tiddler.metamodel_subtype,
+            ...tiddler.fields
+          }
+          return datum
+        }
+        catch(E) {
+          console.log("Error scanning",E)
+          throw E
+        }
+      })
+
+    const tiddlerData = await Promise.all(tiddlerDataPromises)
+
+    const data = {
+      byGuid:{},
+      byTitleSlug:{},
+      types:{}
+    }
+    function ensure(ref:any,element:string):any {
+      if(!ref[element])
+        ref[element]={}
+      return ref[element]
+    }
+    for(let datum of tiddlerData) {
+      data.byGuid[datum.guid] = datum
+      data.byTitleSlug[datum.guid] = datum
+      const elt_type = ensure(data.types,datum.metamodel_type)
+      const elt_subtype = ensure(elt_type,datum.metamodel_subtype)
+      elt_subtype[datum.title] = datum
+    }
+
+    const filename = "/tmp/metamodel.json"
+    console.log("Writing ",filename)
+    await fs.writeFile(filename,JSON.stringify(data,null,2))
   }
 
   async run() {
@@ -64,7 +132,8 @@ export default class LocalCommand extends Command {
 
     if (flags.path) {
 	    const reader = await loadModelFromPath(flags.path)
-      await this.dump(reader.model)
+      await this.dump_nodes(reader.model)
+      await this.dump_metamodel(reader.model)
       }
   }
 }

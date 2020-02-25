@@ -99,7 +99,7 @@ export class TiddlyMapFactoryUtilities {
 		const id = uuid.v4()
 		return new SimpleTiddler({
 			guid:id,
-			element_classification:"map",
+			tiddler_classification:"map",
 			element_type:"edge-filter",
 			title:"$:/plugins/felixhayashi/tiddlymap/graph/views/" + title + "/filter/edges",
 			fields: mapFields({
@@ -112,7 +112,7 @@ export class TiddlyMapFactoryUtilities {
 		const id = uuid.v4()
 		return new SimpleTiddler({
 			guid:id,
-			element_classification:"map",
+			tiddler_classification:"map",
 			element_type:"node-filter",
 			title:"$:/plugins/felixhayashi/tiddlymap/graph/views/" + title + "/filter/nodes",
 			fields:mapFields({
@@ -126,7 +126,7 @@ export class TiddlyMapFactoryUtilities {
 		const id = uuid.v4()
 		return new SimpleTiddler({
 			guid:id,
-			element_classification:"map",
+			tiddler_classification:"map",
 			element_type:"layout",
 			title:"$:/plugins/felixhayashi/tiddlymap/graph/views/" + title + "/map",
 			wiki_text: JSON.stringify(ld,null,2)
