@@ -1,9 +1,10 @@
 import { TiddlyFileModel} from './filemap'
 import { TiddlyModel,TiddlerFieldMap,TiddlerFieldDatum } from '..'
-import { ITiddlyFactory,TiddlyFactory,TiddlerData,mapFields,Tiddler } from '../tiddlers'
+import { ITiddlyFactory,TiddlyFactory,TiddlerData,mapFields,Tiddler,extractTiddlerFieldDatum } from '../tiddlers'
 import { TiddlyMap,TiddlyMapFactory } from '../tiddlymap'
 import klawSync from 'klaw-sync'
 import fs from 'fs-extra'
+import fspath from 'path'
 
 interface KlawReturn {
 	path:string,
@@ -15,6 +16,9 @@ export class TiddlyModelReader {
 	files:TiddlyFileModel
   model:TiddlyModel
 	factory:ITiddlyFactory
+	mapFactory:TiddlyMapFactory
+	filePathToGuidMap:Map<string,string>
+	tiddlerGuidToPathMap:Map<string,string>
 
 	constructor(
     files:TiddlyFileModel,
@@ -26,7 +30,11 @@ export class TiddlyModelReader {
 		this.files = files
     this.factory = options.factory || new TiddlyFactory()
     this.model = options.model || new TiddlyModel()
+		this.mapFactory = new TiddlyMapFactory(this.model)
+		this.filePathToGuidMap = new Map<string,string>()
+		this.tiddlerGuidToPathMap = new Map<string,string>()
 	}
+
 
 
   async loadTiddlerData(path:string):Promise<TiddlerData> {
@@ -64,17 +72,35 @@ export class TiddlyModelReader {
 		TD.element_classification = TD.element_classification || classification_hint
     const tiddler = this.factory.createTiddlerFromData(TD)
     this.model.integrateTiddler(tiddler)
+		this.filePathToGuidMap.set(path,tiddler.guid)
+		this.tiddlerGuidToPathMap.set(tiddler.guid,path)
     return tiddler
 	}
 	async loadMap(path:string):Promise<TiddlyMap> {
-		/*
 		const TD = await this.loadTiddlerData(path)
-		TD.element_classification = TD.element_classification || classification_hint
-    const tiddler = this.factory.createTiddlerFromData(TD)
-    this.model.integrateTiddler(tiddler)
-    return tiddler
-		*/
-		throw new Error("not yet implemented")
+		TD.element_classification = 'map'
+
+
+		const tiddler = this.factory.createTiddlerFromData(TD)
+		const layoutTiddler = this.factory.createTiddlerFromData(
+					await this.loadTiddlerData(
+						fspath.join(
+							fspath.dirname(path),'map-layout.tid')))
+		const edgeFilterTiddler = this.factory.createTiddlerFromData(
+					await this.loadTiddlerData(
+						fspath.join(
+							fspath.dirname(path),'map-edges.tid')))
+		const nodeFilterTiddler = this.factory.createTiddlerFromData(
+					await this.loadTiddlerData(
+						fspath.join(
+							fspath.dirname(path),'map-layout.tid')))
+
+		return this.mapFactory.createMapFromDefinitionTiddler({
+			definition:tiddler,
+			layout:layoutTiddler,
+			edges:edgeFilterTiddler,
+			nodes:nodeFilterTiddler
+			})
 	}
 
 	scanDirForTiddlers(base:string,suffix:string=".tid") {
@@ -90,21 +116,27 @@ export class TiddlyModelReader {
 
 	async load():Promise<void> {
 		return new Promise<void>(async (resolve,reject) => {
-			const nodes = this.scanDirForTiddlers(this.files.paths.nodes,'wiki.tid')
-			const maps = this.scanDirForTiddlers(this.files.paths.maps,'map-definition.tid')
-			const metamodel = this.scanDirForTiddlers(this.files.paths.metamodel.base)
+			const nodes = this.scanDirForTiddlers(this.files.paths.nodes,'.tid')
+			const metamodel = this.scanDirForTiddlers(this.files.paths.metamodel.base,'wiki.tid')
+			const maps = [] as KlawReturn[]
+			for(let base of [
+				this.files.paths.maps,
+				this.files.paths.nodes,
+				this.files.paths.metamodel.base])
+					maps.concat(this.scanDirForTiddlers(base,'map-definition.tid'))
 
 			const tiddler_promises = [] as Promise<Tiddler|TiddlyMap>[]
 
 			for(let klawReturn of nodes) {
 				tiddler_promises.push(this.loadTiddler(klawReturn.path,"node"))
 			}
-			for(let klawReturn of maps) {
-				tiddler_promises.push(this.loadMap(klawReturn.path))
-			}
 			for(let klawReturn of metamodel) {
 				tiddler_promises.push(this.loadTiddler(klawReturn.path,"metamodel"))
 			}
+
+			for(let klawReturn of maps) {
+				tiddler_promises.push(this.loadMap(klawReturn.path))
+				}
 
 			const tiddlersAndMaps = await Promise.all(tiddler_promises)
 

@@ -101,7 +101,8 @@ export default class LocalCommand extends Command {
     const {args, flags} = this.parse(LocalCommand)
 
     if (flags.path && flags.github && flags.field) {
-	    const model = await loadModelFromPath(flags.path)
+	    const reader = await loadModelFromPath(flags.path)
+      const model = reader.model
       const termset = await this.analyze(model,flags.field)
       await this.generate_maps(model,flags.field,flags.github,termset)
       }

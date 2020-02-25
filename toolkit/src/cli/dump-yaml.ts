@@ -1,8 +1,8 @@
 import Command, { flags } from '@oclif/command'
-import { loadModelFromPath,TiddlyModel,Tiddler } from 'twiki-model'
-import { Analyzer } from '../analyzer'
+import { loadModelFromPath,TiddlyModel,Tiddler,TiddlyFactory } from 'twiki-model'
 import fs from 'fs-extra'
 import path from 'path'
+import { peopleFields,lowerDashedSlug } from 'twiki-model'
 
 function checkTiddlerDir(arg:string) {
   // should check to see if path exists
@@ -30,20 +30,33 @@ export default class LocalCommand extends Command {
   }
 
   static args = []
+  static factory = new TiddlyFactory()
 
-  async dump(model:TiddlyModel) {
+  async dump(model:TiddlyModel):Promise<any> {
+    const data = {}
+    function ensure(ref:any,element:string):any {
+      if(ref[element])
+        return ref[element]
+      ref[element]={}
+      return ref[element]
+    }
     const tiddlers = await model.forAllTiddlersMatchingPredicate(
       (t:Tiddler) => {
-        return true
+        return t.tiddler_classification == 'node'
       },
       async (tiddler:Tiddler)=>{
         try {
-          console.log(tiddler.element_classification,tiddler.title)
+          data[tiddler.element_type][tiddler.element_subtype][tiddler.title]={
+            guid:tiddler.guid,
+            title:tiddler.title,
+            description:tiddler.wiki_text
+          }
         }
         catch(E) {
           console.log("Error scanning",E)
         }
       })
+      return data
   }
 
   async run() {

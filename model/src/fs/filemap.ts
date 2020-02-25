@@ -35,7 +35,7 @@ export class TiddlyFileModel  {
 		}
 	}
 
-	relativePathFromElementInfo(base:string,tiddler:Tiddler):string {
+	baseDirFromElementInfo(base:string,tiddler:Tiddler):string {
 		if(!tiddler.element_type)
 			return base
 		else {
@@ -51,6 +51,14 @@ export class TiddlyFileModel  {
 				}
 			}
 	}
+	fullPathFromElementInfo(base:string,tiddler:Tiddler,name?:string):string {
+		const dir = path.join(
+			this.baseDirFromElementInfo(base,tiddler),tiddler.title.trim())
+		if(name)
+			return path.join(dir,name)
+		else
+			return dir
+	}
 
 	relativePathFromTiddler(tiddler:Tiddler):string {
 		switch(tiddler.element_classification) {
@@ -60,10 +68,10 @@ export class TiddlyFileModel  {
 					tiddler.element_type || 'unknown')
 			}
 			case "node": {
-				return this.relativePathFromElementInfo(this.paths.nodes,tiddler)
+				return this.fullPathFromElementInfo(this.paths.nodes,tiddler,'wiki.tid')
 			}
 			case "metamodel": {
-				return this.relativePathFromElementInfo(this.paths.metamodel.base,tiddler)
+				return this.fullPathFromElementInfo(this.paths.metamodel.base,tiddler,'wiki.tid')
 			}
 		}
 		return this.paths.base

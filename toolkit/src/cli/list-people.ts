@@ -1,8 +1,8 @@
 import Command, { flags } from '@oclif/command'
-import { loadModelFromPath,TiddlyModel,Tiddler } from 'twiki-model'
-import { Analyzer } from '../analyzer'
+import { loadModelFromPath,TiddlyModel,Tiddler,TiddlyFactory } from 'twiki-model'
 import fs from 'fs-extra'
 import path from 'path'
+import { peopleFields } from 'twiki-model'
 
 function checkTiddlerDir(arg:string) {
   // should check to see if path exists
@@ -30,15 +30,52 @@ export default class LocalCommand extends Command {
   }
 
   static args = []
+  static factory = new TiddlyFactory()
+
+  makeAndLinkPeople(model:TiddlyModel,field:string,v:string,t:Tiddler) {
+    let person = model.findNodeTitleMatch(v)
+    if(!person) {
+      person = LocalCommand.factory.createPerson(v)
+      model.integrateTiddler(person)
+      person.addEdge(t.guid,field)
+    }
+
+  }
 
   async dump(model:TiddlyModel) {
     const tiddlers = await model.forAllTiddlersMatchingPredicate(
       (t:Tiddler) => {
-        return true
+        for(let f of peopleFields) {
+          const v = t.getField(f)
+          if(v)
+            return true
+          }
+        return false
       },
       async (tiddler:Tiddler)=>{
         try {
-          console.log(tiddler.element_classification,tiddler.title)
+          for(let f of peopleFields) {
+            const v = tiddler.getFieldAsSet(f)
+            if(v.size>0) {
+              if(v.size==1) {
+                const str = Array.from(v)[0]
+                if(str.indexOf(";")>=0) {
+                  console.log("Likely error in ",tiddler.title,f,"=",str)
+                  v.clear()
+                  for(let x of str.split(";"))
+                    v.add(x)
+                }
+                else
+                  console.log(f,str)
+              }
+              else {
+                console.log(f,v)
+              }
+              v.forEach((name)=> {
+                this.makeAndLinkPeople(model,f,name,tiddler)
+              })
+            }
+          }
         }
         catch(E) {
           console.log("Error scanning",E)

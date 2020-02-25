@@ -17,6 +17,7 @@ if ./build.sh; then
 		#mkdir $WIKI_TAGMAPS
 		#./bin/run list-titles -p $WIKI_DATA | grep metamodel
 		#./bin/run generate-topic-maps -f activities -g $WIKI_TAGMAPS -p $WIKI_DATA
+		#./bin/run list-people -p $WIKI_DATA
 		./bin/run analyze-metamodel -p $WIKI_DATA
 	fi
 fi

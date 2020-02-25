@@ -3,11 +3,29 @@ import path from 'path'
 import uuid from 'uuid'
 import fs from 'fs-extra'
 import { TiddlyModel,tiddlydate,TIDDLERTYPE } from '..'
+import { getSubTypeFieldName } from '../util'
 import { subtypeFields } from 'twiki-schema'
+
 
 export type TiddlerFieldDatum = string|Set<string>
 
 export type TiddlerFieldMap = Map<string,TiddlerFieldDatum>
+
+export function extractTiddlerFieldDatum(value:string):TiddlerFieldDatum {
+	if(value.startsWith("[[")) {
+		const termset = new Set<string>()
+		const match = value.split("[[")
+		for(let m of match) {
+			const s = m.replace("]]","")
+			if(s)
+				termset.add(s.trim())
+		}
+		return termset
+	}
+	else {
+		return value
+	}
+}
 
 export interface TiddlerData {
 	created?: tiddlydate
@@ -51,7 +69,12 @@ export interface Tiddler extends TiddlerData  {
 
 	// generic field access
 	getField:(field:string) => TiddlerFieldDatum|undefined
+	getFieldAsString:(field:string) => string|undefined
+	getFieldAsSet:(field:string) => Set<string>
 	setField:(field:string, value:TiddlerFieldDatum) => void
+
+	getEdges:() => any
+	addEdge:(to:string,reason:string) => void
 }
 
 // --------------------------------------------------------------------------
@@ -67,6 +90,47 @@ export class SimpleTiddler implements Tiddler
   public set guid(value: string){
 		this.fields['tmap.id'] = value
   }
+
+	_edges:any
+	public getEdges(): any {
+		if(this._edges)
+			return this._edges
+		try {
+			const result = {}
+			const raw = JSON.parse(this.fields['tmap.edges'] || "{}");
+			for(let edgeId in raw) {
+				const edge = raw[edgeId]
+				let links = result[edge.to]
+				const why = edge.type
+				if(!links) {
+					links = {} as any
+					result[edge.to] = links
+				}
+				if(!links[why]) {
+					links[why] = edgeId
+				}
+			}
+			this._edges = result
+	    return result
+		}
+		catch(E) {
+			console.log(this.fields['tmap.edges'])
+			throw E
+		}
+  }
+	public addEdge(to:string,reason:string) {
+		this.getEdges()
+		let e = this._edges[to]
+		if(!e) {
+			e={}
+			this._edges[to]=e
+		}
+		if(!e[reason])
+			e[reason]=uuid.v4()
+
+		this.fields['tmap.edges']=JSON.stringify(this._edges)
+	}
+
 
 	public get created(): tiddlydate {
 		return this.fields['created'];
@@ -109,7 +173,7 @@ export class SimpleTiddler implements Tiddler
 
 	public get element_type(): string|undefined {
 		this.error_if_not_used_on_subclass("node")
-		return this.fields['element.type']
+		return this.fields['element.type'] || 'unknown'
 	}
 	public set element_type(value: string|undefined){
 		this.error_if_not_used_on_subclass("node")
@@ -121,14 +185,19 @@ export class SimpleTiddler implements Tiddler
 
 	public get element_subtype(): string|undefined {
 		this.error_if_not_used_on_subclass("node")
-		return this.fields['element.subtype']
+		const fieldName = getSubTypeFieldName(this.element_type)
+		return this.getFieldAsString(fieldName)
 	}
 	public set element_subtype(value: string|undefined){
 		this.error_if_not_used_on_subclass("node")
-		if(!value)
-			delete this.fields['element.subtype']
-		else
-			this.fields['element.subtype'] = value
+		const fieldName = getSubTypeFieldName(this.element_type)
+		if(this.element_type != 'person') {
+			console.log("SETTING ELEMENT SUBTYPE",this.element_type,fieldName,value)
+			if(!value)
+				delete this.fields[fieldName]
+			else
+				this.setField(fieldName,value)
+			}
 	}
 
 	public get element_microtype(): string|undefined {
@@ -146,11 +215,59 @@ export class SimpleTiddler implements Tiddler
 
 	public getField(field:string): TiddlerFieldDatum|undefined {
 		return this.fields[field]
-
+	}
+	public getFieldAsString(field:string): string|undefined {
+		const val = this.fields[field]
+		if(val) {
+			if(typeof val === "string") {
+				return val
+			}
+			else {
+				let result = ""
+				val.forEach((r) => {
+					result = "[["+r+"]] "+result
+				})
+				return result
+			}
+		}
+		else
+			return val
+	}
+	public getFieldAsSet(field:string): Set<string> {
+		const result = new Set<string>()
+		const val = this.fields[field]
+		if(val) {
+			if(typeof val === "string") {
+				result.add(val)
+				return result
+			}
+			else {
+				return val
+			}
+		}
+		return result
 	}
 	public setField(field:string, value:TiddlerFieldDatum){
 		if(!value)
 			value=""
+
+		function stringify():string {
+			if(typeof value === "string") {
+				return value
+			}
+			else {
+				const r = Array.from(value)
+				if(r.length == 1)
+					return r[0]
+
+				let result = ""
+				value.forEach((r) => {
+					result = "[["+r+"]] "+result
+				})
+				return result
+			}
+		}
+
 		/*
 			if(typeof value === "string") {
 				const memberRegExp = /(?:^|[^\S\xA0])(?:\[\[(.*?)\]\])(?=[^\S\xA0]|$)|([\S\xA0]+)/mg
@@ -168,7 +285,7 @@ export class SimpleTiddler implements Tiddler
 				if(
 				if
 				*/
-		this.fields[field] = "value".trim()
+		this.fields[field] = stringify().trim()
 	}
 
 	constructor(data:TiddlerData) {
@@ -193,7 +310,7 @@ export class SimpleTiddler implements Tiddler
 
 	constructor_node_tiddler(data:TiddlerData):void {
 		this.element_type = data.element_type
-		this.element_subtype = data.element_subtype
+		this.element_subtype = data.element_subtype || (data.fields || {})[getSubTypeFieldName(data.element_type)]
 		this.element_microtype = data.element_microtype
 	}
 
@@ -210,7 +327,7 @@ export * from './factory'
 export function mapFields(fields:any):Map<string,TiddlerFieldDatum> {
 	const result = new Map<string,TiddlerFieldDatum>()
 	for(let key in fields) {
-		result[key] = fields[key]
+		result[key] = extractTiddlerFieldDatum(fields[key])
 	}
 	return result
 }

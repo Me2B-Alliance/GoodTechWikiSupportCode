@@ -18,6 +18,22 @@ export class TiddlyFactory implements ITiddlyFactory {
 	constructor() {
 	}
 
+	createPerson(name:string):Tiddler {
+		return new SimpleTiddler({
+			element_classification:"node",
+			element_type:"person",
+			title:name,
+			guid:uuid.v4()
+		})
+	}
+	createMetamodel(type:string,name:string):Tiddler {
+		return new SimpleTiddler({
+			element_classification:"metamodel",
+			element_type:type,
+			title:name,
+			guid:uuid.v4()
+		})
+	}
 
 	createTiddlerFromData(data:TiddlerData):Tiddler {
 		const fields = data.fields || {}

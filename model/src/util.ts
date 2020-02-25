@@ -1,5 +1,6 @@
 import slugify from 'slugify'
 import fs from 'fs-extra'
+import { subtypeFields } from 'twiki-schema'
 
 export function lowerDottedSlug(x:string) : string {
   const slug=
@@ -26,4 +27,21 @@ export function ensureDir(path:string,subdir?:string):string {
     path = path + "/" + subdir
   fs.ensureDirSync(path)
   return path
+}
+
+export function getSubTypeFieldName(t:string|undefined):string {
+	const st = subtypeFields[t || 'unknown'] || "element.subtype"
+	return lowerDashedSlug(st)
+}
+
+export const peopleFields = [
+  "people",
+  "key.people",
+  "authors.editors"
+]
+export const taglikeFields = {
+  "activities":"Activity",
+  "purpose":"Purpose",
+  "tags":"Tag",
+  "digital.harms.addressed":"Digital Harm"
 }
