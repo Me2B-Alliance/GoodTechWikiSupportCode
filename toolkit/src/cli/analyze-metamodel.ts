@@ -41,7 +41,10 @@ export default class LocalCommand extends Command {
       //person.addEdge(t.guid,field)
     }
     else {
-      console.log("Metamodel FOUND :",field,"=",v,"MMTYPE:",mmtype,"Orig:",metamodel.element_type,metamodel.element_subtype)
+      if(metamodel.tiddler_classification!='metamodel')
+        console.log("ERROR",metamodel.general_type,metamodel.title,"Value",v,"in field",field,"of",t.title)
+      else
+        console.log("Metamodel FOUND : '"+field+"'='"+v+"', MMTYPE:",mmtype,"Orig:",metamodel.general_type,metamodel.general_subtype)
     }
   }
 
@@ -90,7 +93,7 @@ export default class LocalCommand extends Command {
     const model = reader.model
     const tiddlers = await model.forAllTiddlersMatchingPredicate(
       (t:Tiddler) => {
-        return t.element_classification == 'metamodel'
+        return t.tiddler_classification == 'metamodel'
       },
       async (tiddler:Tiddler)=>{
         try {
@@ -100,7 +103,8 @@ export default class LocalCommand extends Command {
             console.log("ERROR:\n\tOUGHT:",relpath,"\n\tREAD :",abspath)
         }
         catch(E) {
-          console.log("Error scanning",E)
+          console.log("Error scanning",E,tiddler)
+          throw E
         }
       })
   }

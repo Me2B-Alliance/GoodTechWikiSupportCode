@@ -35,7 +35,7 @@ export interface TiddlerData {
 	guid?:string
 	fields?:TiddlerFieldMap
 	wiki_text?:string
-	element_classification?:string
+	tiddler_classification?:string
 
 	// these are for subclass "Node Type"
 	element_type?:string
@@ -60,9 +60,17 @@ export interface Tiddler extends TiddlerData  {
 	fields:TiddlerFieldMap
 
 	// this is the FileSystem Positioning & Typing System
-	element_classification:string //
+	tiddler_classification:string //
 
-	// these are for subclass "Node Type"
+	// these are read only and multiple classifications
+	general_type:string
+	general_subtype:string
+
+	// these are for subclass "Metamodel Classification"
+	metamodel_type?:string
+	metamodel_subtype?:string
+
+	// these are for subclass "Node Classification"
 	element_type?:string
 	element_subtype?:string
 	element_microtype?:string
@@ -161,16 +169,48 @@ export class SimpleTiddler implements Tiddler
   }
 
 
-	public get element_classification(): string {
-		return this.fields['element.classification'];
+	public get tiddler_classification(): string {
+		return this.fields['tiddler.classification'];
 	}
-	public set element_classification(value: string){
-		this.fields['element.classification'] = value
+	public set tiddler_classification(value: string){
+		this.fields['tiddler.classification'] = value
 	}
 
 
+	// -------------------------------- General Groupings
+	public get general_type(): string {
+		if(this.tiddler_classification == 'node')
+			return this.element_type || 'untyped'
+		if(this.tiddler_classification == 'metamodel')
+			return this.metamodel_type || 'untyped'
+		return 'untyped'
+	}
+
+	public get general_subtype(): string {
+		if(this.tiddler_classification == 'node')
+			return this.element_subtype || 'untyped'
+		if(this.tiddler_classification == 'metamodel')
+			return this.metamodel_subtype || 'untyped'
+		return 'untyped'
+	}
 
 
+	// -------------------------------- Metamodel
+	public get metamodel_type(): string {
+		return this.fields['metamodel.type'];
+	}
+	public set metamodel_type(value: string){
+		this.fields['metamodel.type'] = value
+	}
+	public get metamodel_subtype(): string {
+		return this.fields['metamodel.subtype'];
+	}
+	public set metamodel_subtype(value: string){
+		this.fields['metamodel.subtype'] = value
+	}
+
+
+	// -------------------------------- Node
 	public get element_type(): string|undefined {
 		this.error_if_not_used_on_subclass("node")
 		return this.fields['element.type'] || 'unknown'
@@ -192,9 +232,10 @@ export class SimpleTiddler implements Tiddler
 		this.error_if_not_used_on_subclass("node")
 		const fieldName = getSubTypeFieldName(this.element_type)
 		if(this.element_type != 'person') {
-			console.log("SETTING ELEMENT SUBTYPE",this.element_type,fieldName,value)
-			if(!value)
+			if(!value) {
+				console.log("UNDEFINED ELEMENT SUBTYPE",this.element_type,fieldName,this.title)
 				delete this.fields[fieldName]
+			}
 			else
 				this.setField(fieldName,value)
 			}
@@ -300,9 +341,9 @@ export class SimpleTiddler implements Tiddler
 
 		this.wiki_text = data.wiki_text || 'No body provided'
 
-		this.element_classification = data.element_classification || 'unknown'
+		this.tiddler_classification = data.tiddler_classification || 'unknown'
 
-		if(this.element_classification == 'node') {
+		if(this.tiddler_classification == 'node') {
 			this.constructor_node_tiddler(data)
 		}
 
@@ -315,7 +356,7 @@ export class SimpleTiddler implements Tiddler
 	}
 
 	error_if_not_used_on_subclass(classification:string):void {
-		if(this.element_classification != classification)
+		if(this.tiddler_classification != classification)
 			throw new Error("Attempt to access node-tiddler fields on non-node tiddler")
 	}
 

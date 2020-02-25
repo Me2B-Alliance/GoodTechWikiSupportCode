@@ -330,27 +330,27 @@
         "signature": "ad2af02de48faf70e8d4efea190fa72faf23d7cd8cf08644d9230efdf617e1e8"
       },
       "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/util.ts": {
-        "version": "8c1f7da2da1374748f968d904624cca514942c2b9a3b6a22ea18435db91e5192",
+        "version": "2e3f9d44d1e086f389e3adc0b1a93505ff8edb4a73933a80f85ad8427894db95",
         "signature": "d81d3a0854b9e6d72545f6c745f5af89644c1765b55d86672cc1308d1421768b"
       },
       "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlers/factory.ts": {
-        "version": "4ce85e790533aa906dde5adea093353d68e67e4a836060487ba8e040d36bc8b2",
+        "version": "6e153cd40a254b2e3ac8751cbc3b85e32464f36274f44aaf932c1c834bb9ce07",
         "signature": "cb2c837df86001101de265ef89414ed9438663ee4ce29976246c414b1877cfdf"
       },
       "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlers/index.ts": {
-        "version": "37687d899608cb4eb3cd186eb124d5cf60dfceca54bdd495218a69fb4e46df1a",
-        "signature": "43dcbb959a1f7a095932eff4cdbb8a8bf517c3e1db86f417e6d3ff8fdd2322cd"
+        "version": "74a43f405c2d8ba6c77017692a471d7269a34dc618f00b5bf4486ee6f895f71a",
+        "signature": "4b5a95b5d0f154ee35ee9fb2bbda0059624affb85afd9a0e0d748b794ddcd439"
       },
       "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlymap/neighbor-map-builder.ts": {
-        "version": "786ed70ae85e3d355b0cd7ebf38f3ddbfb5ca196e535da5f094094ca99eedc99",
+        "version": "0c424400343e70e89301bcf199ae7fb940f27495c0a52bfef01f44a1c25c11e8",
         "signature": "4523329f900244cc0d7652b553fdb6756f0e9e4d756375b0380b5f457f975bb9"
       },
       "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlymap/tag-map-builder.ts": {
-        "version": "cda3ee7a3039cb53d7a1d866d99b80bc58bfa6ed48a16cf6b2aa57e805dc7bb1",
+        "version": "f4841a3813651f6c55f11548970aba37a129469f7b334f5236a72f9e7c28773c",
         "signature": "42addd0481aa03f3d5b399d598c98b46bf1daa4608e60ef78af944ada72c8bb8"
       },
       "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/tiddlymap/index.ts": {
-        "version": "334c3e11044b2124be3ec930a1d8c8e65143cd43be46159c3b6074a3797d7cfd",
+        "version": "21e0d900367f0868cc974184d9b7ff7dfffd5987b71ada6b5e7330c12115cad3",
         "signature": "26750f1d04ba11a1d6ac483729ef3aae3da558d12e16635603c523ca3deefcd6"
       },
       "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/klaw/index.d.ts": {
@@ -358,11 +358,11 @@
         "signature": "9411e8a7a89bfeca0a836da7fd5af846b29cf4789ca0ca031f040f4f47e55ca4"
       },
       "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/fs/filemap.ts": {
-        "version": "3b9a61e48e057d2359a8f936a0fa7fd600f00d7d2c8a2e532c2def5bd2dc38f0",
+        "version": "d72795ac44f82c174f82a0584a2c03851c4342fa322c38feaf36982fe6c5f8ac",
         "signature": "e5531c2b974fe1993906bbcbba8e0848f661d6285779dbea0c09329d69f28027"
       },
       "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/fs/reader.ts": {
-        "version": "eb80fcb7ad18eb5a0758a2bb7eb9404727b66377dacea89585f94732dd8d2c97",
+        "version": "5ec6524b26cca2a2236b1611456b5cdf83312256a7ae4d271663e2d07c38cf1b",
         "signature": "fb211de4e6a48ce1dddc409e8a061750aa9b5f9388bba3aff5c19e5f6b045aba"
       },
       "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/fs/index.ts": {
@@ -370,8 +370,8 @@
         "signature": "78643f67bbc81512c204c8426b62b91d06617c9db12f04be57465d7bb83027a1"
       },
       "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/src/index.ts": {
-        "version": "612857b4a52643d57170eff9b1e411168a26605a459397dc91dfb2e074ee7078",
-        "signature": "485926dd2980a698f7f4a3c5a28965e6603fe691456d10cdb29b2740b92bed0a"
+        "version": "e3f746220ed953b501a9bffc64a82a10b5ac4b4069ed8c33f9d8caf60ed0634c",
+        "signature": "f30665e27d0359a01dd21c379cf698aab77631bd48a9b8cf1d7cabc9399b901d"
       },
       "/users/korsimoro/desktop/goodtech/goodtechwikisupportcode/model/node_modules/@types/cytoscape/index.d.ts": {
         "version": "9144829dd87f0e746e87391c3970342347470a063c39fb0f0fabdc93c7fd9c53",

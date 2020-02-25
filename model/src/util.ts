@@ -31,7 +31,7 @@ export function ensureDir(path:string,subdir?:string):string {
 
 export function getSubTypeFieldName(t:string|undefined):string {
 	const st = subtypeFields[t || 'unknown'] || "element.subtype"
-	return lowerDashedSlug(st)
+	return lowerDottedSlug(st)
 }
 
 export const peopleFields = [

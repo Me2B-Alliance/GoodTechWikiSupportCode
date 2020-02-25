@@ -61,7 +61,7 @@ export class TiddlyFileModel  {
 	}
 
 	relativePathFromTiddler(tiddler:Tiddler):string {
-		switch(tiddler.element_classification) {
+		switch(tiddler.tiddler_classification) {
 			case "map": {
 				return path.join(this.paths.maps,
 					lowerDashedSlug(tiddler.title),

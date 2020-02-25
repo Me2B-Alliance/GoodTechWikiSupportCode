@@ -9,6 +9,7 @@ export const TIDDLERTYPE="text/vnd.tiddlywiki"
 export class TiddlyModel {
 
 	guidMap:Map<string,Tiddler>
+	byTitleSlug:Map<string,Tiddler>
 
 	//
 	nodes:{
@@ -30,6 +31,7 @@ export class TiddlyModel {
 
 	constructor() {
 		this.guidMap = new Map<string,Tiddler>()
+		this.byTitleSlug = new Map<string,Tiddler>()
 		this.nodes = {
 			byGuid:new Map<string,Tiddler>(),
 			byTitle:new Map<string,Tiddler>()
@@ -60,17 +62,34 @@ export class TiddlyModel {
 			throw new Error("Collision:"+t.guid+" already in map")
 		}
 
+		const tslug=lowerDashedSlug(t.title)
+		const n = this.byTitleSlug.get(tslug)
+		if(n) {
+			console.log("Collision:"+t.title+" already in map\n"
+				+"Existing Title:"+n.title+"\n"
+				+"Existing Type:"+n.tiddler_classification+":"+n.general_type+"/"+n.general_subtype+"\n"
+				+"New Type:"+t.tiddler_classification+":"+t.general_type+"/"+t.general_subtype+"\n"
+				+"\n")
+				t.title = t.title + "("+t.general_type+"/"+t.general_subtype+")"
+		}
+
 		// if all clear
+		this.byTitleSlug.set(tslug,t)
 		this.guidMap.set(t.guid,t)
-		if(t.element_classification == 'node') {
+		if(t.tiddler_classification == 'node') {
 			this.nodes.byGuid.set(t.guid,t)
 			this.nodes.byTitle.set(t.title,t)
 		}
-		if(t.element_classification == 'metamodel') {
+		if(t.tiddler_classification == 'metamodel') {
 			this.metamodel.byGuid.set(t.guid,t)
 			this.metamodel.byTitle.set(t.title,t)
 		}
 
+	}
+
+	findAnyTitleMatch(x:string):Tiddler|undefined {
+		const target=lowerDashedSlug(x)
+		return this.byTitleSlug.get(target)
 	}
 
 	findNodeTitleMatch(x:string):Tiddler|undefined {

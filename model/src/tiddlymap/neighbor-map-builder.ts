@@ -34,7 +34,7 @@ export class TiddlyNeighborMapFactory {
 		const id = uuid.v4()
 		return new SimpleTiddler({
 			guid:id,
-			element_classification:"map",
+			tiddler_classification:"map",
 			element_type:"definition",
 			title: "$:/plugins/felixhayashi/tiddlymap/graph/views/" + t.title + "-map",
 			wiki_text:"Neighbor Map of "+t.title,
@@ -52,7 +52,7 @@ export class TiddlyNeighborMapFactory {
 		const id = uuid.v4()
 		return new SimpleTiddler({
 			guid:id,
-			element_classification:"map",
+			tiddler_classification:"map",
 			element_type:"edge-filter",
 			title:"$:/plugins/felixhayashi/tiddlymap/graph/views/" + t.title + "/filter/edges",
 			fields: mapFields({
@@ -65,7 +65,7 @@ export class TiddlyNeighborMapFactory {
 		const id = uuid.v4()
 		return new SimpleTiddler({
 			guid:id,
-			element_classification:"map",
+			tiddler_classification:"map",
 			element_type:"node-filter",
 			title:"$:/plugins/felixhayashi/tiddlymap/graph/views/" + t.title + "/filter/nodes",
 			fields:mapFields({
