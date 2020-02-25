@@ -1,10 +1,13 @@
 import fs from 'fs-extra'
 import klaw from 'klaw'
 import path from 'path'
+import { TiddlyModel } from '..'
 import { Tiddler } from '../tiddlers'
 import { lowerDottedSlug, lowerDashedSlug, ensureDir } from '../util'
 
 export class TiddlyFileModel  {
+
+	model:TiddlyModel
 
 	paths:{
 		base:string
@@ -19,7 +22,9 @@ export class TiddlyFileModel  {
 		}
 	}
 
-	constructor(path:string) {
+	constructor(path:string,model:TiddlyModel) {
+		this.model = model
+
 		const mm_base = ensureDir(path,"metamodel")
 		this.paths = {
 			base:ensureDir(path),
@@ -51,7 +56,8 @@ export class TiddlyFileModel  {
 				}
 			}
 	}
-	fullPathFromElementInfo(base:string,tiddler:Tiddler,name?:string):string {
+	fullPathFromElementInfo(tiddler:Tiddler,name?:string):string {
+		const base = this.paths.nodes
 		const dir = path.join(
 			this.baseDirFromElementInfo(base,tiddler),tiddler.title.trim())
 		if(name)
@@ -60,18 +66,47 @@ export class TiddlyFileModel  {
 			return dir
 	}
 
+	fullPathFromMetamodelInfo(tiddler:Tiddler,suffix:string):string {
+		const base = this.paths.metamodel.base
+		return path.join(
+			base,
+			tiddler.metamodel_type,
+			tiddler.metamodel_subtype,
+			tiddler.title.trim(),
+			suffix
+		)
+	}
+
 	relativePathFromTiddler(tiddler:Tiddler):string {
 		switch(tiddler.tiddler_classification) {
 			case "map": {
+				const baseTiddlerId = tiddler.map_base
+				if(baseTiddlerId) {
+					const baseTiddler = this.model.tiddlerForGuid(baseTiddlerId)
+					if(baseTiddler) {
+						console.log("Base",baseTiddlerId,baseTiddler.title)
+						const basePath = this.relativePathFromTiddler(baseTiddler)
+						if(tiddler.map_type) {
+							const baseDir = path.join(path.dirname(basePath),tiddler.map_type)
+							console.log("---->",baseDir)
+							if(tiddler.map_role) {
+								return path.join(baseDir,tiddler.map_role+".tid")
+							}
+						}
+					}
+				}
+				// this should be an error
 				return path.join(this.paths.maps,
-					lowerDashedSlug(tiddler.title),
-					tiddler.element_type || 'unknown')
+					lowerDashedSlug(tiddler.general_type),
+					lowerDashedSlug(tiddler.general_subtype),
+					lowerDashedSlug(tiddler.title)
+				)
 			}
 			case "node": {
-				return this.fullPathFromElementInfo(this.paths.nodes,tiddler,'wiki.tid')
+				return this.fullPathFromElementInfo(tiddler,'wiki.tid')
 			}
 			case "metamodel": {
-				return this.fullPathFromElementInfo(this.paths.metamodel.base,tiddler,'wiki.tid')
+				return this.fullPathFromMetamodelInfo(tiddler,'wiki.tid')
 			}
 		}
 		return this.paths.base

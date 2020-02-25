@@ -49,6 +49,10 @@ export class TiddlyModel {
 	}
 
 	integrateMap(m:TiddlyMap) {
+		this.integrateTiddler(m.definition)
+		this.integrateTiddler(m.edges)
+		this.integrateTiddler(m.nodes)
+		this.integrateTiddler(m.layout)
 		this.maps.byGuid.set(m.definition.guid,m)
 		if(m.type == 'neighbor')
 			this.maps.neighborByTitle[m.definition.title] = m
@@ -71,6 +75,7 @@ export class TiddlyModel {
 				+"New Type:"+t.tiddler_classification+":"+t.general_type+"/"+t.general_subtype+"\n"
 				+"\n")
 				t.title = t.title + "("+t.general_type+"/"+t.general_subtype+")"
+			throw new Error("Collision")
 		}
 
 		// if all clear
@@ -85,6 +90,10 @@ export class TiddlyModel {
 			this.metamodel.byTitle.set(t.title,t)
 		}
 
+	}
+
+	tiddlerForGuid(guid:string):Tiddler|undefined {
+		return this.guidMap.get(guid)
 	}
 
 	findAnyTitleMatch(x:string):Tiddler|undefined {

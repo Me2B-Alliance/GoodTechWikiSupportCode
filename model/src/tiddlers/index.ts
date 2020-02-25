@@ -12,18 +12,25 @@ export type TiddlerFieldDatum = string|Set<string>
 export type TiddlerFieldMap = Map<string,TiddlerFieldDatum>
 
 export function extractTiddlerFieldDatum(value:string):TiddlerFieldDatum {
-	if(value.startsWith("[[")) {
-		const termset = new Set<string>()
-		const match = value.split("[[")
-		for(let m of match) {
-			const s = m.replace("]]","")
-			if(s)
-				termset.add(s.trim())
+	try {
+		value = ''+value
+		if(value.startsWith("[[")) {
+			const termset = new Set<string>()
+			const match = value.split("[[")
+			for(let m of match) {
+				const s = m.replace("]]","")
+				if(s)
+					termset.add(s.trim())
+			}
+			return termset
 		}
-		return termset
+		else {
+			return value
+		}
 	}
-	else {
-		return value
+	catch(E) {
+		console.log("Error Processing Value '"+value+"', type=",typeof(value))
+		throw E
 	}
 }
 
@@ -36,6 +43,10 @@ export interface TiddlerData {
 	fields?:TiddlerFieldMap
 	wiki_text?:string
 	tiddler_classification?:string
+
+	// these are for subclass "Metamodel Classification"
+	metamodel_type?:string
+	metamodel_subtype?:string
 
 	// these are for subclass "Node Type"
 	element_type?:string
@@ -67,13 +78,18 @@ export interface Tiddler extends TiddlerData  {
 	general_subtype:string
 
 	// these are for subclass "Metamodel Classification"
-	metamodel_type?:string
-	metamodel_subtype?:string
+	metamodel_type:string
+	metamodel_subtype:string
 
 	// these are for subclass "Node Classification"
 	element_type?:string
 	element_subtype?:string
 	element_microtype?:string
+
+	// these are for subclass "Map Classification"
+	map_role?:string
+	map_base?:string
+	map_type?:string
 
 	// generic field access
 	getField:(field:string) => TiddlerFieldDatum|undefined
@@ -192,6 +208,26 @@ export class SimpleTiddler implements Tiddler
 		if(this.tiddler_classification == 'metamodel')
 			return this.metamodel_subtype || 'untyped'
 		return 'untyped'
+	}
+
+	// -------------------------------- Map
+	public get map_role(): string {
+		return this.fields['map.role'];
+	}
+	public set map_role(value: string){
+		this.fields['map.role'] = value
+	}
+	public get map_base(): string {
+		return this.fields['map.base'];
+	}
+	public set map_base(value: string){
+		this.fields['map.base'] = value
+	}
+	public get map_type(): string {
+		return this.fields['map.type'];
+	}
+	public set map_type(value: string){
+		this.fields['map.type'] = value
 	}
 
 
@@ -346,6 +382,9 @@ export class SimpleTiddler implements Tiddler
 		if(this.tiddler_classification == 'node') {
 			this.constructor_node_tiddler(data)
 		}
+		if(this.tiddler_classification == 'metamodel') {
+			this.constructor_metamodel_tiddler(data)
+		}
 
 	}
 
@@ -354,10 +393,14 @@ export class SimpleTiddler implements Tiddler
 		this.element_subtype = data.element_subtype || (data.fields || {})[getSubTypeFieldName(data.element_type)]
 		this.element_microtype = data.element_microtype
 	}
+	constructor_metamodel_tiddler(data:TiddlerData):void {
+		this.metamodel_type = data.metamodel_type || (data.fields || {})['metamodel.type'] || data.element_type || 'unknown'
+		this.metamodel_subtype = data.metamodel_subtype || (data.fields || {})['metamodel.subtype'] || data.element_subtype || 'unknown'
+	}
 
 	error_if_not_used_on_subclass(classification:string):void {
 		if(this.tiddler_classification != classification)
-			throw new Error("Attempt to access node-tiddler fields on non-node tiddler")
+			throw new Error("Attempt to access '"+classification+"' tiddler fields on a '"+this.tiddler_classification+"' tiddler")
 	}
 
 

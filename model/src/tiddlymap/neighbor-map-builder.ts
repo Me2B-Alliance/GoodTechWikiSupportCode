@@ -22,7 +22,7 @@ export class TiddlyNeighborMapFactory {
 				definition:this.createMapDefinition(t),
 				nodes:this.createMapNodeFilter(t),
 				edges:this.createMapEdgeFilter(t),
-				layout:this.utilities.createGenericMapLayout(t.title)
+				layout:this.utilities.createGenericMapLayout(t,"neighbor")
 			})
 			this.model.integrateMap(map)
 		}
@@ -44,7 +44,10 @@ export class TiddlyNeighborMapFactory {
 				"config.vis":this.utilities.physics(),
 				"config.neighbourhood_scope":2,
 				"config.show_inter_neighbour_edges":true,
-				"isview":false
+				"isview":false,
+				"map.role":"definition",
+				"map.base":t.guid,
+				"map.type":"neighbor"
 			})
 		})
 	}
@@ -53,10 +56,12 @@ export class TiddlyNeighborMapFactory {
 		return new SimpleTiddler({
 			guid:id,
 			tiddler_classification:"map",
-			element_type:"edge-filter",
 			title:"$:/plugins/felixhayashi/tiddlymap/graph/views/" + t.title + "/filter/edges",
 			fields: mapFields({
-				filter:' -[prefix[_]] -[[tw-body:link]] -[[tw-list:tags]] -[[tw-list:list]]'
+				filter:' -[prefix[_]] -[[tw-body:link]] -[[tw-list:tags]] -[[tw-list:list]]',
+				"map.role":"edge-filter",
+				"map.base":t.guid,
+				"map.type":"neighbor"
 			})
 		})
 	}
@@ -69,7 +74,10 @@ export class TiddlyNeighborMapFactory {
 			element_type:"node-filter",
 			title:"$:/plugins/felixhayashi/tiddlymap/graph/views/" + t.title + "/filter/nodes",
 			fields:mapFields({
-				filter:"[field:tmap.id["+t.guid+"]]"
+				filter:"[field:tmap.id["+t.guid+"]]",
+				"map.role":"edge-filter",
+				"map.base":t.guid,
+				"map.type":"neighbor"
 			})
 		})
 	}

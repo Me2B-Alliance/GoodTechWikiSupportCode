@@ -18,7 +18,8 @@ if ./build.sh; then
 		#./bin/run list-titles -p $WIKI_DATA | grep metamodel
 		#./bin/run generate-topic-maps -f activities -g $WIKI_TAGMAPS -p $WIKI_DATA
 		#./bin/run list-people -p $WIKI_DATA
-		#./bin/run analyze-metamodel -p $WIKI_DATA
-		./bin/run dump-yaml -p $WIKI_DATA
+		#./bin/run update-metamodel -p $WIKI_DATA
+		./bin/run update-nodes -p $WIKI_DATA
+		#./bin/run dump-yaml -p $WIKI_DATA
 	fi
 fi

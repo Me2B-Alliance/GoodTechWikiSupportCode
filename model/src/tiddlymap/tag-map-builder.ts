@@ -22,7 +22,7 @@ export class TiddlyTagMapFactory {
 				definition:this.createDefinition(t),
 				nodes:this.createNodeFilter(t),
 				edges:this.createEdgeFilter(t),
-				layout:this.utilities.createGenericMapLayout(t.title)
+				layout:this.utilities.createGenericMapLayout(t,"tagmap")
 			})
 			this.model.integrateMap(map)
 		}
@@ -35,7 +35,6 @@ export class TiddlyTagMapFactory {
 		return new SimpleTiddler({
 			guid:id,
 			tiddler_classification:"map",
-			element_type:"definition",
 			title: "$:/plugins/felixhayashi/tiddlymap/graph/views/" + t.title + "-map",
 			wiki_text:"Tag Map of "+t.title,
 			fields:mapFields({
@@ -44,7 +43,10 @@ export class TiddlyTagMapFactory {
 				"config.vis":this.utilities.physics(),
 				"config.neighbourhood_scope":2,
 				"config.show_inter_neighbour_edges":true,
-				"isview":false
+				"isview":false,
+				"map.role":"definition",
+				"map.base":t.guid,
+				"map.type":"tagmap"
 			})
 		})
 	}
@@ -53,10 +55,12 @@ export class TiddlyTagMapFactory {
 		return new SimpleTiddler({
 			guid:id,
 			tiddler_classification:"map",
-			element_type:"edge-filter",
 			title:"$:/plugins/felixhayashi/tiddlymap/graph/views/" + t.title + "/filter/edges",
 			fields: mapFields({
-				filter:' -[prefix[_]] -[[tw-body:link]] -[[tw-list:tags]] -[[tw-list:list]]'
+				filter:' -[prefix[_]] -[[tw-body:link]] -[[tw-list:tags]] -[[tw-list:list]]',
+				"map.role":"edge-filter",
+				"map.base":t.guid,
+				"map.type":"tagmap"
 			})
 		})
 	}
@@ -69,10 +73,12 @@ export class TiddlyTagMapFactory {
 		return new SimpleTiddler({
 			guid:id,
 			tiddler_classification:"map",
-			element_type:"node-filter",
 			title:"$:/plugins/felixhayashi/tiddlymap/graph/views/" + t.title + "/filter/nodes",
 			fields:mapFields({
-				filter:"[["+value+"]listed["+field+"]]"
+				filter:"[["+value+"]listed["+field+"]]",
+				"map.role":"node-filter",
+				"map.base":t.guid,
+				"map.type":"tagmap"
 			})
 		})
 	}

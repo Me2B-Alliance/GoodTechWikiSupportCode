@@ -1,75 +1,105 @@
-import { TiddlyModel,Tiddler } from 'twiki-model'
+import { TiddlyModel,Tiddler,TiddlyFactory, TiddlyMapFactory} from 'twiki-model'
+import { taglikeFields } from 'twiki-model'
+import { lowerDashedSlug } from 'twiki-model'
 
-type NodeTiddler = Tiddler
-type EdgeTypeTiddler = Tiddler
-type NodeTypeTiddler = Tiddler
-
-export class ElementMinortype {
-  name:string
-  fieldName:string
-
-  constructor(name:string,fieldName:string='element.subtype') {
-    this.name = name
-    this.fieldName = fieldName
-  }
-}
-
-export class ElementMajorType {
-
-}
-export class ModelAnalysis
-{
-  /*
-  edgeTypes:EdgeTypeTiddler[]
-  nodeTypes:NodeTypeTiddler[]
-
-  elementMajorTypes:Map<string,ElementMajorType>
-
-  constructor() {
-    this.nodeMap = new Map<string,NodeTiddler>()
-		this.edgeTypes = []
-		this.nodeTypes = []
-    this.elementMajorTypes = new Map<string,ElementMajorType>()
-  }
-
-  mergeNode(node:NodeTiddler) {
-    console.log("Node:" + node.element_type,node.element_subtype,node.title)
-  }
-  merge(model:TiddlyModel) {
-    console.log("DONE:",model.nodeMap)
-    for(let id in model.nodeMap) {
-      const node = model.nodeMap[id]
-      this.mergeNode(node)
-    }
-    for(let m of model.nodeTypes) {
-      console.log("NT:",m)
-    }
-    for(let m of model.edgeTypes) {
-      console.log("ET:",m)
-    }
-  }
-  */
-}
 export class Analyzer
 {
-  /*
-  constructor() {
-  }
+  static factory = new TiddlyFactory()
 
-  merge(model:TiddlyModel) {
-    this.dump(model)
-  }
-
-  */
-
-  async dump(model:TiddlyModel) {
-    const tiddlers = await model.forAllTiddlers(async (tiddler)=>{
-      return Promise.resolve(tiddler)
-    })
-    console.log("Tiddler Count:",tiddlers.length)
-    for(let t of tiddlers) {
-      console.log(t.tiddler_classification,t.title)
+  handleTag(model:TiddlyModel,field:string,v:string,t:Tiddler) {
+    const mmtype = lowerDashedSlug(taglikeFields[field])
+    let metamodel = model.findAnyTitleMatch(v)
+    if(!metamodel) {
+      //console.log("Metamodel Not Found",mmtype,field,v,t.title)
+      metamodel = Analyzer.factory.createMetamodel("dimension",mmtype,v)
+      model.integrateTiddler(metamodel)
+      //person.addEdge(t.guid,field)
     }
-    console.log("DONE: Tiddler Count:",tiddlers.length)
+    else {
+      if(metamodel.tiddler_classification!='metamodel')
+        console.log("ERROR",metamodel.general_type,metamodel.title,"Value",v,"in field",field,"of",t.title)
+      else
+        console.log("Metamodel FOUND : '"+field+"'='"+v+"', MMTYPE:",mmtype,"Orig:",metamodel.general_type,metamodel.general_subtype)
+    }
   }
+
+  async analyze(model:TiddlyModel) {
+    const factory = new TiddlyFactory
+    const tiddlers = await model.forAllTiddlersMatchingPredicate(
+      (t:Tiddler) => {
+        for(let f in taglikeFields) {
+          const v = t.getField(f)
+          if(v)
+            return true
+          }
+        return false
+      },
+      async (tiddler:Tiddler)=>{
+        try {
+          for(let f in taglikeFields) {
+            const v = tiddler.getFieldAsSet(f)
+            if(v.size>0) {
+              if(v.size==1) {
+                const str = Array.from(v)[0]
+                if(str.indexOf(";")>=0) {
+                  console.log("Likely error in ",tiddler.title,f,"=",str)
+                  v.clear()
+                  for(let x of str.split(";"))
+                    v.add(x)
+                }
+                //else
+                //  console.log(f,str)
+              }
+              //else {
+              //  console.log(f,v)
+              //}
+              v.forEach((name)=> {
+                this.handleTag(model,f,name,tiddler)
+              })
+            }
+          }
+        }
+        catch(E) {
+          console.log("Error scanning",E)
+        }
+      })
+  }
+
+  async generate_topic_maps(factory:TiddlyMapFactory) {
+    const model = factory.model
+    const tiddlers = await model.forAllTiddlersMatchingPredicate(
+      (t:Tiddler) => {
+        return t.tiddler_classification == 'metamodel' && t.metamodel_type == 'dimension'
+      },
+      async (t:Tiddler)=>{
+        try {
+          console.log("Generate topic map for",t.metamodel_type,t.metamodel_subtype,t.title)
+          factory.createTagMap(t)
+        }
+        catch(E) {
+          console.log("Error scanning",E,t)
+          throw E
+        }
+      })
+
+  }
+  async generate_neighbor_maps(factory:TiddlyMapFactory) {
+    const model = factory.model
+    const tiddlers = await model.forAllTiddlersMatchingPredicate(
+      (t:Tiddler) => {
+        return t.tiddler_classification == 'node'
+      },
+      async (t:Tiddler)=>{
+        try {
+          console.log("Generate neighbor map for",t.element_type,t.element_subtype,t.title)
+          factory.createNeighborMap(t)
+        }
+        catch(E) {
+          console.log("Error scanning",E,t)
+          throw E
+        }
+      })
+
+  }
+
 }

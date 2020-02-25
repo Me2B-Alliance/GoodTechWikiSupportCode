@@ -94,15 +94,15 @@ export class TiddlyMapFactoryUtilities {
 		return JSON.stringify(physics)
 	}
 
-
+/*
 	createGenericMapEdgeFilter(title:string,filter:string = ' -[prefix[_]] -[[tw-body:link]] -[[tw-list:tags]] -[[tw-list:list]]'):Tiddler {
 		const id = uuid.v4()
 		return new SimpleTiddler({
 			guid:id,
 			tiddler_classification:"map",
-			element_type:"edge-filter",
 			title:"$:/plugins/felixhayashi/tiddlymap/graph/views/" + title + "/filter/edges",
 			fields: mapFields({
+				"map.role":"edge-filter",
 				filter
 			})
 		})
@@ -113,23 +113,28 @@ export class TiddlyMapFactoryUtilities {
 		return new SimpleTiddler({
 			guid:id,
 			tiddler_classification:"map",
-			element_type:"node-filter",
 			title:"$:/plugins/felixhayashi/tiddlymap/graph/views/" + title + "/filter/nodes",
 			fields:mapFields({
+				"map.role":"node-filter",
 				filter
 			})
 		})
 	}
+*/
 
-	createGenericMapLayout(title:string):Tiddler {
+	createGenericMapLayout(t:Tiddler,type:string):Tiddler {
 		const ld = {}
 		const id = uuid.v4()
 		return new SimpleTiddler({
 			guid:id,
 			tiddler_classification:"map",
-			element_type:"layout",
-			title:"$:/plugins/felixhayashi/tiddlymap/graph/views/" + title + "/map",
-			wiki_text: JSON.stringify(ld,null,2)
+			title:"$:/plugins/felixhayashi/tiddlymap/graph/views/" + t.title + "/map",
+			wiki_text: JSON.stringify(ld,null,2),
+			fields:mapFields({
+				"map.role":"layout",
+				"map.base":t.guid,
+				"map.type":type
+			})
 		})
 	}
 }

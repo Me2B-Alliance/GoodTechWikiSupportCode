@@ -26,10 +26,11 @@ export class TiddlyFactory implements ITiddlyFactory {
 			guid:uuid.v4()
 		})
 	}
-	createMetamodel(type:string,name:string):Tiddler {
+	createMetamodel(type:string,subtype:string,name:string):Tiddler {
 		return new SimpleTiddler({
 			tiddler_classification:"metamodel",
-			element_type:type,
+			metamodel_type:type,
+			metamodel_subtype:subtype,
 			title:name,
 			guid:uuid.v4()
 		})
