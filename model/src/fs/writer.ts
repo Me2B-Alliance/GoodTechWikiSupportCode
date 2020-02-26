@@ -36,16 +36,15 @@ export class TiddlerSerializer {
 			return ''
 		}
 		else {
+			//console.log("GET FIELD DATA",typeof(val),val)
 			switch(typeof(val)) {
+				case "object": {
+					const vals = [] as string[]
+					val.forEach((v) => { vals.push("[["+v.trim()+"]]") })
+					return vals.join(" ")
+				}
 				default:
 					return (''+val).trim()
-					/*
-					const vals = [] as string[]
-					console.log("VAL:",val)
-					return 'no'
-					//val.forEach((v) => { vals.push("[["+v.trim()+"]]") })
-					//return vals.join(" ")
-					*/
 			}
 		}
 	}

@@ -1,0 +1,7 @@
+created: 20181228194403881
+modified: 20200226123056831
+tags: $:/tags/AboveStory
+title: $:/plugins/tg/layout/search
+type: text/vnd.tiddlywiki
+
+{{$:/AdvancedSearch}}

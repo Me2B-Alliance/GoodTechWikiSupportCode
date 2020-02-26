@@ -1,5 +1,6 @@
 created: 20190717070412009
-modified: 20190717070412009
+modified: 20200226123004558
 title: $:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/tag-manager
+type: text/vnd.tiddlywiki
 
-show
+hide

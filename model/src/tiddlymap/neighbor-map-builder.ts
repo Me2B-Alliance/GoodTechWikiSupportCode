@@ -36,7 +36,7 @@ export class TiddlyNeighborMapFactory {
 			guid:id,
 			tiddler_classification:"map",
 			element_type:"definition",
-			title: "$:/plugins/felixhayashi/tiddlymap/graph/views/" + t.title + "-map",
+			title: "$:/plugins/felixhayashi/tiddlymap/graph/views/" + t.title,
 			wiki_text:"Neighbor Map of "+t.title,
 			fields:mapFields({
 				"id":id,

@@ -7,6 +7,6 @@ type: text/vnd.tiddlywiki
 
 <$setvars
 _title = {{!!title}}
-mapname="title \-map\">
-<$tmap view=<<mapname>> editor="advanced"  ></$tmap>
+>
+<$tmap view={{!!title}} editor="advanced"  ></$tmap>
 </$setvars>

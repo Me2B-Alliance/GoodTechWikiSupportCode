@@ -20,6 +20,6 @@ if ./build.sh; then
 		#./bin/run list-people -p $WIKI_DATA
 		#./bin/run update-metamodel -p $WIKI_DATA
 		./bin/run update-nodes -p $WIKI_DATA
-		#./bin/run dump-yaml -p $WIKI_DATA
+		./bin/run dump-yaml -p $WIKI_DATA
 	fi
 fi

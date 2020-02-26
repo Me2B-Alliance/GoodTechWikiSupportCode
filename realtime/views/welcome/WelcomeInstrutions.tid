@@ -1,0 +1,34 @@
+caption: Instructions
+created: 20191201134710530
+editing.title: 
+modified: 20200226125556589
+tags: 
+title: WelcomeInstructions
+tmap.id: eff30c83-a3ab-4890-9396-9cb9ab55cb38
+type: text/vnd.tiddlywiki
+
+<table>
+<tr>
+<td>
+<u>Master Lists By Category</u><br />
+<ul>
+<li> [[Event List]] </li>
+<li> [[Publication List]] </li>
+<li> [[Working Group List]] </li>
+<li> [[People List]] </li>
+<li> [[Product and Project List]] </li>
+<li> [[Organization List]] </li>
+<li> [[Everything]] </li>
+</ul>
+</td>
+<td>
+<u>Ways to find stuff</u><br />
+<ul>
+<li> Use the lists on the left </li>
+<li> Use the indices below </li>
+<li> Use the search bar on the right </li>
+<li> Use the maps on the right </li>
+</ul>
+</td>
+</tr>
+</table>

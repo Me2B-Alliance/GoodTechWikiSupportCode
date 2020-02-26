@@ -1,35 +1,10 @@
 created: 20191201134710530
+editing.tags: no
 editing.title:
-modified: 20200106002402893
-tags:
+modified: 20200226124755483
+tags: [[Welcome Page]]
 title: Welcome
 tmap.id: 670904c8-0239-4459-a2dc-e5ce7823e439
 type: text/vnd.tiddlywiki
 
-<table>
-<tr>
-<td>
-<u>Master Lists By Category</u><br />
-<ul>
-<li> [[Event List]] </li>
-<li> [[Publication List]] </li>
-<li> [[Working Group List]] </li>
-<li> [[People List]] </li>
-<li> [[Product and Project List]] </li>
-<li> [[Organization List]] </li>
-<li> [[Everything]] </li>
-</ul>
-</td>
-<td>
-<u>Ways to find stuff</u><br />
-<ul>
-<li> Use the lists on the left </li>
-<li> Use the indices below </li>
-<li> Use the search bar on the right </li>
-<li> Use the maps on the right </li>
-</ul>
-</td>
-</tr>
-</table>
-
-<<tabs "WelcomeDigitalHarms WelcomeActivities WelcomePurpose WelcomeTags WelcomeMe2B WelcomeAudience WelcomeLocation WelcomeLicenses TypeBreakdown" WelcomeDigitalHarms "$:/state/tab96" >>
+<<tabs "WelcomeInstructions WelcomeMap WelcomeDigitalHarms WelcomeActivities WelcomePurpose WelcomeTags WelcomeMe2B WelcomeAudience WelcomeLocation WelcomeLicenses TypeBreakdown" WelcomeInstructions "$:/state/tab96" >>
