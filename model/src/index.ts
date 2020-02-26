@@ -75,7 +75,17 @@ export class TiddlyModel {
 				+"New Type:"+t.tiddler_classification+":"+t.general_type+"/"+t.general_subtype+"\n"
 				+"\n")
 				t.title = t.title + "("+t.general_type+"/"+t.general_subtype+")"
-			throw new Error("Collision")
+
+				if(t.general_type == n.general_type) {
+					t.title = t.title + " ("+t.general_subtype+")"
+					n.title = n.title + " ("+n.general_subtype+")"
+				}
+				else {
+					t.title = t.title + " ("+t.general_type+")"
+					n.title = n.title + " ("+n.general_type+")"
+				}
+				this.byTitleSlug.delete(tslug)
+				this.byTitleSlug.set(lowerDashedSlug(n.title),n)
 		}
 
 		// if all clear

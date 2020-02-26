@@ -75,7 +75,7 @@ export class TiddlyNeighborMapFactory {
 			title:"$:/plugins/felixhayashi/tiddlymap/graph/views/" + t.title + "/filter/nodes",
 			fields:mapFields({
 				filter:"[field:tmap.id["+t.guid+"]]",
-				"map.role":"edge-filter",
+				"map.role":"node-filter",
 				"map.base":t.guid,
 				"map.type":"neighbor"
 			})
