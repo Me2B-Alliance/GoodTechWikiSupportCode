@@ -21,7 +21,7 @@ if ./build.sh; then
 		#./bin/run list-people -p $WIKI_DATA
 		#./bin/run load -p $WIKI_DATA
 		#./bin/run update-nodes -p $WIKI_DATA
-		./bin/run update-metamodel -p $WIKI_DATA
+		#./bin/run update-metamodel -p $WIKI_DATA
 		./bin/run dump-jekyll-data -p $WIKI_DATA -d $WEBSITE_DATA
 		#./bin/run analyze-metamodel -p $WIKI_DATA
 	fi

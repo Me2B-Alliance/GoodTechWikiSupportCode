@@ -167,16 +167,24 @@ export default class LocalCommand extends Command {
             "  padding-left:5%;\n"+
             "  padding-right:25px;\n"+
             "}\n"+
+            "iframe {\n"+
+            "  background: url('/loader.jpg') no-repeat center top;\n"+
+            "  background-size: 150px 150px;\n"+
+            "  min-height: 350px;\n"+
+            "}\n"+
             "</style>\n"+
             "\n"+
             "## <a href='/_pages/embed?t="+tiddler.title+"'>"+tiddler.title+"</a>\n"+
+            //"\n"+
+            //tiddler.wiki_text+
             "\n"+
-            tiddler.wiki_text+
+            "<iframe style='border:0px;background=white;' width='100%' src='{{site.data.urls.unitiddler}}/#"+tiddler.title+"'></iframe>\n"+
             "\n"+
             "{% for term in site.data.metamodel.byTitle['"+tiddler.title+"'].nodes %}\n"+
-            "### <a href='/_pages/embed?t={{ term.title }}'>{{ term.title }}</a>\n"+
+            "### <a href='/_pages/embed?t={{ term.title | url_encode }}'>{{ term.title }}</a>\n"+
             "\n"+
-            "<a href='{{ term.website }}'>{{ term.website }}</a>\n"+
+            "<a href='{{ term.website | url_encode }}'>{{ term.website }}</a>\n"+
+            "<a href='{{ term.url | url_encode }}'>{{ term.url }}</a>\n"+
             "\n"+
             "{{ term.description }}\n"+
             "{% endfor %}\n"

@@ -1,0 +1,11 @@
+created: 20200302074917943
+icon: $:/core/images/advanced-search-button
+modified: 20200302074919360
+systemfilter: !is[system]
+title: $:/AdvancedSearch
+type: text/vnd.tiddlywiki
+
+<div class="tc-advanced-search">
+<<tabs "$:/core/ui/AdvancedSearch/Standard $:/plugins/tg/toolbar/search-in-fields $:/plugins/tg/toolbar/tagssearch" "$:/core/ui/AdvancedSearch/Standard" >>
+</div>
+
