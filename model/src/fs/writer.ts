@@ -18,7 +18,7 @@ export class TiddlerSerializer {
 			sorted_keys.push(field)
 		}
 		sorted_keys.sort()
-
+		
 		let field_data = ""
 		for (let k of sorted_keys) {
 			if(t.fields[k] !== undefined)
@@ -41,9 +41,11 @@ export class TiddlerSerializer {
 				case "object": {
 					const vals = [] as string[]
 					val.forEach((v) => { vals.push("[["+v.trim()+"]]") })
+					//console.log("SAVING:",key,vals)
 					return vals.join(" ")
 				}
 				default:
+					//console.log("SAVING:",key,val)
 					return (''+val).trim()
 			}
 		}

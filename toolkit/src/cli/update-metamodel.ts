@@ -1,6 +1,7 @@
 import Command, { flags } from '@oclif/command'
 import { TiddlyMapFactory,loadModelFromPath,TiddlyModelWriter,TiddlyModel,Tiddler,TiddlyFactory,TiddlyModelReader } from 'twiki-model'
 import { Analyzer } from '../analyzer'
+import { FileUtils } from '../fileutils'
 import { taglikeFields } from 'twiki-model'
 import { lowerDashedSlug } from 'twiki-model'
 
@@ -31,38 +32,7 @@ export default class LocalCommand extends Command {
 
   static args = []
   static analyzer = new Analyzer()
-
-  async saveMetamodelTiddlers(model:TiddlyModel,writer:TiddlyModelWriter) {
-    const tiddlers = await model.forAllTiddlersMatchingPredicate(
-      (t:Tiddler) => {
-        return t.tiddler_classification == 'metamodel'
-      },
-      async (tiddler:Tiddler)=>{
-        try {
-          await writer.saveTiddler(tiddler)
-        }
-        catch(E) {
-          console.log("Error scanning",E,tiddler)
-          throw E
-        }
-      })
-  }
-  async saveMapTiddlers(model:TiddlyModel,writer:TiddlyModelWriter) {
-    const tiddlers = await model.forAllTiddlersMatchingPredicate(
-      (t:Tiddler) => {
-        console.log("TIDDLER",t.title,"is of type",t.tiddler_classification)
-        return t.tiddler_classification == 'map'
-      },
-      async (tiddler:Tiddler)=>{
-        try {
-          await writer.saveTiddler(tiddler)
-        }
-        catch(E) {
-          console.log("Error scanning",E,tiddler)
-          throw E
-        }
-      })
-  }
+  static fileutils = new FileUtils()
 
 
   async run() {
@@ -73,10 +43,11 @@ export default class LocalCommand extends Command {
       const model = reader.model
       await LocalCommand.analyzer.analyze(model)
       const writer = new TiddlyModelWriter(reader.files)
-      await this.saveMetamodelTiddlers(model,writer)
+      await LocalCommand.fileutils.saveMetamodelTiddlers(model,writer)
       const factory = new TiddlyMapFactory(model)
       await LocalCommand.analyzer.generate_topic_maps(factory)
-      await this.saveMapTiddlers(model,writer)
+      await LocalCommand.fileutils.saveMapTiddlers(model,writer,'tagmap')
+      LocalCommand.fileutils.saveMapOfTiddlers(Analyzer.updatedNodes,writer)
       }
   }
 }

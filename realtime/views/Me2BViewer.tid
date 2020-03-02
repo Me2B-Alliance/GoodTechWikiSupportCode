@@ -2,17 +2,25 @@ title: $:/core/ui/ViewTemplate/me2b
 tags: $:/tags/ViewTemplate
 
 {{||$:/core/ui/ViewTemplate/enhancedTags/hold}}
-<$reveal type="match" default={{!!element.type}} text="">
+<$reveal type="match" default={{!!tiddler.classification}} text="">
   {{||$:/core/ui/ViewTemplate/body}}
 </$reveal>
-<$reveal type="nomatch" default={{!!element.type}} text="">
-  <$set name="elementType" value={{!!element.type}}>
-  <$list filter="[[SubTypeFields]getindex<elementType>]" variable="subTypeField">
-  <$list filter="[[SubTypeLabels]getindex<elementType>]" variable="subTypeLabel">
-  <$list filter="[all[current]get<subTypeField>]" variable="elementSubType">
-    <<tabs "DescriptionPanel DataModelView Relationships LocalGraph FieldList Peers" "DescriptionPanel" "$:/state/tab98">>
-  </$list>
-  </$list>
-  </$list>
-  </$set>
+<$reveal type="match" default={{!!tiddler.classification}} text="node">
+  <$reveal type="match" default={{!!element.type}} text="">
+    {{||$:/core/ui/ViewTemplate/body}}
+  </$reveal>
+  <$reveal type="nomatch" default={{!!element.type}} text="">
+    <$set name="elementType" value={{!!element.type}}>
+      <$list filter="[[SubTypeFields]getindex<elementType>]" variable="subTypeField">
+      <$list filter="[[SubTypeLabels]getindex<elementType>]" variable="subTypeLabel">
+      <$list filter="[all[current]get<subTypeField>]" variable="elementSubType">
+        <<tabs "DescriptionPanel DataModelView Relationships LocalGraph FieldList Peers" "DescriptionPanel" "$:/state/tab98">>
+      </$list>
+      </$list>
+      </$list>
+    </$set>
+  </$reveal>
+</$reveal>
+<$reveal type="match" default={{!!tiddler.classification}} text="metamodel">
+  <<tabs "DescriptionPanel LocalGraph Relationships" "DescriptionPanel" "$:/state/tab97">>
 </$reveal>

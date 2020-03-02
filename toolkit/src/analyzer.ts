@@ -2,25 +2,59 @@ import { TiddlyModel,Tiddler,TiddlyFactory, TiddlyMapFactory} from 'twiki-model'
 import { taglikeFields } from 'twiki-model'
 import { lowerDashedSlug } from 'twiki-model'
 
+function typestr(t:Tiddler) {
+  return "(TYPE : "+t.general_type + "/" + t.general_subtype + ") named '"+t.title.substring(0,25)+"'"
+}
 export class Analyzer
 {
   static factory = new TiddlyFactory()
+  static updatedNodes = new Map<string,Tiddler>()
 
-  handleTag(model:TiddlyModel,field:string,v:string,t:Tiddler) {
-    const mmtype = lowerDashedSlug(taglikeFields[field])
-    let metamodel = model.findAnyTitleMatch(v)
+  handleTag(model:TiddlyModel,field:string,tag_slug:string,t:Tiddler) {
+    function v_in_f() {
+      return "value '"+tag_slug+"' in field '"+field+"' of Tiddler "+typestr(t)
+    }
+
+    tag_slug = tag_slug.toLowerCase().trim()
+
+    const requested_metamodel_type = lowerDashedSlug(taglikeFields[field])
+
+    let metamodel = model.findAnyTitleMatch(tag_slug)
     if(!metamodel) {
-      //console.log("Metamodel Not Found",mmtype,field,v,t.title)
-      metamodel = Analyzer.factory.createMetamodel("dimension",mmtype,v)
+      //console.log("Metamodel Not Found",requested_metamodel_type,field,tag_slug,t.title)
+      metamodel = Analyzer.factory.createMetamodel("dimension",requested_metamodel_type,tag_slug)
       model.integrateTiddler(metamodel)
       //person.addEdge(t.guid,field)
     }
     else {
-      if(metamodel.tiddler_classification!='metamodel')
-        console.log("ERROR",metamodel.general_type,metamodel.title,"Value",v,"in field",field,"of",t.title)
-      else
-        console.log("Metamodel FOUND : '"+field+"'='"+v+"', MMTYPE:",mmtype,"Orig:",metamodel.general_type,metamodel.general_subtype)
+      if(metamodel.tiddler_classification!='metamodel') {
+        console.log("NON METAMODEL TAG - we found a",typestr(metamodel),"because of",v_in_f()," but we were expecting a dimension of type",requested_metamodel_type)
+        const newtitle = (metamodel.title + " ("+requested_metamodel_type+")").toLowerCase().trim()
+        const oldtitle = metamodel.title.toLowerCase().trim()
+        t.swapFieldValue(field,oldtitle,newtitle)
+        Analyzer.updatedNodes.set(t.guid,t)
+        this.handleTag(model,field,newtitle,t)
+      }
+      else {
+        // should also check 'dimension'
+        if(metamodel.metamodel_subtype != requested_metamodel_type) {
+          console.log("METAMODEL MISMATCH - we found a",typestr(metamodel),"because of",v_in_f()," but we were expecting a dimension of type",requested_metamodel_type)
+          const newtitle = (metamodel.title + " ("+requested_metamodel_type+")").toLowerCase().trim()
+          const oldtitle = metamodel.title.toLowerCase().trim()
+          t.swapFieldValue(field,oldtitle,newtitle)
+          Analyzer.updatedNodes.set(t.guid,t)
+          this.handleTag(model,field,newtitle,t)
+        }
+        else {
+          //console.log("Metamodel FOUND : "+v_in_f()+" matched",typestr(metamodel))
+        }
+
+      }
     }
+    if(!metamodel.nodes)
+      metamodel.nodes=[]
+    metamodel.nodes.push(t)
+    metamodel.setField("metamodel.fieldname",field)
   }
 
   async analyze(model:TiddlyModel) {
@@ -64,7 +98,6 @@ export class Analyzer
         }
       })
   }
-
   async generate_topic_maps(factory:TiddlyMapFactory) {
     const model = factory.model
     const tiddlers = await model.forAllTiddlersMatchingPredicate(

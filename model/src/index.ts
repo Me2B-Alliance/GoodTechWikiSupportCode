@@ -69,13 +69,6 @@ export class TiddlyModel {
 		const tslug=lowerDashedSlug(t.title)
 		const n = this.byTitleSlug.get(tslug)
 		if(n) {
-			console.log("Collision:"+t.title+" already in map\n"
-				+"Existing Title:"+n.title+"\n"
-				+"Existing Type:"+n.tiddler_classification+":"+n.general_type+"/"+n.general_subtype+"\n"
-				+"New Type:"+t.tiddler_classification+":"+t.general_type+"/"+t.general_subtype+"\n"
-				+"\n")
-				t.title = t.title + "("+t.general_type+"/"+t.general_subtype+")"
-
 				if(t.general_type == n.general_type) {
 					t.title = t.title + " ("+t.general_subtype+")"
 					n.title = n.title + " ("+n.general_subtype+")"
@@ -86,6 +79,18 @@ export class TiddlyModel {
 				}
 				this.byTitleSlug.delete(tslug)
 				this.byTitleSlug.set(lowerDashedSlug(n.title),n)
+				this.byTitleSlug.set(lowerDashedSlug(t.title),t)
+				console.log("Resolving Collision:"+t.title+" already in map\n"
+					+"Search slug:'"+tslug+"'\n"
+					+"Existing Title:'"+n.title+"'\n"
+					+"Existing Type:"+n.tiddler_classification+":"+n.general_type+"/"+n.general_subtype+"\n"
+					+"New Type:"+t.tiddler_classification+":"+t.general_type+"/"+t.general_subtype+"\n"
+					+"Dispatched :"+t.general_type+"/"+t.general_subtype+":'"+tslug+"'\n"
+					+"Created :"+t.general_type+"/"+t.general_subtype+":'"+t.title+"'\n"
+					+"Created :"+n.general_type+"/"+n.general_subtype+":'"+n.title+"'\n"
+					+"Cleared :'"+tslug+"' -> '"+this.byTitleSlug.get(tslug)+"'\n"
+				)
+
 		}
 
 		// if all clear

@@ -3,7 +3,7 @@ import path from 'path'
 import uuid from 'uuid'
 import fs from 'fs-extra'
 import { TiddlyModel,tiddlydate,TIDDLERTYPE } from '..'
-import { getSubTypeFieldName } from '../util'
+import { getSubTypeFieldName,lowerDottedSlug } from '../util'
 import { subtypeFields } from 'twiki-schema'
 
 
@@ -20,7 +20,7 @@ export function extractTiddlerFieldDatum(value:string):TiddlerFieldDatum {
 			for(let m of match) {
 				const s = m.replace("]]","")
 				if(s)
-					termset.add(s.trim())
+					termset.add(s.toLowerCase().trim())
 			}
 			return termset
 		}
@@ -80,6 +80,7 @@ export interface Tiddler extends TiddlerData  {
 	// these are for subclass "Metamodel Classification"
 	metamodel_type:string
 	metamodel_subtype:string
+	nodes?:Tiddler[]
 
 	// these are for subclass "Node Classification"
 	element_type?:string
@@ -96,6 +97,7 @@ export interface Tiddler extends TiddlerData  {
 	getFieldAsString:(field:string) => string|undefined
 	getFieldAsSet:(field:string) => Set<string>
 	setField:(field:string, value:TiddlerFieldDatum) => void
+	swapFieldValue:(field:string, oldval:string,newval:string) => void
 
 	getEdges:() => any
 	addEdge:(to:string,reason:string) => void
@@ -325,9 +327,36 @@ export class SimpleTiddler implements Tiddler
 		return result
 	}
 	public setField(field:string, value:TiddlerFieldDatum){
+		field = lowerDottedSlug(field)
 		if(!value)
 			value=""
+		/*
+		var sorted_keys = [] as string[]
+		this.fields.forEach((value,field) => {
+			sorted_keys.push(field)
+		})
+		for(let field in this.fields) {
+			sorted_keys.push(field)
+		}
+		sorted_keys.sort()
+		console.log("SET1",field,value,this.title,sorted_keys)
+		//this.fields.set(field,value)
+		*/
+		this.fields[field]=value
 
+		/*
+	  sorted_keys = [] as string[]
+		this.fields.forEach((value,field) => {
+			sorted_keys.push(field)
+		})
+		for(let field in this.fields) {
+			sorted_keys.push(field)
+		}
+		sorted_keys.sort()
+		console.log("SET2",field,value,this.title,sorted_keys)
+		*/
+
+		/*
 		function stringify():string {
 			if(typeof value === "string") {
 				return value
@@ -338,32 +367,25 @@ export class SimpleTiddler implements Tiddler
 					return r[0]
 
 				let result = ""
-				value.forEach((r) => {
-					result = "[["+r+"]] "+result
+				r.forEach((term) => {
+					console.log("ADDING TERM:",field,term)
+					result = "[["+term+"]] "+result
 				})
 				return result
 			}
 		}
-
-		/*
-			if(typeof value === "string") {
-				const memberRegExp = /(?:^|[^\S\xA0])(?:\[\[(.*?)\]\])(?=[^\S\xA0]|$)|([\S\xA0]+)/mg
-				const results = new Set<string>()
-				const names = {}
-				let match = false
-				do {
-					match = memberRegExp.exec(value);
-					if(match) {
-						 var item = match[1] || match[2];
-						 if(item)
-						 	results.add(item)
-					}
-				} while(match);
-				if(
-				if
-				*/
 		this.fields[field] = stringify().trim()
+		*/
 	}
+	public swapFieldValue(field:string, oldval:string,newval:string){
+		const valset = this.getFieldAsSet(field)
+		//console.log("START SET",field,oldval,newval,valset)
+		valset.delete(oldval)
+		valset.add(newval)
+		this.setField(field,valset)
+		//console.log("END SET",valset)
+	}
+
 
 	constructor(data:TiddlerData) {
 		this.fields = data.fields || new Map<string,TiddlerFieldDatum>()

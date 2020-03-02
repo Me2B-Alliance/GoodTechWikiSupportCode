@@ -46,12 +46,34 @@ type: text/vnd.tiddlywiki
   <li>{{||OrganizationFunding}}</li>
 </ul>
 
-<<EditTagLikeList digital.harms.addressed "Digital Harms Addressed" wikify>>
-<<EditTagLikeList activities "Activities" >>
-<<EditTagLikeList people "People" wikify>>
-<<EditTagLikeList audience "Audience" wikify>>
-<<EditTagLikeList purpose "Purpose" wikify>>
-<<EditTagLikeList tech.focus "Tech Focus" wikify>>
+<<tagset activities "Activities" >>
+<<tagset audience "Audience" >>
+<$reveal type="match" state="!!editing.tags" text="yes">
+  <$button tooltip={{$:/language/Buttons/Edit/Hint}} aria-label={{$:/language/Buttons/Edit/Caption}} >
+    <$action-setfield $field="editing.tags" $value="no" />
+    Done editing tags
+  </$button>
+  <<EditTagLikeList digital.harms.addressed "Digital Harms Addressed" wikify>>
+  <<EditTagLikeList activities "Activities" >>
+  <<EditTagLikeList people "People" wikify>>
+  <<EditTagLikeList audience "Audience" wikify>>
+  <<EditTagLikeList purpose "Purpose" wikify>>
+  <<EditTagLikeList tech.focus "Tech Focus" wikify>>
+</$reveal>
+<$reveal type="nomatch" state="!!editing.tags" text="yes">
+  <$button tooltip={{$:/language/Buttons/Edit/Hint}} aria-label={{$:/language/Buttons/Edit/Caption}} >
+    <$action-setfield $field="editing.tags" $value="yes" />
+    Edit Tags
+  </$button>
+
+  <<TagLikeList digital.harms.addressed "Digital Harms Addressed" wikify>>
+  <<TagLikeList activities "Activities" >>
+  <<TagLikeList people "People" wikify>>
+  <<TagLikeList audience "Audience" wikify>>
+  <<TagLikeList purpose "Purpose" wikify>>
+  <<TagLikeList tech.focus "Tech Focus" wikify>>
+</$reveal>
+
 
 {{||RelevantPublications}}<br />
 {{||ProductsAndServices}}<br />

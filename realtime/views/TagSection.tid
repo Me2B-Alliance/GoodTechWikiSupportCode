@@ -12,7 +12,7 @@ type: text/vnd.tiddlywiki
 
 <$reveal type="nomatch" state="!!editing.tags" text="yes">
 
-  <table>
+  <table style="border:0;">
     <tr>
       <td>
         <$button tag="div" tooltip={{$:/language/Buttons/Edit/Hint}} aria-label={{$:/language/Buttons/Edit/Caption}} >

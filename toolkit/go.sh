@@ -2,6 +2,7 @@
 DIRECTORY=$(cd `dirname $0` && pwd)
 BASE=$DIRECTORY/..
 WEBSITE_POSTS=$BASE/GoodTechWikiWebsite/_posts/
+WEBSITE_DATA=$BASE/GoodTechWikiWebsite/_data/
 WIKI_DATA=$BASE/GoodTechWiki
 WIKI_TAGMAPS=$WIKI_DATA/maps/tagmaps
 rm -rf $DIRECTORY/tsconfig.tsbuildinfo 2>/dev/null
@@ -18,8 +19,10 @@ if ./build.sh; then
 		#./bin/run list-titles -p $WIKI_DATA | grep metamodel
 		#./bin/run generate-topic-maps -f activities -g $WIKI_TAGMAPS -p $WIKI_DATA
 		#./bin/run list-people -p $WIKI_DATA
-		#./bin/run update-metamodel -p $WIKI_DATA
-		./bin/run update-nodes -p $WIKI_DATA
-		./bin/run dump-yaml -p $WIKI_DATA
+		#./bin/run load -p $WIKI_DATA
+		#./bin/run update-nodes -p $WIKI_DATA
+		./bin/run update-metamodel -p $WIKI_DATA
+		./bin/run dump-jekyll-data -p $WIKI_DATA -d $WEBSITE_DATA
+		#./bin/run analyze-metamodel -p $WIKI_DATA
 	fi
 fi

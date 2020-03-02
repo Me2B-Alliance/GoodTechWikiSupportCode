@@ -14,11 +14,11 @@ export class TiddlyTagMapFactory {
 	}
 
 	createMap(t:Tiddler):TiddlyMap {
-		const name = t.title+"-map"
+		const name = t.title
 		let map = this.model.maps.tagmapsByTitle.get(name)
 		if(!map) {
 			map = new BaseMap({
-				type:'tag ',
+				type:'tagmap',
 				definition:this.createDefinition(t),
 				nodes:this.createNodeFilter(t),
 				edges:this.createEdgeFilter(t),
@@ -35,7 +35,7 @@ export class TiddlyTagMapFactory {
 		return new SimpleTiddler({
 			guid:id,
 			tiddler_classification:"map",
-			title: "$:/plugins/felixhayashi/tiddlymap/graph/views/" + t.title + "-map",
+			title: "$:/plugins/felixhayashi/tiddlymap/graph/views/" + t.title,
 			wiki_text:"Tag Map of "+t.title,
 			fields:mapFields({
 				"id":id,
@@ -69,7 +69,9 @@ export class TiddlyTagMapFactory {
 		const id = uuid.v4()
 		const fields = t.fields || {}
 		const value = t.title
-		const field = fields.get('metamodel.fieldname')
+		const field = t.getFieldAsString('metamodel.fieldname')
+		if(!field)
+			throw new Error("Missing metamodel field "+t.title+JSON.stringify(fields,null,2))
 		return new SimpleTiddler({
 			guid:id,
 			tiddler_classification:"map",
