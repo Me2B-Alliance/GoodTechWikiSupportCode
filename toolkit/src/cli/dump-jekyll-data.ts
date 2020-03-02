@@ -174,7 +174,7 @@ export default class LocalCommand extends Command {
             "}\n"+
             "</style>\n"+
             "\n"+
-            "## <a href='/_pages/embed?t="+tiddler.title+"'>"+tiddler.title+"</a>\n"+
+            //"## <a href='/_pages/embed?t="+tiddler.title+"'>"+tiddler.title+"</a>\n"+
             //"\n"+
             //tiddler.wiki_text+
             "\n"+
